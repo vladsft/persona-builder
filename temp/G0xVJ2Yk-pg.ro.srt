@@ -1,0 +1,5996 @@
+1
+00:00:03,929 --> 00:00:05,949
+[muzică]
+
+2
+00:00:15,065 --> 00:00:17,085
+[muzică]
+
+3
+00:00:21,615 --> 00:00:23,635
+[muzică]
+
+4
+00:00:33,405 --> 00:00:35,425
+[muzică]
+
+5
+00:00:45,195 --> 00:00:47,215
+[muzică]
+
+6
+00:00:56,985 --> 00:00:59,005
+[muzică]
+
+7
+00:01:04,190 --> 00:01:06,210
+[muzică]
+
+8
+00:01:19,255 --> 00:01:21,275
+[muzică]
+
+9
+00:01:31,045 --> 00:01:33,065
+[muzică]
+
+10
+00:01:36,941 --> 00:01:38,961
+[muzică]
+
+11
+00:01:42,836 --> 00:01:44,856
+[muzică]
+
+12
+00:01:55,936 --> 00:01:57,956
+[muzică]
+
+13
+00:02:05,761 --> 00:02:07,781
+[muzică]
+
+14
+00:02:14,931 --> 00:02:16,951
+[muzică]
+
+15
+00:02:24,101 --> 00:02:26,121
+[muzică]
+
+16
+00:02:37,201 --> 00:02:39,221
+[muzică]
+
+17
+00:02:49,646 --> 00:02:51,666
+[muzică]
+
+18
+00:02:54,886 --> 00:02:56,906
+[muzică]
+
+19
+00:02:59,472 --> 00:03:01,492
+[muzică]
+
+20
+00:03:09,952 --> 00:03:11,972
+[muzică]
+
+21
+00:03:15,847 --> 00:03:17,867
+[muzică]
+
+22
+00:03:21,087 --> 00:03:23,107
+[muzică]
+
+23
+00:03:28,292 --> 00:03:30,312
+[muzică]
+
+24
+00:03:39,427 --> 00:03:41,447
+[muzică]
+
+25
+00:03:46,632 --> 00:03:48,652
+[muzică]
+
+26
+00:03:58,422 --> 00:04:00,442
+[muzică]
+
+27
+00:04:09,557 --> 00:04:11,577
+[muzică]
+
+28
+00:04:14,797 --> 00:04:16,817
+[muzică]
+
+29
+00:04:21,347 --> 00:04:23,367
+[muzică]
+
+30
+00:04:32,483 --> 00:04:34,503
+[muzică]
+
+31
+00:04:45,583 --> 00:04:47,603
+[muzică]
+
+32
+00:04:56,063 --> 00:04:58,083
+[muzică]
+
+33
+00:05:01,958 --> 00:05:03,978
+[muzică]
+
+34
+00:05:07,198 --> 00:05:09,218
+[muzică]
+
+35
+00:05:18,988 --> 00:05:21,008
+[muzică]
+
+36
+00:05:35,363 --> 00:05:37,383
+[muzică]
+
+37
+00:05:41,913 --> 00:05:43,933
+[muzică]
+
+38
+00:05:51,083 --> 00:05:53,103
+[muzică]
+
+39
+00:06:00,909 --> 00:06:02,929
+[muzică]
+
+40
+00:06:14,009 --> 00:06:16,029
+[muzică]
+
+41
+00:06:18,594 --> 00:06:20,614
+[muzică]
+
+42
+00:06:23,834 --> 00:06:25,854
+[muzică]
+
+43
+00:06:34,314 --> 00:06:36,334
+[muzică]
+
+44
+00:06:40,209 --> 00:06:42,229
+[muzică]
+
+45
+00:06:44,794 --> 00:06:46,814
+[muzică]
+
+46
+00:06:52,654 --> 00:06:54,674
+[muzică]
+
+47
+00:06:57,239 --> 00:06:59,259
+[muzică]
+
+48
+00:07:03,134 --> 00:07:05,154
+[muzică]
+
+49
+00:07:10,994 --> 00:07:13,014
+[muzică]
+
+50
+00:07:22,130 --> 00:07:24,150
+[muzică]
+
+51
+00:07:34,575 --> 00:07:36,595
+[muzică]
+
+52
+00:07:45,055 --> 00:07:47,075
+[muzică]
+
+53
+00:07:56,639 --> 00:07:58,865
+เฮ [muzică]
+
+54
+00:08:09,290 --> 00:08:11,310
+[muzică]
+
+55
+00:08:20,425 --> 00:08:22,445
+[muzică]
+
+56
+00:08:31,560 --> 00:08:33,580
+>> [muzică]
+
+57
+00:08:43,350 --> 00:08:45,370
+[muzică]
+
+58
+00:08:53,831 --> 00:08:55,851
+[muzică]
+
+59
+00:09:03,001 --> 00:09:05,021
+[muzică]
+
+60
+00:09:10,206 --> 00:09:12,226
+[muzică]
+
+61
+00:09:18,066 --> 00:09:20,086
+[muzică]
+
+62
+00:09:22,651 --> 00:09:24,671
+[muzică]
+
+63
+00:09:25,920 --> 00:09:28,000
+>> ஹ
+
+64
+00:09:29,201 --> 00:09:31,221
+>> [muzică]
+
+65
+00:09:34,720 --> 00:09:41,079
+>> Fraților, suntem plini de portocaliu și
+
+66
+00:09:37,880 --> 00:09:42,519
+cu bufnița asta de dedesubt arătăm
+
+67
+00:09:41,079 --> 00:09:44,640
+extraordinar. Dar mă gândeam mai
+
+68
+00:09:42,519 --> 00:09:47,800
+devreme, mă, dacă doamna Buzo se uită în
+
+69
+00:09:44,640 --> 00:09:50,079
+seara asta la noi din întâmplare,
+
+70
+00:09:47,800 --> 00:09:52,680
+cred că am ras o. Să zicem că nu s a
+
+71
+00:09:50,079 --> 00:09:56,000
+uitat niciodată până acum și în seara
+
+72
+00:09:52,680 --> 00:09:59,360
+asta butonând prin online ne găsește pe
+
+73
+00:09:56,000 --> 00:10:01,360
+undeva. Ne am curățat. Bă, suntem exact
+
+74
+00:09:59,360 --> 00:10:04,640
+ca ăia care ne pregătim toată viața
+
+75
+00:10:01,360 --> 00:10:07,519
+pentru un eveniment și o dăm în bară cu
+
+76
+00:10:04,640 --> 00:10:09,519
+fantomele astea de pe margini care sunt
+
+77
+00:10:07,519 --> 00:10:13,680
+remarcabile. Dar totuși doamna Barton
+
+78
+00:10:09,519 --> 00:10:16,200
+este alături de noi cinci am păat nouă
+
+79
+00:10:13,680 --> 00:10:18,720
+bucăți. Mulțumim doamnei Barton care ne
+
+80
+00:10:16,200 --> 00:10:21,160
+a lipsit ieri doamna Monie aici. Doamna
+
+81
+00:10:18,720 --> 00:10:23,800
+Barton ne a lipsit ieri. Am crezut că s
+
+82
+00:10:21,160 --> 00:10:25,880
+a înecat într unul dintre butoaiele cu
+
+83
+00:10:23,800 --> 00:10:28,480
+zeamă de varză ale marelui poet, că nu
+
+84
+00:10:25,880 --> 00:10:32,160
+ne am mai scris ieri și imediat am
+
+85
+00:10:28,480 --> 00:10:34,440
+simțit lipsa mesajelor respective.
+
+86
+00:10:32,160 --> 00:10:36,880
+în ultima vreme ne trimite mai mulți
+
+87
+00:10:34,440 --> 00:10:39,760
+pupici decât
+
+88
+00:10:36,880 --> 00:10:42,680
+de obicei, ceea ce sigur că
+
+89
+00:10:39,760 --> 00:10:45,120
+implică și o altă stare, probabil
+
+90
+00:10:42,680 --> 00:10:47,000
+o altă emoție așa de a lungul timpului.
+
+91
+00:10:45,120 --> 00:10:49,399
+Era o perioadă cât ne scria câte un
+
+92
+00:10:47,000 --> 00:10:51,480
+letopisesc dintr ăla care se termina în
+
+93
+00:10:49,399 --> 00:10:54,880
+puncte de suspensie.
+
+94
+00:10:51,480 --> 00:10:57,600
+Astăzi nu mai e așa. Astăzi începe cu
+
+95
+00:10:54,880 --> 00:11:00,160
+pupicii ăștia. Din păcate sunt doar pe
+
+96
+00:10:57,600 --> 00:11:01,680
+calculator, sunt doar virtuali.
+
+97
+00:11:00,160 --> 00:11:04,519
+Fraților, după cum ați văzut mai
+
+98
+00:11:01,680 --> 00:11:07,600
+devreme, am reușit să ne speriem într o
+
+99
+00:11:04,519 --> 00:11:10,279
+oarecare măsură. Invitata
+
+100
+00:11:07,600 --> 00:11:13,200
+este Magda Pâlimariu, o găină bătrână
+
+101
+00:11:10,279 --> 00:11:15,120
+care face supa bună. N am mai văzut o de
+
+102
+00:11:13,200 --> 00:11:16,760
+atunci. Aia a fost cred că ultima dată
+
+103
+00:11:15,120 --> 00:11:19,399
+când
+
+104
+00:11:16,760 --> 00:11:24,000
+ne am întâlnit. Mai țin minte
+
+105
+00:11:19,399 --> 00:11:26,839
+înfricoșătorul moment cu emisferele
+
+106
+00:11:24,000 --> 00:11:29,320
+făcut celebru
+
+107
+00:11:26,839 --> 00:11:31,760
+și de domnul Mironică. Doamna Buzu ar
+
+108
+00:11:29,320 --> 00:11:34,920
+aprecia decorațiunile din platou. Păi
+
+109
+00:11:31,760 --> 00:11:38,519
+așa sperăm și noi. În orice caz, deși e
+
+110
+00:11:34,920 --> 00:11:42,040
+un chici într adevăr de capăt de Popești
+
+111
+00:11:38,519 --> 00:11:45,480
+Leordeni, a dar uitați acolo. Na, că
+
+112
+00:11:42,040 --> 00:11:50,279
+asta e o chestie pe care n o mai aveam
+
+113
+00:11:45,480 --> 00:11:50,279
+prea mult. Ok.
+
+114
+00:11:50,760 --> 00:11:57,720
+Prea mult. Da, dar așa se învârtea
+
+115
+00:11:52,519 --> 00:11:59,920
+ecranul ăla. A și doar capul meu. Ok. E
+
+116
+00:11:57,720 --> 00:12:02,880
+asta sper să i placă totuși doamnei
+
+117
+00:11:59,920 --> 00:12:05,800
+Buzul, dar nu știe cine i cu moaca aia.
+
+118
+00:12:02,880 --> 00:12:07,839
+Nu vede aice pe ecran. Dar în fine.
+
+119
+00:12:05,800 --> 00:12:09,600
+Fraților, citeam în actualitate că asta
+
+120
+00:12:07,839 --> 00:12:12,480
+se potrivește cu Halloween ul și se
+
+121
+00:12:09,600 --> 00:12:15,880
+potrivește și cu poveștile noastre.
+
+122
+00:12:12,480 --> 00:12:18,880
+Jandarmeria București a schimbat șeful
+
+123
+00:12:15,880 --> 00:12:21,160
+după incidentele de ieri.
+
+124
+00:12:18,880 --> 00:12:24,639
+A venit șeful jandarmilor și l a
+
+125
+00:12:21,160 --> 00:12:26,959
+schimbat pe șeful local,
+
+126
+00:12:24,639 --> 00:12:28,639
+spunând că de aici înainte o să fie mai
+
+127
+00:12:26,959 --> 00:12:31,959
+atenți cu evenimentele astea care
+
+128
+00:12:28,639 --> 00:12:35,760
+stârnesc emoție și că ăla n a
+
+129
+00:12:31,959 --> 00:12:38,279
+interpretat cum trebuie legea.
+
+130
+00:12:35,760 --> 00:12:41,519
+E un caz izolat, a zis șeful
+
+131
+00:12:38,279 --> 00:12:44,800
+jandarmilor. Cum să fie izolat? Eu în
+
+132
+00:12:41,519 --> 00:12:46,399
+pandemie am pățit fix același lucru și
+
+133
+00:12:44,800 --> 00:12:49,320
+am tot povestit de atunci tocmai pentru
+
+134
+00:12:46,399 --> 00:12:51,279
+că știu că nu este un caz izolat. Zilele
+
+135
+00:12:49,320 --> 00:12:53,240
+trecute povesteam fără să știm ce o să
+
+136
+00:12:51,279 --> 00:12:54,959
+se întâmple la comemorările de la
+
+137
+00:12:53,240 --> 00:12:57,160
+Colectiv.
+
+138
+00:12:54,959 --> 00:13:00,040
+Atunci când ești ultimul om, cum de
+
+139
+00:12:57,160 --> 00:13:01,839
+exemplu era plutonierul de magazie
+
+140
+00:13:00,040 --> 00:13:06,079
+Sabadag.
+
+141
+00:13:01,839 --> 00:13:10,279
+Da. Când ești penultimul om, cum era ăla
+
+142
+00:13:06,079 --> 00:13:13,120
+de la popotă sau cum era adjunctul
+
+143
+00:13:10,279 --> 00:13:15,120
+maiorului Voicu, profiți de momentele
+
+144
+00:13:13,120 --> 00:13:18,920
+astea pe care ți le oferă viața din
+
+145
+00:13:15,120 --> 00:13:22,440
+întâmplare ca să te dai cocoș, să te dai
+
+146
+00:13:18,920 --> 00:13:24,920
+mare șef. Nu este un caz izolat.
+
+147
+00:13:22,440 --> 00:13:27,120
+Jandarmeria, Poliția, înainte
+
+148
+00:13:24,920 --> 00:13:29,880
+securitatea i au tratat întotdeauna pe
+
+149
+00:13:27,120 --> 00:13:32,360
+oameni ca pe niște cazuri curente, nu ca
+
+150
+00:13:29,880 --> 00:13:34,600
+pe niște cazuri izolate, bătându joc de
+
+151
+00:13:32,360 --> 00:13:39,079
+ei de fiecare dată pentru că știu că
+
+152
+00:13:34,600 --> 00:13:42,839
+puterea este acolo. Dar nici acum
+
+153
+00:13:39,079 --> 00:13:46,079
+organizatorul mitingului, mă rog
+
+154
+00:13:42,839 --> 00:13:48,720
+pelerinajului mai degrabă
+
+155
+00:13:46,079 --> 00:13:51,480
+a primit 3000 RON amendă. Trebuie să i
+
+156
+00:13:48,720 --> 00:13:53,759
+conteste în instanță. Odată primită
+
+157
+00:13:51,480 --> 00:13:56,759
+amenda, am văzut că avea dovada, îi
+
+158
+00:13:53,759 --> 00:13:59,680
+făcuse proces verbal. Trebuie să se ducă
+
+159
+00:13:56,759 --> 00:14:02,279
+cu ea la tribunal să i o anuleze ăia
+
+160
+00:13:59,680 --> 00:14:04,279
+pentru că birocrația nu se oprește. Am
+
+161
+00:14:02,279 --> 00:14:06,440
+schimbat șeful, gata, de mâine poți să
+
+162
+00:14:04,279 --> 00:14:09,519
+arunci hârtia aia. Nu i așa? Îți vine
+
+163
+00:14:06,440 --> 00:14:13,880
+acasă peste patru, cinci ani că n ai
+
+164
+00:14:09,519 --> 00:14:15,480
+plătit. Da. îți vine cu dobândă
+
+165
+00:14:13,880 --> 00:14:18,399
+eventuală,
+
+166
+00:14:15,480 --> 00:14:20,600
+deși n ar trebui să fie cazul, dar nu
+
+167
+00:14:18,399 --> 00:14:22,360
+poți să știi niciodată ce îți trimite
+
+168
+00:14:20,600 --> 00:14:24,399
+ANAFUL la un moment dat că ai niște
+
+169
+00:14:22,360 --> 00:14:26,320
+datorii pe nu știu unde. Deci asta este
+
+170
+00:14:24,399 --> 00:14:29,279
+doar așa de ochii lumii. Au venit ăla să
+
+171
+00:14:26,320 --> 00:14:32,839
+ți ceară scuze. Ăla, șeful jandarmilor,
+
+172
+00:14:29,279 --> 00:14:35,079
+a făcut exact ca biserica ortodoxă acum
+
+173
+00:14:32,839 --> 00:14:38,519
+10 ani. Când după ce au văzut că a ieșit
+
+174
+00:14:35,079 --> 00:14:41,279
+scandal mare și lumea a fost consternată
+
+175
+00:14:38,519 --> 00:14:43,279
+de declarațiile epochilor, au încercat
+
+176
+00:14:41,279 --> 00:14:46,240
+să și ceară scuze, dar ei de fapt erau
+
+177
+00:14:43,279 --> 00:14:48,440
+ultimii bădărani, ultimii nenorociți.
+
+178
+00:14:46,240 --> 00:14:50,800
+Așa și ăștia
+
+179
+00:14:48,440 --> 00:14:53,160
+au întârziat, înțeleg, cu vreo 25 de
+
+180
+00:14:50,800 --> 00:14:56,399
+minute ăia care mai aprindeau niște
+
+181
+00:14:53,160 --> 00:14:58,240
+lumânări. depășiseră ora până la care
+
+182
+00:14:56,399 --> 00:15:01,519
+era autorizat
+
+183
+00:14:58,240 --> 00:15:04,519
+acest marș cumva și a dat ăla 3000
+
+184
+00:15:01,519 --> 00:15:06,639
+imediat amendă pentru că încă o dată
+
+185
+00:15:04,519 --> 00:15:09,079
+poliția uită de cele mai multe ori sau
+
+186
+00:15:06,639 --> 00:15:11,240
+jandarmeria sau cei care se ocupă cu
+
+187
+00:15:09,079 --> 00:15:14,920
+ordinea publică uită că ei de fapt sunt
+
+188
+00:15:11,240 --> 00:15:17,480
+plătiți de către oameni pentru a asigura
+
+189
+00:15:14,920 --> 00:15:19,199
+nu numai liniștea și ordinea, dar și
+
+190
+00:15:17,480 --> 00:15:22,600
+dreptatea.
+
+191
+00:15:19,199 --> 00:15:25,600
+Da, ceea ce ei nu fac absolut niciodată.
+
+192
+00:15:22,600 --> 00:15:28,279
+Nu dai niciodată peste unul care să
+
+193
+00:15:25,600 --> 00:15:31,639
+interpreteze cum trebuie legea. Ăsta
+
+194
+00:15:28,279 --> 00:15:33,839
+acuma ne dă și nouă apă la moară
+
+195
+00:15:31,639 --> 00:15:35,759
+în jandarmul spunând că legea trebuie
+
+196
+00:15:33,839 --> 00:15:39,079
+interpretată. Asta am susținut și noi de
+
+197
+00:15:35,759 --> 00:15:41,279
+fiecare dată. Altfel, legea este moartă
+
+198
+00:15:39,079 --> 00:15:43,639
+pur și simplu și citești de pe o foaie,
+
+199
+00:15:41,279 --> 00:15:45,600
+dar trebuie s o pui în aplicare.
+
+200
+00:15:43,639 --> 00:15:48,319
+Bineînțeles că ea este interpretabilă.
+
+201
+00:15:45,600 --> 00:15:51,240
+Numai că nu vii să ți ceri scuze ca să
+
+202
+00:15:48,319 --> 00:15:55,880
+nu cadă și alte capete mai mari. Vezi,
+
+203
+00:15:51,240 --> 00:15:55,880
+domnule, poate reușești să previi ceva.
+
+204
+00:15:56,519 --> 00:16:03,360
+A fost adus în funcția de șef
+
+205
+00:15:59,880 --> 00:16:06,160
+colonelul Toma Marius Cezară, care
+
+206
+00:16:03,360 --> 00:16:09,440
+inițial ocupa funcția de inspector șef
+
+207
+00:16:06,160 --> 00:16:11,480
+la Jandarmi Argeș.
+
+208
+00:16:09,440 --> 00:16:13,959
+Scrie gândul, nu sunt niște surse
+
+209
+00:16:11,480 --> 00:16:16,680
+neapărat fiabile, dar peste astea am
+
+210
+00:16:13,959 --> 00:16:19,720
+dat. Sub ele, Mitică Dragomir mângâie un
+
+211
+00:16:16,680 --> 00:16:21,800
+câine. Marian Rădună, reprezentant al
+
+212
+00:16:19,720 --> 00:16:23,360
+Asociației MEA și unul dintre
+
+213
+00:16:21,800 --> 00:16:25,240
+organizatorii evenimentului de
+
+214
+00:16:23,360 --> 00:16:27,680
+comemorare a tragediei Colective, a fost
+
+215
+00:16:25,240 --> 00:16:30,440
+amendat joi seară de către jandarmi cu
+
+216
+00:16:27,680 --> 00:16:32,600
+3000 RON pentru depășirea orei de
+
+217
+00:16:30,440 --> 00:16:34,600
+comemorare. Măcar lui ăsta i au dat
+
+218
+00:16:32,600 --> 00:16:37,959
+3000. Omul probabil că n avea chef să se
+
+219
+00:16:34,600 --> 00:16:40,680
+certe cu ei. Dacă se certa lua 10000 și
+
+220
+00:16:37,959 --> 00:16:43,360
+mie mi a dat 2000 prostul ăla. Și după
+
+221
+00:16:40,680 --> 00:16:44,279
+aia când mi a venit acasă aveam 10000.
+
+222
+00:16:43,360 --> 00:16:47,920
+Da.
+
+223
+00:16:44,279 --> 00:16:51,560
+Deși scria clar în raport, în procesul
+
+224
+00:16:47,920 --> 00:16:53,560
+verbal că eu mă comportasem normal, n am
+
+225
+00:16:51,560 --> 00:16:55,920
+făcut scandal, nu l am înjurat, nu l am
+
+226
+00:16:53,560 --> 00:16:59,120
+scuipat, l am întrebat, dar de ce mi ați
+
+227
+00:16:55,920 --> 00:17:01,079
+dat amendă? Eu având documentul la mine,
+
+228
+00:16:59,120 --> 00:17:04,160
+v am mai povestit, aveam documentul, dar
+
+229
+00:17:01,079 --> 00:17:07,839
+nu printat, îl aveam în formă digitală.
+
+230
+00:17:04,160 --> 00:17:10,720
+Noi primisem de la resurse umane atunci
+
+231
+00:17:07,839 --> 00:17:14,199
+toată televiziunea, documentele
+
+232
+00:17:10,720 --> 00:17:17,160
+pe telefon și de abia așteptam să mă
+
+233
+00:17:14,199 --> 00:17:20,160
+prindă cineva ca să i arăt că dispun de
+
+234
+00:17:17,160 --> 00:17:22,400
+ăla, dar am dat peste un bou care nu
+
+235
+00:17:20,160 --> 00:17:24,280
+știa această regulă, cum nu știu ăia de
+
+236
+00:17:22,400 --> 00:17:26,799
+la frontieră în ce țări îți trebuie viză
+
+237
+00:17:24,280 --> 00:17:28,960
+și unde nu. Bineînțeles, la noi toți
+
+238
+00:17:26,799 --> 00:17:30,559
+ăștia sunt funcționarii din România,
+
+239
+00:17:28,960 --> 00:17:33,400
+oameni care nu se pricep la nimic.
+
+240
+00:17:30,559 --> 00:17:36,880
+Astăzi, Digi invitase pe una, mare
+
+241
+00:17:33,400 --> 00:17:39,919
+analist, doamna Gabriela Ciot.
+
+242
+00:17:36,880 --> 00:17:42,160
+Incredibil ce doamnă, da, care încerca
+
+243
+00:17:39,919 --> 00:17:45,480
+să ne explice nouă, telespectatorilor
+
+244
+00:17:42,160 --> 00:17:49,160
+cum stă situația în Venezuela cu Donald
+
+245
+00:17:45,480 --> 00:17:51,640
+Trump și cu era Andreea Brașovean în
+
+246
+00:17:49,160 --> 00:17:53,600
+studio și la un moment dat această
+
+247
+00:17:51,640 --> 00:17:56,200
+doamnă extrem de bine pregătită,
+
+248
+00:17:53,600 --> 00:17:59,799
+isteață, frumușică, foc, super
+
+249
+00:17:56,200 --> 00:18:03,840
+înoptabilă, doamna Ciot așadar de la UBB
+
+250
+00:17:59,799 --> 00:18:06,720
+a zis: Păi obiectivele Donald Trump în
+
+251
+00:18:03,840 --> 00:18:09,919
+Africa de Sud nu știu cum Ia confundând
+
+252
+00:18:06,720 --> 00:18:12,520
+ca ultimul jamiu America Latină, adică
+
+253
+00:18:09,919 --> 00:18:14,559
+America de Sud cu Africa de Sud. Bă,
+
+254
+00:18:12,520 --> 00:18:17,960
+lăsați vă, bă, în pace cu analiștii lui
+
+255
+00:18:14,559 --> 00:18:20,280
+Pește, bă, că oricât ai fi de slab, un
+
+256
+00:18:17,960 --> 00:18:23,159
+asemenea lapsus nu ți poți permite într
+
+257
+00:18:20,280 --> 00:18:26,159
+o analiză la televizor. Să confunzi
+
+258
+00:18:23,159 --> 00:18:28,960
+America de Sud cu Africa de Sud este ca
+
+259
+00:18:26,159 --> 00:18:32,480
+și cum ai confunda, nu știu ce să zic,
+
+260
+00:18:28,960 --> 00:18:35,880
+Cipăul cu Bobo Halma când ele joacă în
+
+261
+00:18:32,480 --> 00:18:38,039
+serii diferite în campionatele județene.
+
+262
+00:18:35,880 --> 00:18:40,320
+Da. Nu poți să faci o astfel de gafă și
+
+263
+00:18:38,039 --> 00:18:43,440
+să te mai dai și mare doamna analistă la
+
+264
+00:18:40,320 --> 00:18:45,919
+televizor. Da, așa sunt și ăștia. Am dat
+
+265
+00:18:43,440 --> 00:18:48,799
+numai peste niște prostănași dintr ăștia
+
+266
+00:18:45,919 --> 00:18:52,080
+care știind că sunt oameni mici, voiau
+
+267
+00:18:48,799 --> 00:18:54,440
+să pedepsească un om mai mare decât ei.
+
+268
+00:18:52,080 --> 00:18:57,000
+Ăsta nu mă cunoștea. Mi a dat 2000, dar
+
+269
+00:18:54,440 --> 00:19:00,159
+ăia de la secție când s a dus el peste
+
+270
+00:18:57,000 --> 00:19:03,159
+noapte să redacteze au zis: „Bă, peste
+
+271
+00:19:00,159 --> 00:19:06,200
+ăla de la B1 care latră. Da, hai să i
+
+272
+00:19:03,159 --> 00:19:09,080
+dăm 10000. Dă l în mă sa de ăla n a mai
+
+273
+00:19:06,200 --> 00:19:12,159
+putut să treacă acolo. Căți când era un
+
+274
+00:19:09,080 --> 00:19:14,600
+fel de justificativ în procesul verbal.
+
+275
+00:19:12,159 --> 00:19:18,799
+El n a scris acolo. Asta totuși
+
+276
+00:19:14,600 --> 00:19:22,520
+remarcabil, n a scris ă suspectul sau,
+
+277
+00:19:18,799 --> 00:19:25,919
+mă rog, posibilul inculpat sau zdreanța
+
+278
+00:19:22,520 --> 00:19:27,799
+aia de jurnalist. A făcut și urât. Nu n
+
+279
+00:19:25,919 --> 00:19:31,159
+a n a băgat de la el. Trebuie să
+
+280
+00:19:27,799 --> 00:19:35,039
+recunosc că acolo a scris că a prezentat
+
+281
+00:19:31,159 --> 00:19:37,799
+actul când ofițerul de poliție i a cerut
+
+282
+00:19:35,039 --> 00:19:41,320
+conformitate. Nu dispunea de documentele
+
+283
+00:19:37,799 --> 00:19:43,679
+necesare. Venea mașina înmatriculată nu
+
+284
+00:19:41,320 --> 00:19:45,880
+știu cât de la locul de muncă. Eu eram
+
+285
+00:19:43,679 --> 00:19:49,840
+în egalitate 100%. Și m a prins ăla mi
+
+286
+00:19:45,880 --> 00:19:53,159
+dat bă 10000. Bă, deci la televiziunea
+
+287
+00:19:49,840 --> 00:19:57,400
+publică la TVR mi a spus fata lui
+
+288
+00:19:53,159 --> 00:20:01,080
+Ioanițoaia s a dat știrea că luasem 100.
+
+289
+00:19:57,400 --> 00:20:04,520
+Și ăia știau uluitor. Bineînțeles că n a
+
+290
+00:20:01,080 --> 00:20:06,679
+sărit nimeni nicăieri. E acuma, evident,
+
+291
+00:20:04,520 --> 00:20:08,760
+cazul colectiv este unul diferit de ce
+
+292
+00:20:06,679 --> 00:20:12,120
+ni s a întâmplat nouă în pandemie. Am
+
+293
+00:20:08,760 --> 00:20:15,200
+aflat măcar că totuși ăsta luase 3000. A
+
+294
+00:20:12,120 --> 00:20:17,400
+trebuit să conteste. Va dura. Situația
+
+295
+00:20:15,200 --> 00:20:19,640
+este totuși bună pentru el, întrucât nu
+
+296
+00:20:17,400 --> 00:20:22,640
+trebuie să plătească. Poate contesta
+
+297
+00:20:19,640 --> 00:20:25,039
+înainte de a plăti genul ăsta de amendă.
+
+298
+00:20:22,640 --> 00:20:26,520
+Ăsta e un mare atu. De exemplu, când CNA
+
+299
+00:20:25,039 --> 00:20:29,720
+ul îți dă o amendă, întâi trebuie s o
+
+300
+00:20:26,520 --> 00:20:31,159
+plătești și după aia o contești. Da,
+
+301
+00:20:29,720 --> 00:20:32,919
+chiar dacă o câștigi în instanță,
+
+302
+00:20:31,159 --> 00:20:36,000
+durează câțiva ani și statul nu ți mai
+
+303
+00:20:32,919 --> 00:20:38,039
+dă banii înapoi. Nu ți mai dă banii și
+
+304
+00:20:36,000 --> 00:20:40,039
+tu n ai ce să faci că nu poți executa
+
+305
+00:20:38,039 --> 00:20:41,919
+statul.
+
+306
+00:20:40,039 --> 00:20:44,360
+Am discutat și eu cu un avocat și mi a
+
+307
+00:20:41,919 --> 00:20:46,320
+spus: „Bă, n are niciun sens. Dacă vreți
+
+308
+00:20:44,360 --> 00:20:48,039
+să vă recuperați banii în situații de
+
+309
+00:20:46,320 --> 00:20:49,840
+genul ăsta, trebuie să ajungeți nu știu
+
+310
+00:20:48,039 --> 00:20:52,080
+unde, în străinătate. Statul român nu
+
+311
+00:20:49,840 --> 00:20:54,280
+plătește. El nu ți recunoaște
+
+312
+00:20:52,080 --> 00:20:56,559
+înfrângerea. Chiar dacă este o decizie
+
+313
+00:20:54,280 --> 00:20:59,120
+definitivă a instanței, el tărăgănează
+
+314
+00:20:56,559 --> 00:21:01,760
+să vadă ce faci tu, ce faci tu.
+
+315
+00:20:59,120 --> 00:21:05,799
+Angajezi. Păi, până la urmă ai de plătit
+
+316
+00:21:01,760 --> 00:21:08,159
+mai mult ca să ți recuperezi banii decât
+
+317
+00:21:05,799 --> 00:21:10,159
+suma în sine. Și atunci te las păgubat.
+
+318
+00:21:08,159 --> 00:21:12,159
+Și așa face statul. Atenție cu cei mai
+
+319
+00:21:10,159 --> 00:21:14,159
+mulți dintre oameni. Numai că ăia n au
+
+320
+00:21:12,159 --> 00:21:16,720
+unde să se plângă. Noi ne plângem toată
+
+321
+00:21:14,159 --> 00:21:19,440
+ziua la televizor. Am povestit de mii de
+
+322
+00:21:16,720 --> 00:21:21,159
+ori e chestia asta cu polițistul
+
+323
+00:21:19,440 --> 00:21:24,520
+respectiv, dar uite că pe ăsta l au dat
+
+324
+00:21:21,159 --> 00:21:27,000
+afară pentru că impactul colectivului,
+
+325
+00:21:24,520 --> 00:21:30,400
+bă, merita să fie dat afară, bă. Deși nu
+
+326
+00:21:27,000 --> 00:21:32,799
+el a dat amenda, el era șeful boului
+
+327
+00:21:30,400 --> 00:21:35,559
+care dăduse amenda. Vă dați seama totuși
+
+328
+00:21:32,799 --> 00:21:37,600
+ce oameni, bă, deci ei ca să respect,
+
+329
+00:21:35,559 --> 00:21:40,360
+care lege o respectați, mă? Mânca v aș,
+
+330
+00:21:37,600 --> 00:21:43,120
+că la corupție sunteți primii. Mi se
+
+331
+00:21:40,360 --> 00:21:45,600
+pare stupefiant. Ei au aplicat legea.
+
+332
+00:21:43,120 --> 00:21:47,159
+Într adevăr, conform legii ăia aveau
+
+333
+00:21:45,600 --> 00:21:50,240
+autorizat
+
+334
+00:21:47,159 --> 00:21:53,679
+ăă marșul respectiv,
+
+335
+00:21:50,240 --> 00:21:56,120
+veșnica pomenire până la o anumită oră,
+
+336
+00:21:53,679 --> 00:21:59,520
+respectiv ora 23, înțeleg, după care nu
+
+337
+00:21:56,120 --> 00:22:01,880
+mai aveau conform înțelegerii pe care o
+
+338
+00:21:59,520 --> 00:22:04,640
+făcuseră. Și ăla s a dus și văzând în
+
+339
+00:22:01,880 --> 00:22:08,640
+excesul lui de zel că i a depășiseră cu
+
+340
+00:22:04,640 --> 00:22:12,600
+25 de minute, i a dat 3000 lui ăla,
+
+341
+00:22:08,640 --> 00:22:15,559
+șeful organizatorilor mitingului. Da.
+
+342
+00:22:12,600 --> 00:22:18,679
+Sau cum se numea. Senzațional aice. Da,
+
+343
+00:22:15,559 --> 00:22:20,559
+au aplicat legea cum trebuia. Dar când
+
+344
+00:22:18,679 --> 00:22:24,080
+iau șpagă, de exemplu, când nu se
+
+345
+00:22:20,559 --> 00:22:26,200
+pricep, când nu știu să scrie, acolo nu
+
+346
+00:22:24,080 --> 00:22:28,760
+mai vine niciunul să spună: "Bă, știți,
+
+347
+00:22:26,200 --> 00:22:31,120
+aice n am mai aplicat legea că suntem
+
+348
+00:22:28,760 --> 00:22:33,840
+tolomaci". Nu, nu, nu. Acolo trec cu
+
+349
+00:22:31,120 --> 00:22:36,039
+vederea foarte ușor, dar când ai tu o
+
+350
+00:22:33,840 --> 00:22:40,039
+problemă, aia n o trece nimeni cu
+
+351
+00:22:36,039 --> 00:22:42,520
+vederea. Asta a fost remarcabil.
+
+352
+00:22:40,039 --> 00:22:44,679
+Cum catalogați scuzele bossului de la
+
+353
+00:22:42,520 --> 00:22:46,880
+jandarmii? Păi, despre ele vorbeam, mă.
+
+354
+00:22:44,679 --> 00:22:49,600
+Mă, nu sunt tardive dacă l a dat afară
+
+355
+00:22:46,880 --> 00:22:51,000
+pe ăla. V am spus și de ce. E bine venit
+
+356
+00:22:49,600 --> 00:22:53,000
+totuși, că până la urmă și a cerut
+
+357
+00:22:51,000 --> 00:22:55,640
+scuze, că ele în alte situații nu și
+
+358
+00:22:53,000 --> 00:22:58,520
+cer. față de mine sau față de alți mii
+
+359
+00:22:55,640 --> 00:23:00,840
+și mii de oameni pe care poliția a
+
+360
+00:22:58,520 --> 00:23:03,159
+amendat fraudulos în pandemie nu și au
+
+361
+00:23:00,840 --> 00:23:05,080
+cerut scuze. Zice bine că nu sunt
+
+362
+00:23:03,159 --> 00:23:08,720
+tardive pentru că încă o dată amenda nu
+
+363
+00:23:05,080 --> 00:23:11,679
+trebuie plătită, dar trebuie contestată.
+
+364
+00:23:08,720 --> 00:23:14,159
+Asta este și sigur că va fi anulată în
+
+365
+00:23:11,679 --> 00:23:16,799
+instanță când îi va veni vremea, dar nu
+
+366
+00:23:14,159 --> 00:23:19,679
+se va întâmpla foarte curând.
+
+367
+00:23:16,799 --> 00:23:21,799
+Bun. Raidurile de la Rio este o
+
+368
+00:23:19,679 --> 00:23:25,520
+întrebare bună pentru cine nu știe. Într
+
+369
+00:23:21,799 --> 00:23:28,960
+adevăr, poliția din Rio de Janeiru ar fi
+
+370
+00:23:25,520 --> 00:23:31,559
+intrat zilele trecute în favelele,
+
+371
+00:23:28,960 --> 00:23:34,440
+celebrele favele ale orașului și ar fi
+
+372
+00:23:31,559 --> 00:23:37,880
+omorât undeva în jur de 120 de oameni,
+
+373
+00:23:34,440 --> 00:23:40,960
+după ultimele informații. Ă presa
+
+374
+00:23:37,880 --> 00:23:44,799
+europeană scrie că cel puțin din primele
+
+375
+00:23:40,960 --> 00:23:46,799
+date, din 120 de morți, 116 erau
+
+376
+00:23:44,799 --> 00:23:50,400
+narcotraficanți.
+
+377
+00:23:46,799 --> 00:23:53,159
+Ă, așa a venit comunicatul din Brazilia
+
+378
+00:23:50,400 --> 00:23:55,760
+și patru erau polițiști,
+
+379
+00:23:53,159 --> 00:23:58,640
+dar e prăpăd acolo. Atenție, deci dacă
+
+380
+00:23:55,760 --> 00:24:01,640
+se aprind favelele alea,
+
+381
+00:23:58,640 --> 00:24:05,960
+știți cum este, ca și cum
+
+382
+00:24:01,640 --> 00:24:08,360
+s ar deforestiza tot Amazonul.
+
+383
+00:24:05,960 --> 00:24:11,440
+Deci cam ăsta ar fi impactul pentru
+
+384
+00:24:08,360 --> 00:24:13,360
+Terra. Dacă ia foc Brazilia dintr așa
+
+385
+00:24:11,440 --> 00:24:15,640
+ceva,
+
+386
+00:24:13,360 --> 00:24:17,559
+atunci ne am curățat și noi. Deci
+
+387
+00:24:15,640 --> 00:24:19,200
+sfârșitul ne vine de acolo, nu de la
+
+388
+00:24:17,559 --> 00:24:21,720
+ruși.
+
+389
+00:24:19,200 --> 00:24:24,279
+Ar fi ceva uluitor să se aprindă toată
+
+390
+00:24:21,720 --> 00:24:27,520
+zona aia și prin ricoșeu după aia, că
+
+391
+00:24:24,279 --> 00:24:30,559
+oceanele știți cum sunt. Pământul e mic,
+
+392
+00:24:27,520 --> 00:24:32,960
+dar rămite oceanele.
+
+393
+00:24:30,559 --> 00:24:37,320
+Se ajunge repede. Monte Video este la
+
+394
+00:24:32,960 --> 00:24:40,520
+aceeași latitudine cu Captown.
+
+395
+00:24:37,320 --> 00:24:42,840
+ajunge ușor și odată ajungi din Africa
+
+396
+00:24:40,520 --> 00:24:45,200
+de Sud, în Africa de Sud, cum zicea
+
+397
+00:24:42,840 --> 00:24:47,799
+doamna noastră,
+
+398
+00:24:45,200 --> 00:24:51,360
+dezastru este total. că deocamdată să
+
+399
+00:24:47,799 --> 00:24:54,000
+vedem cum va gestiona ă poliția de
+
+400
+00:24:51,360 --> 00:24:58,640
+acolo. Aceste raide uri sigur sunt
+
+401
+00:24:54,000 --> 00:25:00,520
+necesare. Astea sunt tardive, nu scuzele
+
+402
+00:24:58,640 --> 00:25:02,320
+șefului jandarmilor. Astea sunt niște
+
+403
+00:25:00,520 --> 00:25:05,240
+atacuri tardive pentru că acolo trebuia
+
+404
+00:25:02,320 --> 00:25:07,200
+să faci curățenie de ani de zile, dar
+
+405
+00:25:05,240 --> 00:25:10,640
+este o zonă
+
+406
+00:25:07,200 --> 00:25:10,640
+unde colcăie
+
+407
+00:25:10,799 --> 00:25:17,120
+lipsa de legislație. Da, acolo fiecare
+
+408
+00:25:14,559 --> 00:25:19,880
+face ce vrea. Poliția nu pătrunde în
+
+409
+00:25:17,120 --> 00:25:22,600
+zonele alea aproape niciodată, nici la
+
+410
+00:25:19,880 --> 00:25:24,399
+Rio, nici la Sao Paulo. Sunt niște orașe
+
+411
+00:25:22,600 --> 00:25:27,520
+unde se știe foarte clar, nu ești în
+
+412
+00:25:24,399 --> 00:25:30,000
+siguranță niciunde niciodată. Dacă te
+
+413
+00:25:27,520 --> 00:25:32,080
+duci ca și cetățean european în
+
+414
+00:25:30,000 --> 00:25:34,480
+metropolele astea braziliene, ești în
+
+415
+00:25:32,080 --> 00:25:36,640
+pericol în fiecare secundă, indiferent
+
+416
+00:25:34,480 --> 00:25:39,880
+unde te ai afla, n ai de unde să știi de
+
+417
+00:25:36,640 --> 00:25:41,360
+unde vine dezastrul. O întrebare. În
+
+418
+00:25:39,880 --> 00:25:43,640
+trecut ați recomandat dumneavoastră
+
+419
+00:25:41,360 --> 00:25:46,320
+serialul Derp?
+
+420
+00:25:43,640 --> 00:25:48,559
+A fost superb de văzut. Ați mai avea
+
+421
+00:25:46,320 --> 00:25:52,799
+alte recomandări de ser? Acuma recomand
+
+422
+00:25:48,559 --> 00:25:56,120
+serialul ăsta danez de pe Netflix pentru
+
+423
+00:25:52,799 --> 00:25:58,679
+tipa care îl joacă, Clara. Da sau nu
+
+424
+00:25:56,120 --> 00:26:02,720
+necunoscută actrița daneză. Eu am văzut
+
+425
+00:25:58,679 --> 00:26:05,240
+642 de seriale daneze în viața mea. Ăsta
+
+426
+00:26:02,720 --> 00:26:08,520
+e al 643 lea. N am văzut o niciodată pe
+
+427
+00:26:05,240 --> 00:26:10,679
+Clara. Da. sau până acum n am văzut o.
+
+428
+00:26:08,520 --> 00:26:12,919
+Deși în Danemarca sunt vreo 80 de
+
+429
+00:26:10,679 --> 00:26:16,039
+actori. Ei joacă toți în toate
+
+430
+00:26:12,919 --> 00:26:17,760
+serialele. Îi știu pe toți. Uite pe asta
+
+431
+00:26:16,039 --> 00:26:19,679
+n am văzut o niciodată. De asta v aș
+
+432
+00:26:17,760 --> 00:26:21,520
+recomanda,
+
+433
+00:26:19,679 --> 00:26:25,159
+nu știu cum se cheamă în engleză, The
+
+434
+00:26:21,520 --> 00:26:28,520
+Asset, parcă este titlul, Legendă N în
+
+435
+00:26:25,159 --> 00:26:30,880
+daneză, adică cu acțiunea nu i teribilă,
+
+436
+00:26:28,520 --> 00:26:32,760
+nu e ceva ieșit din comun cu o
+
+437
+00:26:30,880 --> 00:26:34,720
+infiltrată.
+
+438
+00:26:32,760 --> 00:26:37,559
+Sunt la modă genul ăsta de seriale, un
+
+439
+00:26:34,720 --> 00:26:40,600
+spionaj de ăsta soft, să încerce să
+
+440
+00:26:37,559 --> 00:26:44,200
+prindă un traficant de droguri. Dar
+
+441
+00:26:40,600 --> 00:26:47,520
+asta, de exemplu, Clara Dasau este de
+
+442
+00:26:44,200 --> 00:26:49,720
+100 de ori mai bună decât Ana Ularu și
+
+443
+00:26:47,520 --> 00:26:52,360
+decât toate actrițele din România de
+
+444
+00:26:49,720 --> 00:26:54,200
+când există România. Deci doar pentru
+
+445
+00:26:52,360 --> 00:26:57,320
+asta v aș recomanda, să vedeți cam ce
+
+446
+00:26:54,200 --> 00:27:02,480
+înseamnă să fi actor, cum se joacă un
+
+447
+00:26:57,320 --> 00:27:05,799
+rol. Tot ne uităm la sfierbinți și la
+
+448
+00:27:02,480 --> 00:27:07,679
+asta care ți a intrat în ADN, că deși eu
+
+449
+00:27:05,799 --> 00:27:09,799
+n am văzut niciun film, niciun serial
+
+450
+00:27:07,679 --> 00:27:13,320
+românesc pe Netflix. Mi a apărut pe
+
+451
+00:27:09,799 --> 00:27:17,399
+prima pagină Ana ți a fost scrisă în ADN
+
+452
+00:27:13,320 --> 00:27:20,039
+sau nu știu ce. Ăsta luat de pe antene e
+
+453
+00:27:17,399 --> 00:27:21,880
+ca să vedeți cam cum se joacă ăsta. The
+
+454
+00:27:20,039 --> 00:27:25,120
+Aset se numește, dar titlul este în
+
+455
+00:27:21,880 --> 00:27:28,360
+engleză, n are nicio valoare. Legendă n
+
+456
+00:27:25,120 --> 00:27:30,440
+se numește în limba originală.
+
+457
+00:27:28,360 --> 00:27:33,679
+Raduna a fost amendat cu 3000 RON și
+
+458
+00:27:30,440 --> 00:27:35,600
+George Simion cere protecție. Da, asta
+
+459
+00:27:33,679 --> 00:27:37,919
+după ce sediul Aur ar fi fost
+
+460
+00:27:35,600 --> 00:27:39,919
+vandalizat. Sigur că e o ocazie
+
+461
+00:27:37,919 --> 00:27:43,320
+nemaipomenită pentru Simion de a se
+
+462
+00:27:39,919 --> 00:27:46,480
+victimiza și media lui, dezinformatorii
+
+463
+00:27:43,320 --> 00:27:48,840
+societății vor profita de acest
+
+464
+00:27:46,480 --> 00:27:50,760
+incident, care sigur nu este unul pe
+
+465
+00:27:48,840 --> 00:27:53,720
+care să și l dorească cineva dacă într
+
+466
+00:27:50,760 --> 00:27:56,279
+adevăr așa a fost. Dar deocamdată nu
+
+467
+00:27:53,720 --> 00:27:58,120
+știm 100% că o informație venită astăzi
+
+468
+00:27:56,279 --> 00:28:00,760
+în media
+
+469
+00:27:58,120 --> 00:28:03,360
+nici n ai unde s o mai verifici. Deci nu
+
+470
+00:28:00,760 --> 00:28:07,279
+putem să băgăm mâna în foc 100% că a
+
+471
+00:28:03,360 --> 00:28:07,279
+fost un atac al vandalilor
+
+472
+00:28:07,519 --> 00:28:14,000
+năimiți de Nicușor și de Bolojan. Poate
+
+473
+00:28:10,960 --> 00:28:16,679
+că proștii între ei s au atacat, adică
+
+474
+00:28:14,000 --> 00:28:19,440
+Simionii între ei. Voiam să spun. În
+
+475
+00:28:16,679 --> 00:28:23,080
+cazul ăsta nu este decât un act de
+
+476
+00:28:19,440 --> 00:28:25,799
+victimizare ca să gândul, RTV ul,
+
+477
+00:28:23,080 --> 00:28:28,399
+realitatea, ordurile societății să vină
+
+478
+00:28:25,799 --> 00:28:31,240
+și să spună că uite, vedeți ăștia conduc
+
+479
+00:28:28,399 --> 00:28:34,640
+România și să tem de George Simion care
+
+480
+00:28:31,240 --> 00:28:37,200
+aproape că preia puterea alături de PSD
+
+481
+00:28:34,640 --> 00:28:39,760
+și de asta i au vandalizat sediul și ăla
+
+482
+00:28:37,200 --> 00:28:42,240
+a sărit că nu i democrație, că pe el nu
+
+483
+00:28:39,760 --> 00:28:44,080
+l apără lumea. Păi noi credeam,
+
+484
+00:28:42,240 --> 00:28:46,080
+Simioane, că tu ești tare. L a dat cu
+
+485
+00:28:44,080 --> 00:28:48,799
+pumnul, l a dat cu capul în gură. Cine
+
+486
+00:28:46,080 --> 00:28:51,880
+să te mai apere? Că dacă vine cineva și
+
+487
+00:28:48,799 --> 00:28:54,240
+ți face morală, imediat sari și îl iei
+
+488
+00:28:51,880 --> 00:28:56,760
+la bătaie. Condițiile astea pentru ce să
+
+489
+00:28:54,240 --> 00:28:58,840
+fie apărat? Dar încă o dată este o
+
+490
+00:28:56,760 --> 00:29:01,320
+foarte bună ocazie pentru acești
+
+491
+00:28:58,840 --> 00:29:02,960
+nemernici să spună bă suntem atacați în
+
+492
+00:29:01,320 --> 00:29:05,159
+propria noastră țară pentru că suntem
+
+493
+00:29:02,960 --> 00:29:08,360
+populari, pentru că avem idei, pentru că
+
+494
+00:29:05,159 --> 00:29:10,880
+deranjăm. Nu deranjați. Nu este niciun
+
+495
+00:29:08,360 --> 00:29:13,480
+deranj. Proști am avut dintotdeauna în
+
+496
+00:29:10,880 --> 00:29:16,279
+țara asta. Să vă intre foarte bine în
+
+497
+00:29:13,480 --> 00:29:18,120
+cap prostul. deranjează până la un
+
+498
+00:29:16,279 --> 00:29:20,880
+punct, dar noi știm că prostia este
+
+499
+00:29:18,120 --> 00:29:23,159
+eternă. Nu, nu putem să scăpăm de
+
+500
+00:29:20,880 --> 00:29:25,559
+prostie. Deci nu este chiar atât de
+
+501
+00:29:23,159 --> 00:29:28,519
+complicat să te exprimi aici. Nu, nu
+
+502
+00:29:25,559 --> 00:29:33,000
+deranjați la modul că vai de mine ajunge
+
+503
+00:29:28,519 --> 00:29:35,519
+Simion și face țara asta un paradis și
+
+504
+00:29:33,000 --> 00:29:37,559
+de asta se sperie cei de la putere care
+
+505
+00:29:35,519 --> 00:29:39,799
+sunt niște nătărăi. Nu, lectura
+
+506
+00:29:37,559 --> 00:29:41,960
+evenimentelor nu este asta. S a
+
+507
+00:29:39,799 --> 00:29:44,399
+întâmplat uneori ca și proștii s o ia în
+
+508
+00:29:41,960 --> 00:29:47,360
+barbă, așa cum a luat o Georgescu la
+
+509
+00:29:44,399 --> 00:29:50,080
+alegeri care au fost corect anulate. Ei
+
+510
+00:29:47,360 --> 00:29:51,880
+au profitat de ocazie să spună: „Uite,
+
+511
+00:29:50,080 --> 00:29:55,399
+ne au pus pumnul în gură pentru că
+
+512
+00:29:51,880 --> 00:29:56,960
+deranjam. E întâmplător, nu? Da, așa se
+
+513
+00:29:55,399 --> 00:29:59,440
+întâmplă de cele mai multe ori. Sigur,
+
+514
+00:29:56,960 --> 00:30:01,840
+așa au crezut și americanii. Dar și aice
+
+515
+00:29:59,440 --> 00:30:04,840
+să nu derutăm oamenii, că mai sunt și
+
+516
+00:30:01,840 --> 00:30:07,760
+oameni de bună credință pe lângă noi.
+
+517
+00:30:04,840 --> 00:30:09,880
+Mai sunt și alții. Da, să nu i derutăm
+
+518
+00:30:07,760 --> 00:30:12,480
+pe ăia. Nu așa au stat lucrurile. De
+
+519
+00:30:09,880 --> 00:30:15,039
+data asta au fost prinși hoții cu mâța
+
+520
+00:30:12,480 --> 00:30:17,039
+în sac. Cum și americanii, FBI ul am
+
+521
+00:30:15,039 --> 00:30:19,480
+văzut că se lăuda astăzi că a dejucat un
+
+522
+00:30:17,039 --> 00:30:22,039
+atentat terorist. Franța zilele trecute
+
+523
+00:30:19,480 --> 00:30:24,399
+a dejucat 11 atentate teroriste cu
+
+524
+00:30:22,039 --> 00:30:26,360
+totul. Nu le fac publice chiar în
+
+525
+00:30:24,399 --> 00:30:28,960
+fiecare zi. Pe toate. Belgia o să
+
+526
+00:30:26,360 --> 00:30:32,799
+râdeți. A dejucat un atentat terorist.
+
+527
+00:30:28,960 --> 00:30:34,679
+Salt, purle terorist, ar fi scris media
+
+528
+00:30:32,799 --> 00:30:37,399
+independentă din Franța. Adică, iată că
+
+529
+00:30:34,679 --> 00:30:39,519
+în ultima perioadă teroriștii au avut de
+
+530
+00:30:37,399 --> 00:30:41,279
+furcă în a și pune în aplicare
+
+531
+00:30:39,519 --> 00:30:44,120
+atentatele. Vestea proastă este că
+
+532
+00:30:41,279 --> 00:30:46,080
+încearcă în permanență să explodeze pe
+
+533
+00:30:44,120 --> 00:30:49,279
+undeva pentru că în ultima perioadă,
+
+534
+00:30:46,080 --> 00:30:52,000
+într adevăr n au mai avut ocazia să dea
+
+535
+00:30:49,279 --> 00:30:54,559
+mari lovituri și sigur că Europa fiind
+
+536
+00:30:52,000 --> 00:30:57,120
+un butoi cu pulbere nu există practic
+
+537
+00:30:54,559 --> 00:30:58,880
+niciun loc sigur.
+
+538
+00:30:57,120 --> 00:31:01,519
+Trebuie să ne temem. Simion și a
+
+539
+00:30:58,880 --> 00:31:03,440
+înscenat și faza cu cerneală. Asta mă mă
+
+540
+00:31:01,519 --> 00:31:07,120
+întreb și eu. Deci, încă o dată trebuie
+
+541
+00:31:03,440 --> 00:31:09,440
+să suflăm și în iaurt, vorba lui ă nea
+
+542
+00:31:07,120 --> 00:31:11,440
+Ovidiu, pentru că nu este niciodată
+
+543
+00:31:09,440 --> 00:31:14,440
+sigur când auzi o astfel de știre.
+
+544
+00:31:11,440 --> 00:31:18,679
+Astăzi dezinformarea depășește orice
+
+545
+00:31:14,440 --> 00:31:21,399
+limită și indiferent cine ne o va spune,
+
+546
+00:31:18,679 --> 00:31:24,240
+a uite nici asta cu Charles, că și
+
+547
+00:31:21,399 --> 00:31:26,799
+dezmoștenește fratele că ăla e implicat
+
+548
+00:31:24,240 --> 00:31:29,440
+nu știu ce dosar de pedofilie îi retrage
+
+549
+00:31:26,799 --> 00:31:31,760
+titlurile lui ăla. Bă, nici acolo nu
+
+550
+00:31:29,440 --> 00:31:33,880
+putem fi 100% siguri că este o
+
+551
+00:31:31,760 --> 00:31:36,799
+informație corectă,
+
+552
+00:31:33,880 --> 00:31:39,480
+pentru că astăzi încă o dată am băltit
+
+553
+00:31:36,799 --> 00:31:42,240
+30 de ani cu toții în prea multă
+
+554
+00:31:39,480 --> 00:31:45,440
+informație. Ăsta este ca ăla care s a
+
+555
+00:31:42,240 --> 00:31:47,799
+intoxicat cu apă.
+
+556
+00:31:45,440 --> 00:31:49,639
+Da, bei prea multă apă, te poți
+
+557
+00:31:47,799 --> 00:31:51,880
+intoxica. Lumea o să creadă că e o
+
+558
+00:31:49,639 --> 00:31:54,279
+vrăjeală asta. Nu, nu, nu există această
+
+559
+00:31:51,880 --> 00:31:57,080
+boală. Se poate muri din asta. Au fost
+
+560
+00:31:54,279 --> 00:31:58,559
+oameni care au murit intoxicați cu apă
+
+561
+00:31:57,080 --> 00:32:01,360
+și după ce s au întâmplat, au fost
+
+562
+00:31:58,559 --> 00:32:04,360
+câteva cazuri și la noi, țin minte că s
+
+563
+00:32:01,360 --> 00:32:06,519
+a dat un lectura unui comunicat în care
+
+564
+00:32:04,360 --> 00:32:09,240
+se spunea că nu i bine niciodată să bei
+
+565
+00:32:06,519 --> 00:32:12,200
+mai mult de 500 de ml fără să te
+
+566
+00:32:09,240 --> 00:32:15,120
+oprești. Trebuie să faci o pauză.
+
+567
+00:32:12,200 --> 00:32:18,960
+Hidratarea, de exemplu, este bună când
+
+568
+00:32:15,120 --> 00:32:20,679
+bei câte puțin, câte un gât așa din când
+
+569
+00:32:18,960 --> 00:32:23,360
+în când, atunci te hidratezi cel mai
+
+570
+00:32:20,679 --> 00:32:27,480
+bine. Deci nu abia o sticlă de 1 l
+
+571
+00:32:23,360 --> 00:32:31,080
+deodată, nu are un efect,
+
+572
+00:32:27,480 --> 00:32:32,880
+nu hidratează foarte bine corpul. Da,
+
+573
+00:32:31,080 --> 00:32:35,039
+așa și în cazul ăsta. Deci atenție,
+
+574
+00:32:32,880 --> 00:32:37,279
+trebuie să fim precauți cu toate
+
+575
+00:32:35,039 --> 00:32:38,320
+șmecheriile astea. Cinci regine și cinci
+
+576
+00:32:37,279 --> 00:32:41,519
+regi.
+
+577
+00:32:38,320 --> 00:32:43,679
+>> Da, da, da. Am primit 10£ire. Imediat
+
+578
+00:32:41,519 --> 00:32:46,399
+cum am vorbit despre actualitatea
+
+579
+00:32:43,679 --> 00:32:48,600
+British,
+
+580
+00:32:46,399 --> 00:32:51,399
+dacă am auzit de alegerile din Olanda,
+
+581
+00:32:48,600 --> 00:32:53,120
+PV ul a decăzut în mod alarmant. Dar eu
+
+582
+00:32:51,399 --> 00:32:55,840
+nu știu ce ar putea să fie alarmant
+
+583
+00:32:53,120 --> 00:32:58,360
+acolo pentru că Olanda, ca și alte țări
+
+584
+00:32:55,840 --> 00:33:02,200
+din vest, pregătește de foarte multă
+
+585
+00:32:58,360 --> 00:33:06,000
+vreme o lovitură de asta. Nu putem să
+
+586
+00:33:02,200 --> 00:33:07,600
+știm pentru cât timp, împotriva puterii
+
+587
+00:33:06,000 --> 00:33:09,399
+tradiționale.
+
+588
+00:33:07,600 --> 00:33:12,799
+Da.
+
+589
+00:33:09,399 --> 00:33:16,240
+Și Olanda este o țară s astisită de
+
+590
+00:33:12,799 --> 00:33:20,559
+imigrație și de prostia interpretării
+
+591
+00:33:16,240 --> 00:33:23,320
+politice. Și atunci din când în când
+
+592
+00:33:20,559 --> 00:33:26,840
+partidele astea de opoziție, de extremă
+
+593
+00:33:23,320 --> 00:33:29,360
+opoziție reușesc să mai dea câte un tun.
+
+594
+00:33:26,840 --> 00:33:31,880
+Acuma să preia puterea pe 100 de ani e
+
+595
+00:33:29,360 --> 00:33:34,320
+imposibil. Dar din când în când e bine
+
+596
+00:33:31,880 --> 00:33:35,840
+că mai suntem tragi de mânecă,
+
+597
+00:33:34,320 --> 00:33:39,240
+atenționați
+
+598
+00:33:35,840 --> 00:33:42,080
+că puterea asta de tip stânga și dreapta
+
+599
+00:33:39,240 --> 00:33:45,159
+poate să ajungă în decor, poate să
+
+600
+00:33:42,080 --> 00:33:48,679
+ajungă în hău. Da, ea fiind în momentul
+
+601
+00:33:45,159 --> 00:33:51,039
+de față principala vinovată pentru
+
+602
+00:33:48,679 --> 00:33:53,840
+situația politică și economică din
+
+603
+00:33:51,039 --> 00:33:55,919
+țările astea.
+
+604
+00:33:53,840 --> 00:33:59,320
+Nu, n a cerut protecție George Simion
+
+605
+00:33:55,919 --> 00:34:02,039
+împotriva alfabetizării dar poate că a
+
+606
+00:33:59,320 --> 00:34:04,639
+făcut o în off. N a făcut o oficial
+
+607
+00:34:02,039 --> 00:34:06,679
+încă. Nu știu ce mai așteaptă. Că în
+
+608
+00:34:04,639 --> 00:34:10,359
+orice caz, după ultimele schisme, iarăși
+
+609
+00:34:06,679 --> 00:34:12,480
+Grindeanu l a atacat pe Bolojan.
+
+610
+00:34:10,359 --> 00:34:14,399
+Nu știu cât o mai pot s o țină cu
+
+611
+00:34:12,480 --> 00:34:17,000
+această așa zisă coaliție, care n a fost
+
+612
+00:34:14,399 --> 00:34:19,320
+niciun moment o coaliție. A fost pur și
+
+613
+00:34:17,000 --> 00:34:21,879
+simplu o încercare de a manipula
+
+614
+00:34:19,320 --> 00:34:24,200
+societatea. Partidele s au cuibărit unul
+
+615
+00:34:21,879 --> 00:34:26,679
+lângă altul pentru că toate în mod
+
+616
+00:34:24,200 --> 00:34:28,919
+individual stăteau prost la
+
+617
+00:34:26,679 --> 00:34:31,399
+credibilitate. S au cuibărit unul lângă
+
+618
+00:34:28,919 --> 00:34:33,320
+altul să facă o gogoloașă din asta mai
+
+619
+00:34:31,399 --> 00:34:35,599
+mare, să i păcălească pe oameni, să
+
+620
+00:34:33,320 --> 00:34:37,320
+poată să fure în continuare. dar nu se
+
+621
+00:34:35,599 --> 00:34:39,480
+mai înțeleg între ei, bineînțeles,
+
+622
+00:34:37,320 --> 00:34:43,760
+pentru că așa cum povesteam și zilele
+
+623
+00:34:39,480 --> 00:34:45,800
+trecute, e normal să ai ă opinii
+
+624
+00:34:43,760 --> 00:34:49,399
+diferite, curente diferite, atâta timp
+
+625
+00:34:45,800 --> 00:34:51,679
+cât tu ești de culori diferite politic.
+
+626
+00:34:49,399 --> 00:34:54,200
+Deci dreapta cu stânga se pot înțelege,
+
+627
+00:34:51,679 --> 00:34:56,800
+dar acolo când fură din același sac nu
+
+628
+00:34:54,200 --> 00:34:59,880
+se pot înțelege însă pe termen lung la
+
+629
+00:34:56,800 --> 00:35:02,000
+logistică și la probleme administrative.
+
+630
+00:34:59,880 --> 00:35:03,960
+Acolo își dau cap în cap, inevitabil la
+
+631
+00:35:02,000 --> 00:35:07,560
+un moment dat. Așa s a întâmplat și
+
+632
+00:35:03,960 --> 00:35:09,880
+aici. PSD ul vrea o Românie feudală, da,
+
+633
+00:35:07,560 --> 00:35:13,480
+care să rămână pur și simplu la cizma
+
+634
+00:35:09,880 --> 00:35:15,320
+lui. Nu o Românie de asta care să ajungă
+
+635
+00:35:13,480 --> 00:35:17,520
+unde lumea să nu mai creadă în nimic,
+
+636
+00:35:15,320 --> 00:35:19,640
+oamenii să se răscoale, să spună:„Păi ce
+
+637
+00:35:17,520 --> 00:35:22,440
+dracu, bă? Am rămas fără slujbe, am
+
+638
+00:35:19,640 --> 00:35:24,880
+rămas fără bani, da, am rămas fără
+
+639
+00:35:22,440 --> 00:35:27,040
+perspective. Aia e o Românie pe care PSD
+
+640
+00:35:24,880 --> 00:35:31,040
+ul nu mai poate guverna, nu mai poate
+
+641
+00:35:27,040 --> 00:35:33,480
+struni. Alo, alo, ce să ți zică PSD ul?
+
+642
+00:35:31,040 --> 00:35:36,720
+El nu are soluții. Și atunci, atâta timp
+
+643
+00:35:33,480 --> 00:35:39,359
+cât omul era mocnit și prost, PSD ul
+
+644
+00:35:36,720 --> 00:35:41,960
+este Nicolae Ceaușescu și Ceaușescu a
+
+645
+00:35:39,359 --> 00:35:44,320
+stăpânit România până când a deschis
+
+646
+00:35:41,960 --> 00:35:46,560
+gura. Când au deschis oamenii gura, Nea
+
+647
+00:35:44,320 --> 00:35:49,440
+Nicu a mai făcut de două ori de mână așa
+
+648
+00:35:46,560 --> 00:35:51,400
+și dus a fost cu elicopterul. N a avut
+
+649
+00:35:49,440 --> 00:35:55,240
+nicio putere finalmente, deși noi ne am
+
+650
+00:35:51,400 --> 00:35:57,280
+temut de el ca dracul de tămâie. Uite că
+
+651
+00:35:55,240 --> 00:35:59,760
+o simplă revoluție care nici măcar n
+
+652
+00:35:57,280 --> 00:36:02,280
+avea patent românesc. că a fost o
+
+653
+00:35:59,760 --> 00:36:03,920
+revoluție de import. L a zguduit, l a
+
+654
+00:36:02,280 --> 00:36:07,800
+trimis în decor. A fost primul
+
+655
+00:36:03,920 --> 00:36:10,480
+președinte executat în câteva ore.
+
+656
+00:36:07,800 --> 00:36:13,640
+Da. I a durat procesul
+
+657
+00:36:10,480 --> 00:36:16,520
+câteva ore. Asta a fost tot. Da. Noi ne
+
+658
+00:36:13,640 --> 00:36:18,760
+temeam că el și cu familia lui o să fie
+
+659
+00:36:16,520 --> 00:36:21,520
+etern. Deci revoluțiile și revoltele
+
+660
+00:36:18,760 --> 00:36:23,640
+sunt bune, sunt binevenite. După aia n
+
+661
+00:36:21,520 --> 00:36:26,720
+am mai reușit. 35 de ani, noi n am
+
+662
+00:36:23,640 --> 00:36:28,400
+reușit să desființăm PSD ul, cum s a
+
+663
+00:36:26,720 --> 00:36:30,800
+numit, frontul salvării naționale,
+
+664
+00:36:28,400 --> 00:36:32,520
+Partidul Democrației Sociale din
+
+665
+00:36:30,800 --> 00:36:35,480
+România, denumirile pe care le a avut, n
+
+666
+00:36:32,520 --> 00:36:38,800
+am reușit să scăpăm de el. Asta ar fi
+
+667
+00:36:35,480 --> 00:36:41,319
+fost o misiune. Dacă scăpam și de PSD ul
+
+668
+00:36:38,800 --> 00:36:44,440
+ăsta, abia atunci probabil ieșeam în
+
+669
+00:36:41,319 --> 00:36:46,720
+larg, n am reușit.
+
+670
+00:36:44,440 --> 00:36:49,000
+Insultele adresate de PSD către Oana
+
+671
+00:36:46,720 --> 00:36:52,720
+Gheorghiu, păi intră tot în categoria
+
+672
+00:36:49,000 --> 00:36:56,240
+asta. Au găsit o pe Oana Gheorghiu
+
+673
+00:36:52,720 --> 00:37:00,000
+că nu este n are viziunea lor. E o
+
+674
+00:36:56,240 --> 00:37:01,760
+doamnă aparent dificil de descifrat. I s
+
+675
+00:37:00,000 --> 00:37:04,520
+a reproșat că n a construit un spital,
+
+676
+00:37:01,760 --> 00:37:08,319
+ci doar o aripă de spital. sărit imediat
+
+677
+00:37:04,520 --> 00:37:10,720
+PSD ul care era chiar prea mult ca o
+
+678
+00:37:08,319 --> 00:37:14,560
+singură femeie să fi construit un spital
+
+679
+00:37:10,720 --> 00:37:16,480
+în România când un partid întreg și cu
+
+680
+00:37:14,560 --> 00:37:19,040
+toate ramificațiile lui n a construit
+
+681
+00:37:16,480 --> 00:37:22,400
+nici măcar o aripă de spital în 35 de
+
+682
+00:37:19,040 --> 00:37:25,319
+ani. Păi cum să facă o femeie? Da din
+
+683
+00:37:22,400 --> 00:37:28,680
+donații și din banii proprii și mai știu
+
+684
+00:37:25,319 --> 00:37:31,839
+eu de pe unde a adunat de la porumbeii
+
+685
+00:37:28,680 --> 00:37:33,680
+Ioanei Cozma să facă un spital și atunci
+
+686
+00:37:31,839 --> 00:37:35,839
+au sărit imediat și au spus: „Domnule,
+
+687
+00:37:33,680 --> 00:37:38,319
+nu se poate așa ceva în țara asta. N are
+
+688
+00:37:35,839 --> 00:37:41,280
+nimeni voie să facă ceva pentru oameni.
+
+689
+00:37:38,319 --> 00:37:43,319
+Dar bun, aicea noi suntem și prost
+
+690
+00:37:41,280 --> 00:37:45,359
+pregătiți
+
+691
+00:37:43,319 --> 00:37:48,760
+din punct de vedere informativ și destul
+
+692
+00:37:45,359 --> 00:37:51,359
+de naivi. Nu numai în România e așa,
+
+693
+00:37:48,760 --> 00:37:53,280
+aproape peste tot în lume e la fel.
+
+694
+00:37:51,359 --> 00:37:56,640
+Politicienii n au nicio legătură cu
+
+695
+00:37:53,280 --> 00:37:58,760
+oamenii. Nici noi dacă am fi politicieni
+
+696
+00:37:56,640 --> 00:38:00,680
+n am avea nicio legătură cu oamenii.
+
+697
+00:37:58,760 --> 00:38:04,280
+Singurul nostru merit este că noi nu ne
+
+698
+00:38:00,680 --> 00:38:05,760
+facem politicieni. Dar odată ajuns acolo
+
+699
+00:38:04,280 --> 00:38:07,400
+n ai încotro.
+
+700
+00:38:05,760 --> 00:38:10,280
+Pentru că de asta te ai dus pe drumul
+
+701
+00:38:07,400 --> 00:38:13,160
+ăla. Ce laviniașandru are vreo treabă cu
+
+702
+00:38:10,280 --> 00:38:16,319
+oamenii? Când îmi explica mie învârtindu
+
+703
+00:38:13,160 --> 00:38:18,800
+și firul ăla de păr așa în lunca
+
+704
+00:38:16,319 --> 00:38:20,520
+Zăvoiului sau unde se filma, avea vreo
+
+705
+00:38:18,800 --> 00:38:23,000
+treabă cu oamenii. O dată ajuns în
+
+706
+00:38:20,520 --> 00:38:25,880
+politică îi mințea pe oameni. E tot ce
+
+707
+00:38:23,000 --> 00:38:28,200
+spunea era o minciună finalmente.
+
+708
+00:38:25,880 --> 00:38:30,359
+Ce era adevărat în alea? Nimic,
+
+709
+00:38:28,200 --> 00:38:33,280
+bineînțeles. Deci dacă te ai dus pe
+
+710
+00:38:30,359 --> 00:38:34,960
+drumul ăla, asta trebuie să faci. Ce să
+
+711
+00:38:33,280 --> 00:38:37,480
+i dai omului? Păi, dar tu ajungi în
+
+712
+00:38:34,960 --> 00:38:40,160
+situația să dispui de nu știu câți bani,
+
+713
+00:38:37,480 --> 00:38:42,000
+că ai bani mulți, crezi că primul tău
+
+714
+00:38:40,160 --> 00:38:45,000
+gând este să te duci să i faci bine
+
+715
+00:38:42,000 --> 00:38:47,040
+cuiva? Aia i poveste. Bă, toții suntem
+
+716
+00:38:45,000 --> 00:38:50,119
+darnici până când ajungem în situația
+
+717
+00:38:47,040 --> 00:38:52,440
+aia. Cum ne întreba pe noi Tolontan
+
+718
+00:38:50,119 --> 00:38:54,520
+odată, bă, pe vremea lui Giovanni, bă,
+
+719
+00:38:52,440 --> 00:38:57,200
+dar ce facem dacă vine ăsta și ne dă 10
+
+720
+00:38:54,520 --> 00:38:59,839
+milioane de euro sau de dolari, cât era
+
+721
+00:38:57,200 --> 00:39:04,200
+atunce șpagă. Așa era simplu să nu iei o
+
+722
+00:38:59,839 --> 00:39:07,839
+șpagă de 25 RON, o omletă la Bistrița,
+
+723
+00:39:04,200 --> 00:39:09,480
+un Bacon, nu știu pe unde. Da, o fată la
+
+724
+00:39:07,839 --> 00:39:11,280
+discotecă la Onești. Pe alea le mai
+
+725
+00:39:09,480 --> 00:39:14,359
+puteai refuza. Dar dacă venea unul și
+
+726
+00:39:11,280 --> 00:39:16,760
+spunea în față un sacoșă cu 10 milioane
+
+727
+00:39:14,359 --> 00:39:19,240
+de $ari, ce făceai? Că n ai fost pus
+
+728
+00:39:16,760 --> 00:39:22,319
+niciodată în situația aia. Începeai să
+
+729
+00:39:19,240 --> 00:39:24,920
+faci socoteli. Da. Așa a fost și nea
+
+730
+00:39:22,319 --> 00:39:27,040
+Sorinel, așa a fost și Horațiu Potra,
+
+731
+00:39:24,920 --> 00:39:30,520
+așa a fost și Georgescu, toți ticăloșii
+
+732
+00:39:27,040 --> 00:39:34,560
+națiunii, Victor Ponta, Liviu Dragnea,
+
+733
+00:39:30,520 --> 00:39:34,560
+Emilia, ai imaginea aia?
+
+734
+00:39:35,000 --> 00:39:41,560
+E când o când ai timp și Emilia se ocupă
+
+735
+00:39:38,079 --> 00:39:43,640
+cu să liniștească face sarmale. Oupă de
+
+736
+00:39:41,560 --> 00:39:46,319
+asta cu Halloween ul. Dar dacă are timp,
+
+737
+00:39:43,640 --> 00:39:49,720
+la un moment dat avea o poză cică mișto
+
+738
+00:39:46,319 --> 00:39:49,720
+să o dea.
+
+739
+00:39:50,319 --> 00:39:54,920
+Ei, dar să mă dau un pic mai la o parte
+
+740
+00:39:52,079 --> 00:40:00,640
+sau ce să facem? Globul
+
+741
+00:39:54,920 --> 00:40:00,640
+din păcate. Ia ia ia ia ia.
+
+742
+00:40:14,720 --> 00:40:19,720
+Da, de asta ne am ne am dat la o parte
+
+743
+00:40:17,079 --> 00:40:22,720
+ca să l vedem. E
+
+744
+00:40:19,720 --> 00:40:25,200
+dacă s ar uita doamna Buzo la mine cum
+
+745
+00:40:22,720 --> 00:40:29,800
+se uită Grindeanu la Dragnea. Mamă,
+
+746
+00:40:25,200 --> 00:40:29,800
+uitați vă la Dragnea ce moacă are.
+
+747
+00:40:31,359 --> 00:40:40,520
+Ce față de dulgheră! Da. Și ălalalt era
+
+748
+00:40:37,599 --> 00:40:42,280
+efectiv mort de zis că se uita la
+
+749
+00:40:40,520 --> 00:40:45,079
+Tutankamon.
+
+750
+00:40:42,280 --> 00:40:47,960
+Da, senzațională image. Ăsta este Sorin
+
+751
+00:40:45,079 --> 00:40:50,880
+Grindeanu, Liviu Dragnea. Știm cine a
+
+752
+00:40:47,960 --> 00:40:54,520
+fost finalmente nenea ăla care a
+
+753
+00:40:50,880 --> 00:40:56,640
+încercat să scoată justiția de pe șine,
+
+754
+00:40:54,520 --> 00:40:59,400
+cum încerca motanul. Să știți că și
+
+755
+00:40:56,640 --> 00:41:02,440
+motanul meu a copilărit, tot am vorbit
+
+756
+00:40:59,400 --> 00:41:06,319
+astăzi mult de el, a copilărit cu
+
+757
+00:41:02,440 --> 00:41:10,000
+trenuri puse bine pe șine. El a învățat
+
+758
+00:41:06,319 --> 00:41:11,720
+de mic trece trenul prin fața casei lui
+
+759
+00:41:10,000 --> 00:41:14,040
+și la un moment dat a început să le
+
+760
+00:41:11,720 --> 00:41:17,880
+deraieze, să sară peste ele ca în Far
+
+761
+00:41:14,040 --> 00:41:20,680
+West. Un motan mare se ascundea așa după
+
+762
+00:41:17,880 --> 00:41:23,040
+niște cutii și sărea pe tren, de
+
+763
+00:41:20,680 --> 00:41:26,520
+exemplu. Exact cum erau atacate
+
+764
+00:41:23,040 --> 00:41:29,960
+trenurile în America de Nord. în secolul
+
+765
+00:41:26,520 --> 00:41:33,960
+19, secolul X, mai degrabă, începutul
+
+766
+00:41:29,960 --> 00:41:37,960
+secolului XX, cumva pe acolo erau ei.
+
+767
+00:41:33,960 --> 00:41:40,200
+Deci în stilul ăsta, motanul.
+
+768
+00:41:37,960 --> 00:41:42,440
+Da,
+
+769
+00:41:40,200 --> 00:41:45,240
+Liviu Dragnea, că de la el plecasem și
+
+770
+00:41:42,440 --> 00:41:48,560
+cu faimoasa lui dantură. Asta a încercat
+
+771
+00:41:45,240 --> 00:41:50,400
+să facă cât a stat premier și după aia
+
+772
+00:41:48,560 --> 00:41:53,760
+cât a trasforile
+
+773
+00:41:50,400 --> 00:41:56,960
+cu Madam Dăncilă să scoată justiția de
+
+774
+00:41:53,760 --> 00:41:58,640
+pe șinele respective ca să stea liniștit
+
+775
+00:41:56,960 --> 00:42:00,400
+până la adânși. Bătrâți, bă și n a
+
+776
+00:41:58,640 --> 00:42:02,200
+izbutit.
+
+777
+00:42:00,400 --> 00:42:04,640
+Mi se pare uluitor. Asta înseamnă că nu
+
+778
+00:42:02,200 --> 00:42:06,839
+se pricepea pentru că nu era mare lucru.
+
+779
+00:42:04,640 --> 00:42:08,680
+Alții înaintea lui au făcut lucrul ăsta.
+
+780
+00:42:06,839 --> 00:42:10,560
+Sigur, într o epocă în care justiția nu
+
+781
+00:42:08,680 --> 00:42:12,240
+era mediatizată. De exemplu, pe vremea
+
+782
+00:42:10,560 --> 00:42:14,359
+lui Bombonel.
+
+783
+00:42:12,240 --> 00:42:16,880
+Bombonel, deși atunci foarte puțin s a
+
+784
+00:42:14,359 --> 00:42:19,079
+vorbit pe tema asta, a scos justiția din
+
+785
+00:42:16,880 --> 00:42:21,920
+priză complet. El nu s a mai dus s o
+
+786
+00:42:19,079 --> 00:42:24,160
+scoată de pe șine. A scos o din priză.
+
+787
+00:42:21,920 --> 00:42:28,040
+Nimeni niciodată nu era arestat. Atunci
+
+788
+00:42:24,160 --> 00:42:30,720
+s a furat ca în codru, bă. Ca în codru.
+
+789
+00:42:28,040 --> 00:42:33,040
+Imaginați vă că oamenii ăia sunt toți
+
+790
+00:42:30,720 --> 00:42:36,960
+astăzi cu icoanele deasupra capului și
+
+791
+00:42:33,040 --> 00:42:39,520
+cu Dumnezeu în cerul gurii. Cei mai mari
+
+792
+00:42:36,960 --> 00:42:41,720
+hoți ai României. Într adevăr, nu există
+
+793
+00:42:39,520 --> 00:42:44,359
+dovezi. Într adevăr, nu i a văzut nimeni
+
+794
+00:42:41,720 --> 00:42:47,000
+scoțând din priză trenurile alea, dar au
+
+795
+00:42:44,359 --> 00:42:49,520
+furat pentru generații. Bă, la vremea
+
+796
+00:42:47,000 --> 00:42:52,079
+aia nu era nicio discuție nicăieri.
+
+797
+00:42:49,520 --> 00:42:55,359
+Televiziuni erau puține, spre deloc, cum
+
+798
+00:42:52,079 --> 00:42:57,720
+ar zice domnul Florea. Presată
+
+799
+00:42:55,359 --> 00:43:00,359
+la dispoziția lui Bombonel. Eu nici
+
+800
+00:42:57,720 --> 00:43:03,440
+măcar nu intrasem încă în presă în epoca
+
+801
+00:43:00,359 --> 00:43:05,960
+aia. Era un dezastru total să nu cumva
+
+802
+00:43:03,440 --> 00:43:08,040
+să vină vreunul dintre ei acum să pună
+
+803
+00:43:05,960 --> 00:43:10,000
+mâna aia pe Biblie și să spună:
+
+804
+00:43:08,040 --> 00:43:13,800
+„Domnule, eu n am furat niciodată niciun
+
+805
+00:43:10,000 --> 00:43:17,000
+RON. Toți banii i am orientat în
+
+806
+00:43:13,800 --> 00:43:19,160
+beneficiul națiunii. Are vreunul curajul
+
+807
+00:43:17,000 --> 00:43:21,559
+să spună lucrul ăsta?
+
+808
+00:43:19,160 --> 00:43:23,720
+Hoții ăia, bă, nimic nu s a făcut în
+
+809
+00:43:21,559 --> 00:43:28,040
+România atunci
+
+810
+00:43:23,720 --> 00:43:30,280
+10 15 ani, absolut numai furt. Să nu i
+
+811
+00:43:28,040 --> 00:43:32,839
+uităm totuși acuma când ne apucă
+
+812
+00:43:30,280 --> 00:43:34,839
+comemoratul și asta ar trebui să
+
+813
+00:43:32,839 --> 00:43:37,920
+comemorăm tot prin mitinguri de astea
+
+814
+00:43:34,839 --> 00:43:41,240
+silențioase care să depășească chiar și
+
+815
+00:43:37,920 --> 00:43:43,040
+miezul nopții, nu doar ora 23.
+
+816
+00:43:41,240 --> 00:43:46,160
+Pentru ei nu s a făcut miezul nopții
+
+817
+00:43:43,040 --> 00:43:51,880
+niciodată. Nu se mai întuneca. Atâta
+
+818
+00:43:46,160 --> 00:43:51,880
+aveau de furat. Săpau, furau, mâncau.
+
+819
+00:43:54,440 --> 00:44:01,440
+Da.
+
+820
+00:43:56,280 --> 00:44:01,440
+Uite e o doamna Flori.
+
+821
+00:44:02,200 --> 00:44:06,880
+Ok. Care ești tu, Can dintre ei?
+
+822
+00:44:07,119 --> 00:44:15,000
+Da, păi aia masca. Aia am avut o
+
+823
+00:44:13,640 --> 00:44:16,880
+cutie.
+
+824
+00:44:15,000 --> 00:44:21,040
+>> Care ești tucan, mă, dintre ăștia? Ăla
+
+825
+00:44:16,880 --> 00:44:24,040
+mic acolo jos. Ăla cu verde. Un pic cu
+
+826
+00:44:21,040 --> 00:44:27,160
+verde așa. Ăla i A, dar stai că am
+
+827
+00:44:24,040 --> 00:44:29,880
+primit și eu. Bă, de la fanii din state
+
+828
+00:44:27,160 --> 00:44:32,599
+ai emisiunilor voastre cadouri de
+
+829
+00:44:29,880 --> 00:44:36,119
+Halloween împreună cu roasturile de
+
+830
+00:44:32,599 --> 00:44:38,040
+rigoare. Domnul știucan, masca dart
+
+831
+00:44:36,119 --> 00:44:41,079
+father.
+
+832
+00:44:38,040 --> 00:44:44,359
+Citesc și eu ca acrobeto. Doamna Florii,
+
+833
+00:44:41,079 --> 00:44:46,119
+masca prințesei Elza din Frozen.
+
+834
+00:44:44,359 --> 00:44:49,400
+E, dar ce bine stă lui Florii, bă
+
+835
+00:44:46,119 --> 00:44:51,040
+totuși, domnul Banciu, masca V for
+
+836
+00:44:49,400 --> 00:44:52,200
+vendeta.
+
+837
+00:44:51,040 --> 00:44:55,520
+Dacă închid ăla să mai
+
+838
+00:44:52,200 --> 00:44:55,520
+>> asta adică
+
+839
+00:45:04,599 --> 00:45:08,000
+>> ăsta i de claun
+
+840
+00:45:08,040 --> 00:45:16,160
+asta a lui David e de claun. Ok, stai să
+
+841
+00:45:11,520 --> 00:45:18,280
+vedem în condițiile astea. Da, da, e
+
+842
+00:45:16,160 --> 00:45:22,319
+made din China. Atunci poate să fie din
+
+843
+00:45:18,280 --> 00:45:22,319
+Statele Unite. Într adevăr,
+
+844
+00:45:27,960 --> 00:45:33,760
+am desfăcut o familia. Deci am fost
+
+845
+00:45:34,920 --> 00:45:39,200
+ia
+
+846
+00:45:36,599 --> 00:45:43,200
+asta e tipică, de altfel.
+
+847
+00:45:39,200 --> 00:45:43,200
+Așa. Hai să vedem ce mai zice
+
+848
+00:45:44,200 --> 00:45:49,359
+acest
+
+849
+00:45:46,240 --> 00:45:51,280
+miroase înfiorător poluanta. Acest non
+
+850
+00:45:49,359 --> 00:45:53,119
+conformist cu accente nihiliste a
+
+851
+00:45:51,280 --> 00:45:56,000
+zilelor noastre, un ipotetic
+
+852
+00:45:53,119 --> 00:45:59,119
+contracandidat ideal al președintelui
+
+853
+00:45:56,000 --> 00:46:01,000
+Trump, adică eu. Unii dintre noi
+
+854
+00:45:59,119 --> 00:46:04,559
+consideră această mască un omagi adus
+
+855
+00:46:01,000 --> 00:46:06,800
+faimosului anarhist domn V. Așa și
+
+856
+00:46:04,559 --> 00:46:08,839
+explică acolo romanul Vefor, vendetta
+
+857
+00:46:06,800 --> 00:46:10,760
+lui Allen More, în lupta sa pentru
+
+858
+00:46:08,839 --> 00:46:12,000
+libertate și opresiune. Alții dintre noi
+
+859
+00:46:10,760 --> 00:46:14,720
+considerau că ar fi mai degrabă un
+
+860
+00:46:12,000 --> 00:46:17,119
+simbol al grupului activist online
+
+861
+00:46:14,720 --> 00:46:19,240
+Anonyus. Prin pozițiile pe care le ia în
+
+862
+00:46:17,119 --> 00:46:22,280
+mediul online, lupta sa continuă contra
+
+863
+00:46:19,240 --> 00:46:24,960
+corupției. Eu treaba noastră asta
+
+864
+00:46:22,280 --> 00:46:28,000
+superficialității, da? Incompetenței,
+
+865
+00:46:24,960 --> 00:46:30,400
+conspirațiilor și mârșavilor trecuți sau
+
+866
+00:46:28,000 --> 00:46:32,280
+actuali. Da. Asta deoarece noi credem că
+
+867
+00:46:30,400 --> 00:46:36,079
+se încadrează perfect în dictonul. Nu
+
+868
+00:46:32,280 --> 00:46:38,480
+omul contează, ci țelul său.
+
+869
+00:46:36,079 --> 00:46:40,319
+Da, oamenii nu contează nicăieri. Asta e
+
+870
+00:46:38,480 --> 00:46:42,880
+adevărat. În cele din urmă, nu doar în
+
+871
+00:46:40,319 --> 00:46:44,839
+ultimul rând, în aversiunea sa perpetuă
+
+872
+00:46:42,880 --> 00:46:46,760
+asupra gramațiilor de pretutindeni,
+
+873
+00:46:44,839 --> 00:46:49,839
+precum și semidocților din domeniul
+
+874
+00:46:46,760 --> 00:46:52,440
+geografiei, un subiect drag și sensibil
+
+875
+00:46:49,839 --> 00:46:56,200
+dumnealui sperăm să rămână la fel de
+
+876
+00:46:52,440 --> 00:46:59,400
+vertical în acest efort, efectiv don
+
+877
+00:46:56,200 --> 00:47:01,599
+Chihotesc pentru dreptate, cinste,
+
+878
+00:46:59,400 --> 00:47:05,680
+competență, incoruptibilitate și
+
+879
+00:47:01,599 --> 00:47:07,559
+antipatie pentru tiktokerii hauriști
+
+880
+00:47:05,680 --> 00:47:11,880
+în așteptarea cu mare neliniște a
+
+881
+00:47:07,559 --> 00:47:13,359
+alocației sociale. cale PS1.
+
+882
+00:47:11,880 --> 00:47:14,920
+Pe această cale vă transmitem și
+
+883
+00:47:13,359 --> 00:47:18,119
+salutări cordiale din partea
+
+884
+00:47:14,920 --> 00:47:21,200
+megastarului Romeo Fantastic,
+
+885
+00:47:18,119 --> 00:47:23,559
+regele neîncoronat andited
+
+886
+00:47:21,200 --> 00:47:26,839
+al tiktokerilor cu gusturi alese din
+
+887
+00:47:23,559 --> 00:47:29,960
+Strehaia, care comparativ cu săracul Leo
+
+888
+00:47:26,839 --> 00:47:33,000
+de la Roșiorie vă promite garantat că
+
+889
+00:47:29,960 --> 00:47:37,280
+efectiv o să spargeți în două mânca ți
+
+890
+00:47:33,000 --> 00:47:39,200
+aș halo măsu toate audiențele.
+
+891
+00:47:37,280 --> 00:47:42,359
+Dacă î veți avea drept invitat de onoare
+
+892
+00:47:39,200 --> 00:47:45,040
+în emisiunea de vineri e uite că s a dus
+
+893
+00:47:42,359 --> 00:47:48,440
+PS2. E o mască cu feblețea dânsului,
+
+894
+00:47:45,040 --> 00:47:52,160
+stimabila doamnă, domnișoară Buzo, am
+
+895
+00:47:48,440 --> 00:47:54,079
+citit greșit, încă n a apărut,
+
+896
+00:47:52,160 --> 00:47:56,839
+dar promitem că i vom face rost de
+
+897
+00:47:54,079 --> 00:47:59,079
+îndată ce apare pe piață, în așa fel
+
+898
+00:47:56,839 --> 00:48:02,599
+încât să i curmăm suferința pe care o
+
+899
+00:47:59,079 --> 00:48:05,839
+afișează cu stoicism în liniște, în
+
+900
+00:48:02,599 --> 00:48:11,480
+decursul ambelor emisiuni. E corect.
+
+901
+00:48:05,839 --> 00:48:16,119
+Doamna Emilia, masca Vulpița Foxy Lady.
+
+902
+00:48:11,480 --> 00:48:18,119
+Da, deoarece Da. A a luat o Ioana Cozma
+
+903
+00:48:16,119 --> 00:48:20,920
+să se ducă la catedrală cu ea, deoarece
+
+904
+00:48:18,119 --> 00:48:22,680
+așa se pare că era poreclită în liceu.
+
+905
+00:48:20,920 --> 00:48:25,640
+Poreclă de care noi credem că nu se
+
+906
+00:48:22,680 --> 00:48:28,280
+dezice, dar fiind caracterul fitilist al
+
+907
+00:48:25,640 --> 00:48:30,440
+întrebărilor pe care le punem popizurile
+
+908
+00:48:28,280 --> 00:48:33,240
+făcute colegilor, dar și a
+
+909
+00:48:30,440 --> 00:48:35,319
+caracterizării celui mai înțelept și cu
+
+910
+00:48:33,240 --> 00:48:36,960
+experiență coleg al vostru, domnul
+
+911
+00:48:35,319 --> 00:48:39,000
+Florea.
+
+912
+00:48:36,960 --> 00:48:40,359
+Și ca să înțelegeți mai bine despre ce
+
+913
+00:48:39,000 --> 00:48:43,000
+este vorba, nu trebuie decât să
+
+914
+00:48:40,359 --> 00:48:45,880
+ascultați melodia omonimă și mai ales să
+
+915
+00:48:43,000 --> 00:48:47,800
+citiți versurile magnificei piese a
+
+916
+00:48:45,880 --> 00:48:50,559
+ilustrului fost muzician Jimmy
+
+917
+00:48:47,800 --> 00:48:54,720
+Hendricks. Să vedem ce i de ce i
+
+918
+00:48:50,559 --> 00:48:54,720
+domnului Florea ce i transmit.
+
+919
+00:48:57,559 --> 00:49:03,839
+Domnul Florea
+
+920
+00:48:59,720 --> 00:49:07,720
+nu e un text mare la adresa lui. Masca
+
+921
+00:49:03,839 --> 00:49:12,200
+Dali. Păi asta e ce
+
+922
+00:49:07,720 --> 00:49:12,200
+a tot aia e mascarali.
+
+923
+00:49:13,680 --> 00:49:20,240
+Aia e.
+
+924
+00:49:16,839 --> 00:49:22,760
+Da, l am găsit. Stai că i aicea. Dar
+
+925
+00:49:20,240 --> 00:49:25,680
+vorba lui Rudy Garcia, les gens
+
+926
+00:49:22,760 --> 00:49:28,920
+aujourd'hui n cum m adică în cealaltă
+
+927
+00:49:25,680 --> 00:49:28,920
+țin telefonul.
+
+928
+00:49:29,280 --> 00:49:36,319
+Asta i masca da. Uite o masca domnului
+
+929
+00:49:33,319 --> 00:49:36,319
+Florea.
+
+930
+00:49:39,280 --> 00:49:45,000
+No, asta i masca domnului Florea. Masca
+
+931
+00:49:42,200 --> 00:49:48,079
+Dali.
+
+932
+00:49:45,000 --> 00:49:50,960
+Bun. Sunt ca Marchet și eu cu bilele. Ia
+
+933
+00:49:48,079 --> 00:49:54,720
+să vedem ce i scrie. Ca un omagiu al
+
+934
+00:49:50,960 --> 00:49:57,559
+genialului artist
+
+935
+00:49:54,720 --> 00:50:01,920
+și omură.
+
+936
+00:49:57,559 --> 00:50:04,839
+Bă, bă, a murit Cei Cario, actorul. Am
+
+937
+00:50:01,920 --> 00:50:06,640
+văzut multe seriale cu el. Avea 72 de
+
+938
+00:50:04,839 --> 00:50:09,359
+ani.
+
+939
+00:50:06,640 --> 00:50:11,000
+Bun actor. Așa. Deci, Masca Dalica, un
+
+940
+00:50:09,359 --> 00:50:13,040
+omagi al genialui artist și om de
+
+941
+00:50:11,000 --> 00:50:15,359
+cultură care și a petrecut o bună parte
+
+942
+00:50:13,040 --> 00:50:16,920
+la noi în state,
+
+943
+00:50:15,359 --> 00:50:19,440
+domnul Florea. Noi considerăm că sunt
+
+944
+00:50:16,920 --> 00:50:21,720
+similitudini deoarece ambii au avut
+
+945
+00:50:19,440 --> 00:50:25,319
+parte de glorie și recunoaștere. Unul în
+
+946
+00:50:21,720 --> 00:50:27,880
+artă și cultură, adică Dali, celălalt în
+
+947
+00:50:25,319 --> 00:50:30,680
+presa scrisă. dar și afinități cu
+
+948
+00:50:27,880 --> 00:50:33,559
+regimurile totalitare, unul cu cel
+
+949
+00:50:30,680 --> 00:50:36,359
+pentru cel franchist, iar celălalt
+
+950
+00:50:33,559 --> 00:50:37,760
+pentru cel de tristă amintire de la noi.
+
+951
+00:50:36,359 --> 00:50:40,599
+Toate acestea, noi avem o admirație
+
+952
+00:50:37,760 --> 00:50:42,839
+profundă pentru dânsul, considerând că i
+
+953
+00:50:40,599 --> 00:50:47,240
+se potrivește citatul marelui artist
+
+954
+00:50:42,839 --> 00:50:50,680
+Dali: Inteligența fără ambiție este o
+
+955
+00:50:47,240 --> 00:50:54,079
+pasăre fără aripi.
+
+956
+00:50:50,680 --> 00:50:56,720
+Masca Batman era pentru prunea bun de
+
+957
+00:50:54,079 --> 00:51:01,079
+tot. Iată mesajul oamenii noștri care ne
+
+958
+00:50:56,720 --> 00:51:01,079
+scriu din când în când
+
+959
+00:51:01,680 --> 00:51:07,599
+măștile sunt acolo. Prunea ar fi purtat
+
+960
+00:51:04,760 --> 00:51:11,319
+mască cu iamil. Posibil aș consuma în
+
+961
+00:51:07,599 --> 00:51:13,680
+domnul Pruteanu sau într o carie. Zice
+
+962
+00:51:11,319 --> 00:51:16,799
+cineva.
+
+963
+00:51:13,680 --> 00:51:18,920
+Doctorat în filologie. Nu, n am niciun
+
+964
+00:51:16,799 --> 00:51:22,559
+doctorat. O mască cu Călin Georgescu sau
+
+965
+00:51:18,920 --> 00:51:24,200
+cu Șoșoacă n am primit. Domnule, în UK e
+
+966
+00:51:22,559 --> 00:51:26,280
+al doilea scandal în guvern. După ce
+
+967
+00:51:24,200 --> 00:51:29,599
+ministra finanțelor a închiriat familia
+
+968
+00:51:26,280 --> 00:51:31,559
+casei fără licență, tipic de ei, posibil
+
+969
+00:51:29,599 --> 00:51:34,680
+să și dea demisia la noi. Neacșu și
+
+970
+00:51:31,559 --> 00:51:38,079
+Oprea, bun, nu i românește asta. Ce
+
+971
+00:51:34,680 --> 00:51:40,319
+Iohannis până a cedat casa aia i a luat
+
+972
+00:51:38,079 --> 00:51:43,040
+statul jumătate din casă. I a tăiat o ca
+
+973
+00:51:40,319 --> 00:51:44,680
+în Tom și Jerry. Nu, n a dat nimic,
+
+974
+00:51:43,040 --> 00:51:48,880
+bineînțeles.
+
+975
+00:51:44,680 --> 00:51:51,559
+Deliuța. Da, e asta rămâne o enigmă
+
+976
+00:51:48,880 --> 00:51:54,119
+aici. Oricum știucanii nu se uită la
+
+977
+00:51:51,559 --> 00:51:57,480
+noi, află doar de pe la mâna a doua, a
+
+978
+00:51:54,119 --> 00:52:00,720
+treia. Nu era informația noastră. Ați
+
+979
+00:51:57,480 --> 00:52:04,720
+văzut? N am reușit să aflăm mai multe.
+
+980
+00:52:00,720 --> 00:52:06,319
+El consul, paleologul, nu este om deloc.
+
+981
+00:52:04,720 --> 00:52:08,960
+De ce credeți că nu are un loc mai bun
+
+982
+00:52:06,319 --> 00:52:11,559
+în societate? Păi, o duce bine, dar el o
+
+983
+00:52:08,960 --> 00:52:14,000
+duce bine pentru că a moștenit de la
+
+984
+00:52:11,559 --> 00:52:18,119
+Tasu lucrurile bune. Altfel n ar fi dus
+
+985
+00:52:14,000 --> 00:52:20,280
+o prea bine. Da, nu consider că are o
+
+986
+00:52:18,119 --> 00:52:23,200
+capacitate
+
+987
+00:52:20,280 --> 00:52:25,920
+intelectuală deosebită pentru a El
+
+988
+00:52:23,200 --> 00:52:27,640
+trăiește pur și simplu din numele lui
+
+989
+00:52:25,920 --> 00:52:29,400
+Tasu, ceea ce sigur nu i chiar
+
+990
+00:52:27,640 --> 00:52:31,319
+întotdeauna foarte ușor. De exemplu,
+
+991
+00:52:29,400 --> 00:52:34,559
+Dumitru Graur n a reușit să profite
+
+992
+00:52:31,319 --> 00:52:37,079
+aproape deloc de pe urma numelui tatălui
+
+993
+00:52:34,559 --> 00:52:40,280
+său. Sigur au mai fost excepții de la
+
+994
+00:52:37,079 --> 00:52:42,760
+regulă. Nu putem acuma să comparăm pe
+
+995
+00:52:40,280 --> 00:52:45,319
+domnul Paleologul cu domnul Graur.
+
+996
+00:52:42,760 --> 00:52:48,640
+Bineînțeles, nu ăsta era scopul, dar
+
+997
+00:52:45,319 --> 00:52:50,599
+dacă tot veni vorba, i am asociat. Până
+
+998
+00:52:48,640 --> 00:52:53,599
+la urmă, ce demersuri putem face pentru
+
+999
+00:52:50,599 --> 00:52:56,319
+a afla cine este Deliuța?
+
+1000
+00:52:53,599 --> 00:53:00,280
+Domnule, depinde cum ortografiem, cu T Z
+
+1001
+00:52:56,319 --> 00:53:03,119
+sau cu Ț. Pe noi ne depășește subiectul.
+
+1002
+00:53:00,280 --> 00:53:06,280
+Doamna Flori, doamna Emilia, domnișoara
+
+1003
+00:53:03,119 --> 00:53:08,760
+Buzo, astea sunt, mă, n avem cu Delia
+
+1004
+00:53:06,280 --> 00:53:10,920
+până la urmă. Recursul cu masca asta
+
+1005
+00:53:08,760 --> 00:53:14,960
+clar o să vă zic acum Emilia, mă
+
+1006
+00:53:10,920 --> 00:53:17,520
+tristule, da cu asta de
+
+1007
+00:53:14,960 --> 00:53:20,000
+Ai am purtat o puțin. Mi a pregătit o
+
+1008
+00:53:17,520 --> 00:53:22,920
+mască. Cred că i la mine pe la mine pe
+
+1009
+00:53:20,000 --> 00:53:25,880
+birou. O mască de asta de dovleac, dar
+
+1010
+00:53:22,920 --> 00:53:29,000
+era greu de păstrat pe față mult timp.
+
+1011
+00:53:25,880 --> 00:53:30,839
+Am tras o un pic. E ca o glugă așa. Vrem
+
+1012
+00:53:29,000 --> 00:53:33,599
+s o vedem și pe Emilia, nu numai pe
+
+1013
+00:53:30,839 --> 00:53:37,880
+Flori. Da, Flori a apărut frumușică în
+
+1014
+00:53:33,599 --> 00:53:39,640
+poză. Sigur. Exact. Vine și vremea asta.
+
+1015
+00:53:37,880 --> 00:53:41,240
+Nu cred că i de înoptat, sincer.
+
+1016
+00:53:39,640 --> 00:53:43,160
+Deliuța.
+
+1017
+00:53:41,240 --> 00:53:46,079
+No, dacă mă întrebați pe mine, sigur e
+
+1018
+00:53:43,160 --> 00:53:49,599
+nenoptabilă.
+
+1019
+00:53:46,079 --> 00:53:51,480
+Da. Credeți că USR cel mai slab candidat
+
+1020
+00:53:49,599 --> 00:53:53,920
+la primăria municipi? Acolo am văzut
+
+1021
+00:53:51,480 --> 00:53:56,440
+acuma dispută cu Drulă, care a fost un
+
+1022
+00:53:53,920 --> 00:53:58,640
+antiinicușoreștean
+
+1023
+00:53:56,440 --> 00:54:00,799
+și acuma s a reorientat. Dar bună, asta
+
+1024
+00:53:58,640 --> 00:54:03,280
+în politică nu i ceva diferit, așa i și
+
+1025
+00:54:00,799 --> 00:54:06,079
+în presă. Dar astea sunt lucruri care
+
+1026
+00:54:03,280 --> 00:54:08,359
+vin, trec. N poți să fii prieten cu unul
+
+1027
+00:54:06,079 --> 00:54:11,119
+toată viața în domenii de tipul ăsta,
+
+1028
+00:54:08,359 --> 00:54:13,640
+unde cuțitele sunt ascuțite mereu. Așa.
+
+1029
+00:54:11,119 --> 00:54:16,079
+Și acolo drulă. Da. L a săpat pe Nicușor
+
+1030
+00:54:13,640 --> 00:54:17,640
+la Acuma a venit vremea să nu l mai
+
+1031
+00:54:16,079 --> 00:54:20,160
+sape. Păi, dar vă reamintesc că pe
+
+1032
+00:54:17,640 --> 00:54:22,720
+Nicușor l au săpat cam toți în partid la
+
+1033
+00:54:20,160 --> 00:54:25,200
+sfârșitul anului trecut când candida
+
+1034
+00:54:22,720 --> 00:54:27,440
+doamna Lasconi. Iar și doamna Buzău
+
+1035
+00:54:25,200 --> 00:54:29,559
+votase cu Elena Lasconi să mă îndrea cu
+
+1036
+00:54:27,440 --> 00:54:31,400
+asta. Dar, mă rog, asta o știu eu pe
+
+1037
+00:54:29,559 --> 00:54:33,559
+surse.
+
+1038
+00:54:31,400 --> 00:54:35,440
+Nu e o informație oficială că nicăieri
+
+1039
+00:54:33,559 --> 00:54:38,319
+nu s a publicat cu cine votau membrii
+
+1040
+00:54:35,440 --> 00:54:41,200
+USR. Ai noi sursele noastre. Da, doamna
+
+1041
+00:54:38,319 --> 00:54:42,599
+Buză votase cu Elena Lasconi. Elena o să
+
+1042
+00:54:41,200 --> 00:54:44,359
+iasă.
+
+1043
+00:54:42,599 --> 00:54:46,920
+spuneau sursele noastre care sunt
+
+1044
+00:54:44,359 --> 00:54:49,480
+aceleași cu doamna Buzom. În fine, n are
+
+1045
+00:54:46,920 --> 00:54:51,160
+importanță, dar pe vremea respectivă,
+
+1046
+00:54:49,480 --> 00:54:54,280
+deci asta la sfârșitul anului trecut,
+
+1047
+00:54:51,160 --> 00:54:56,240
+Nicușor era ultima roată de la căruță în
+
+1048
+00:54:54,280 --> 00:54:58,799
+USR. Nu mai dădeau doi bani pe el,
+
+1049
+00:54:56,240 --> 00:55:00,720
+jectaseră din partid, dar își bătuseră
+
+1050
+00:54:58,799 --> 00:55:03,520
+joc de el. Așa că ce trebuie să ne mirăm
+
+1051
+00:55:00,720 --> 00:55:06,240
+că astăzi candidații USR, pe care sigur
+
+1052
+00:55:03,520 --> 00:55:08,119
+că Nicușor ce face? Îi îndrumă către
+
+1053
+00:55:06,240 --> 00:55:10,599
+primărie, dar nu înseamnă că au fost
+
+1054
+00:55:08,119 --> 00:55:13,160
+prietenii lui dintotdeauna. Nicușor nu e
+
+1055
+00:55:10,599 --> 00:55:15,000
+un tip de ăsta foarte sociabil așa și
+
+1056
+00:55:13,160 --> 00:55:16,920
+atunci nu și a creat niște prietenii de
+
+1057
+00:55:15,000 --> 00:55:19,319
+astea extraordinare. Prieteniile lui nu
+
+1058
+00:55:16,920 --> 00:55:21,799
+sunt conturate clară. Adică adevărații
+
+1059
+00:55:19,319 --> 00:55:23,760
+lui prieteni n apar la televizor. Nu
+
+1060
+00:55:21,799 --> 00:55:26,520
+sunt oameni pe care să i cunoască toată
+
+1061
+00:55:23,760 --> 00:55:28,240
+lumea. Ăia sunt prietenii lui de momente
+
+1062
+00:55:26,520 --> 00:55:30,520
+de alea triste așa, de momente
+
+1063
+00:55:28,240 --> 00:55:33,079
+nemediatizate. Pe când al de drulă și
+
+1064
+00:55:30,520 --> 00:55:36,960
+ăștia au crezut că pot să i întoarcă lui
+
+1065
+00:55:33,079 --> 00:55:39,599
+ăla ăă serviciile și la un moment dat să
+
+1066
+00:55:36,960 --> 00:55:42,039
+se debaraseze de el. Este cel mai
+
+1067
+00:55:39,599 --> 00:55:44,880
+evident lucru în politică. Eu nu înțeleg
+
+1068
+00:55:42,039 --> 00:55:47,160
+de ce PSD ul ne aruncă această
+
+1069
+00:55:44,880 --> 00:55:49,839
+informație. Bă, vedeți, îl votați pe
+
+1070
+00:55:47,160 --> 00:55:52,520
+drulă, bă useriștilor, bă reziștilor, îl
+
+1071
+00:55:49,839 --> 00:55:54,200
+votați pe vedeți că Drulă va ataca omul
+
+1072
+00:55:52,520 --> 00:55:56,920
+vostru la care vă închinați voi. Păi,
+
+1073
+00:55:54,200 --> 00:55:59,119
+voi vorbiți, bă. Tu vorbești Sorina, tu
+
+1074
+00:55:56,920 --> 00:56:02,960
+vorbești Roberte.
+
+1075
+00:55:59,119 --> 00:56:06,720
+Păi, cum PSD? Toți PSDiștii și au călcat
+
+1076
+00:56:02,960 --> 00:56:08,720
+în picioare șeful la care se închinaseră
+
+1077
+00:56:06,720 --> 00:56:11,440
+anterior în momentul în care acesta a
+
+1078
+00:56:08,720 --> 00:56:14,039
+pierdut frâiele. Deci, vă reamintesc că
+
+1079
+00:56:11,440 --> 00:56:16,319
+toți liderii partidului în momentul în
+
+1080
+00:56:14,039 --> 00:56:18,440
+care au pierdut alegerile au fost
+
+1081
+00:56:16,319 --> 00:56:21,440
+mătrășiți.
+
+1082
+00:56:18,440 --> 00:56:24,160
+Liviu Dragnea a ajuns chiar la pârnaie
+
+1083
+00:56:21,440 --> 00:56:26,760
+și Bombonel a făcut un pic de pușcărie.
+
+1084
+00:56:24,160 --> 00:56:29,640
+Bineînțeles, Victor Ponta nu. El
+
+1085
+00:56:26,760 --> 00:56:31,280
+chipurile nu are dosare care să l fi
+
+1086
+00:56:29,640 --> 00:56:34,559
+încriminat, deși erau, slavă Domnului,
+
+1087
+00:56:31,280 --> 00:56:38,000
+suficiente, dar toți au fost dați la o
+
+1088
+00:56:34,559 --> 00:56:39,640
+parte de către cei care lupii hămesiți
+
+1089
+00:56:38,000 --> 00:56:44,200
+care veneau după ei. Uite, apropo de
+
+1090
+00:56:39,640 --> 00:56:46,000
+asta, am văzut o foarte controversată
+
+1091
+00:56:44,200 --> 00:56:47,880
+ăă
+
+1092
+00:56:46,000 --> 00:56:49,799
+nu campania, aș spune, era mai degrabă
+
+1093
+00:56:47,880 --> 00:56:53,680
+un banner. L am văzut astăzi la metrou
+
+1094
+00:56:49,799 --> 00:56:55,599
+la Victorie, făcut de Humanitas,
+
+1095
+00:56:53,680 --> 00:56:57,640
+un banner
+
+1096
+00:56:55,599 --> 00:57:00,799
+lung. Așa cât ieșeai de la metrou, numai
+
+1097
+00:56:57,640 --> 00:57:03,480
+asta vedeai. Unde apare un lup și scrie
+
+1098
+00:57:00,799 --> 00:57:07,240
+așa: "Dacă nu citești, te mănâncă
+
+1099
+00:57:03,480 --> 00:57:10,079
+lupul". Și la sfârșit, în coada acestui
+
+1100
+00:57:07,240 --> 00:57:14,119
+mesaj, după ce se termina bine coada
+
+1101
+00:57:10,079 --> 00:57:16,760
+lupului, scrie așa: 150 de ani de capra
+
+1102
+00:57:14,119 --> 00:57:20,079
+cu trei ezi.
+
+1103
+00:57:16,760 --> 00:57:22,079
+Bă, nu știu dacă este un mesaj corect
+
+1104
+00:57:20,079 --> 00:57:24,079
+politic și nu știu dacă este un mesaj
+
+1105
+00:57:22,079 --> 00:57:27,240
+bun pentru tineretul de astăzi. Cum
+
+1106
+00:57:24,079 --> 00:57:31,319
+adică dacă nu citește mănâncă lupul?
+
+1107
+00:57:27,240 --> 00:57:34,400
+Este un mesaj agresiv, un mesaj ă
+
+1108
+00:57:31,319 --> 00:57:38,760
+dezechilibrat emoțional.
+
+1109
+00:57:34,400 --> 00:57:42,200
+Ă chiar îndeamnă cumva la o anumită
+
+1110
+00:57:38,760 --> 00:57:45,520
+stare de asta nefirească a lucrurilor.
+
+1111
+00:57:42,200 --> 00:57:47,680
+Păi, ce reprezintă cartea în ziua de
+
+1112
+00:57:45,520 --> 00:57:49,799
+astăzi? Zero barat. Și aici nu vorbesc
+
+1113
+00:57:47,680 --> 00:57:51,760
+de cărțile de specialitate, vorbesc de
+
+1114
+00:57:49,799 --> 00:57:55,200
+beletristică.
+
+1115
+00:57:51,760 --> 00:57:57,559
+Capra cu trei la capătul mesajului nu mă
+
+1116
+00:57:55,200 --> 00:57:59,720
+conduce cu gândul că noi vorbim despre
+
+1117
+00:57:57,559 --> 00:58:01,799
+tratate de fizică, de chimie, de
+
+1118
+00:57:59,720 --> 00:58:03,799
+informatică, de medicină sau de
+
+1119
+00:58:01,799 --> 00:58:05,680
+matematică. Alea nu le afli din
+
+1120
+00:58:03,799 --> 00:58:08,440
+Wikipedia.
+
+1121
+00:58:05,680 --> 00:58:10,960
+Dar să avem pardon. Literatura
+
+1122
+00:58:08,440 --> 00:58:12,400
+beletristica nu reprezintă nimic în
+
+1123
+00:58:10,960 --> 00:58:15,160
+momentul ăsta pe planetă. Este
+
+1124
+00:58:12,400 --> 00:58:17,960
+maculatură. Poate de aici și această
+
+1125
+00:58:15,160 --> 00:58:20,799
+revoltă a proștilor care n au știut să
+
+1126
+00:58:17,960 --> 00:58:23,880
+transforme cartea. S ar bucura în
+
+1127
+00:58:20,799 --> 00:58:26,079
+mormânt Eugen Ionescu, dacă ar știu
+
+1128
+00:58:23,880 --> 00:58:28,160
+numai despre ce vorbim aici, dar și
+
+1129
+00:58:26,079 --> 00:58:30,400
+despre cum arată starea cărții, care
+
+1130
+00:58:28,160 --> 00:58:33,160
+este una lamentabilă.
+
+1131
+00:58:30,400 --> 00:58:34,799
+Deci literatura n a progresat absolut
+
+1132
+00:58:33,160 --> 00:58:37,559
+deloc. Păi, vă întreb, vă pun câteva
+
+1133
+00:58:34,799 --> 00:58:41,240
+întrebări retorice, sigur, de tip Corina
+
+1134
+00:58:37,559 --> 00:58:43,839
+Caragea. Cine mai scrie povești astăzi?
+
+1135
+00:58:41,240 --> 00:58:47,440
+Ok, or fi unii care scriu, dar cine le
+
+1136
+00:58:43,839 --> 00:58:49,599
+citește poveștile astea? Cine mai scrie
+
+1137
+00:58:47,440 --> 00:58:52,240
+poezie de calitate astăzi? Cine î mai
+
+1138
+00:58:49,599 --> 00:58:54,920
+citește pe poeții tineri
+
+1139
+00:58:52,240 --> 00:58:57,119
+din ziua de astăzi? Care literatură? Că
+
+1140
+00:58:54,920 --> 00:58:59,520
+este o maculatură, este ultimul
+
+1141
+00:58:57,119 --> 00:59:01,880
+putregai. Literatura de astăzi scrii ca
+
+1142
+00:58:59,520 --> 00:59:04,920
+să le demonstrezi oamenilor ce orgolios
+
+1143
+00:59:01,880 --> 00:59:06,920
+ești tu. Asta i literatură. Adică tu te
+
+1144
+00:59:04,920 --> 00:59:09,000
+compari cu literatura asta cu ce s a
+
+1145
+00:59:06,920 --> 00:59:11,359
+scris în secolele trecute? Păi ești tu
+
+1146
+00:59:09,000 --> 00:59:13,280
+ultimul arici pogonici. Bă, deci asta
+
+1147
+00:59:11,359 --> 00:59:16,000
+vreau să Cum adică să te mănânce lupul?
+
+1148
+00:59:13,280 --> 00:59:18,720
+Bă, uite vă spun eu, care nu sunt
+
+1149
+00:59:16,000 --> 00:59:21,640
+savant, nici doctor docent. Cartea va
+
+1150
+00:59:18,720 --> 00:59:25,000
+dispărea. El nu este în momentul de față
+
+1151
+00:59:21,640 --> 00:59:26,720
+o soluție pentru lumea de azi.
+
+1152
+00:59:25,000 --> 00:59:28,520
+Noi nu ne mai luăm informația. Bine,
+
+1153
+00:59:26,720 --> 00:59:31,280
+știam de pe vremuri asta am aflat o de
+
+1154
+00:59:28,520 --> 00:59:34,319
+la marii clasici. Adevărul nu se obține
+
+1155
+00:59:31,280 --> 00:59:37,240
+în cărți. Știam când citeam din doască
+
+1156
+00:59:34,319 --> 00:59:39,480
+în doască, dar atunci citeam pentru că n
+
+1157
+00:59:37,240 --> 00:59:41,039
+aveam de unde să ne luăm informația, n
+
+1158
+00:59:39,480 --> 00:59:43,280
+aveam de unde să ne luăm esența
+
+1159
+00:59:41,039 --> 00:59:45,400
+lucrurilor. Astăzi nu mai avem nevoie de
+
+1160
+00:59:43,280 --> 00:59:47,440
+carte pentru asta. Să avem pardon. Și
+
+1161
+00:59:45,400 --> 00:59:50,760
+vom spune un intelectual, nu George
+
+1162
+00:59:47,440 --> 00:59:53,559
+Simion. Îmi pare rău, cartea nu s a
+
+1163
+00:59:50,760 --> 00:59:55,720
+reinventat, este ca biserica.
+
+1164
+00:59:53,559 --> 00:59:58,480
+Și atunci sigur că vii cu mesaje. Cum să
+
+1165
+00:59:55,720 --> 01:00:00,400
+te ia dracul sau lupul că nu citești?
+
+1166
+00:59:58,480 --> 01:00:02,920
+Cine mai citește în ziua de astăzi? Vă
+
+1167
+01:00:00,400 --> 01:00:04,880
+întreb. Știți că s a făcut un studiu în
+
+1168
+01:00:02,920 --> 01:00:09,559
+școlile din România? Am impresia până în
+
+1169
+01:00:04,880 --> 01:00:12,160
+clasa a IX a nici 20% nu citeau. Da.
+
+1170
+01:00:09,559 --> 01:00:14,920
+Cine mai are timp, răbdare să citească
+
+1171
+01:00:12,160 --> 01:00:18,480
+niște porcării? O să spuneți da,
+
+1172
+01:00:14,920 --> 01:00:20,799
+Sharper, Andersen, ăștia Ion Creangă,
+
+1173
+01:00:18,480 --> 01:00:24,240
+ramolitul de creangă față de ăștia era
+
+1174
+01:00:20,799 --> 01:00:25,960
+totuși ne ca nimeni așa. Ok, îi citim pe
+
+1175
+01:00:24,240 --> 01:00:28,000
+ăștia, da, dar nu i mai citim cum îi
+
+1176
+01:00:25,960 --> 01:00:31,200
+citeam noi. Nu, nu, nu ne mai sunt
+
+1177
+01:00:28,000 --> 01:00:34,200
+citiți cum ni se citeau nouă. Este
+
+1178
+01:00:31,200 --> 01:00:37,480
+evident că astăzi încercăm să tragem de
+
+1179
+01:00:34,200 --> 01:00:39,960
+cei mici, da, inoculându le dragostea
+
+1180
+01:00:37,480 --> 01:00:42,359
+pentru citit, dar noi ne dăm seama că de
+
+1181
+01:00:39,960 --> 01:00:44,520
+fapt nu i așa și că lucrurile astea nu
+
+1182
+01:00:42,359 --> 01:00:48,200
+mai sunt de niciun fel de actualitate.
+
+1183
+01:00:44,520 --> 01:00:51,079
+Să avem pardon, literatura nu s a
+
+1184
+01:00:48,200 --> 01:00:53,760
+reorientat, nu a știut să se reinventeze
+
+1185
+01:00:51,079 --> 01:00:56,760
+pentru secolul XX. Este evident în
+
+1186
+01:00:53,760 --> 01:00:59,480
+pierzanie. Păi, au dispărut printurile,
+
+1187
+01:00:56,760 --> 01:01:02,160
+o să dispară televiziunea, dispare
+
+1188
+01:00:59,480 --> 01:01:04,720
+radioul. tradițional toate vor dispărea
+
+1189
+01:01:02,160 --> 01:01:07,480
+pentru că nu s au adaptat. O să dispară
+
+1190
+01:01:04,720 --> 01:01:09,480
+și biserica la un moment dat. Astea nu
+
+1191
+01:01:07,480 --> 01:01:11,960
+sunt lucruri cu care să i convingi pe
+
+1192
+01:01:09,480 --> 01:01:14,520
+cei care încă nu s au născut. Ce să i
+
+1193
+01:01:11,960 --> 01:01:17,440
+oferi? Îi citești lui ăla capra cu 3
+
+1194
+01:01:14,520 --> 01:01:20,280
+când el are la dispoziție toată planeta.
+
+1195
+01:01:17,440 --> 01:01:22,920
+Se duce în vacanță în Hawaii cu părinții
+
+1196
+01:01:20,280 --> 01:01:24,920
+care au dat un tun la Norris și când te
+
+1197
+01:01:22,920 --> 01:01:27,400
+întorci tu îi citești capra cu trei S
+
+1198
+01:01:24,920 --> 01:01:29,680
+după ce a venit din Hawaii. Mă, iertați
+
+1199
+01:01:27,400 --> 01:01:31,680
+mă, nu i de actualitate, bă.
+
+1200
+01:01:29,680 --> 01:01:34,039
+Te mănâncă lupul. Poate că te mănâncă
+
+1201
+01:01:31,680 --> 01:01:37,559
+lupul, dar nu pentru că ești incult, ci
+
+1202
+01:01:34,039 --> 01:01:39,799
+pentru că lupul este flămând. Da, tâlcul
+
+1203
+01:01:37,559 --> 01:01:42,079
+mai degrabă aici, mi se pare. Și după
+
+1204
+01:01:39,799 --> 01:01:44,119
+aia am ajunge la poarta doamnei Buzo.
+
+1205
+01:01:42,079 --> 01:01:46,079
+Numai să sperăm că ne deschide. De ce
+
+1206
+01:01:44,119 --> 01:01:48,599
+este flămând lupul? Pentru că oamenii i
+
+1207
+01:01:46,079 --> 01:01:50,720
+au alungat, s au tăiat pădurile și
+
+1208
+01:01:48,599 --> 01:01:52,799
+animalele au venit printre oameni, cum
+
+1209
+01:01:50,720 --> 01:01:55,000
+sunt flămânzi și urșii de la Brașov. Ei
+
+1210
+01:01:52,799 --> 01:01:57,720
+vin să mănânce din tomberoane pentru că
+
+1211
+01:01:55,000 --> 01:02:00,079
+nu mai au pădure. Le a tăiat Rom Silva
+
+1212
+01:01:57,720 --> 01:02:03,079
+pădurea și urșii au ajuns printre
+
+1213
+01:02:00,079 --> 01:02:04,720
+oameni. Da, poate de asta să te mănânce
+
+1214
+01:02:03,079 --> 01:02:06,400
+lupul. Te duci într un parc și te
+
+1215
+01:02:04,720 --> 01:02:10,359
+mănâncă lupul, dar nu pentru că ești
+
+1216
+01:02:06,400 --> 01:02:12,760
+incult. Da, ăștia docții și semidocții
+
+1217
+01:02:10,359 --> 01:02:15,119
+pe care noi nu i auzim, ei nu au voce,
+
+1218
+01:02:12,760 --> 01:02:16,960
+ei n au curaj, ei nu vin să se revolte
+
+1219
+01:02:15,119 --> 01:02:19,039
+în societate, ei stau în turnurile lor
+
+1220
+01:02:16,960 --> 01:02:21,760
+de fildeș și vorbesc pe telefoanele
+
+1221
+01:02:19,039 --> 01:02:24,799
+fixe. Da, ei cred că noi suntem niște
+
+1222
+01:02:21,760 --> 01:02:27,480
+proști. Uite, bă, și la boul ăla. Capra
+
+1223
+01:02:24,799 --> 01:02:29,440
+cu trei înseamnă literatură. Micul
+
+1224
+01:02:27,480 --> 01:02:32,440
+prinț. Da, micul prinț a însemnat
+
+1225
+01:02:29,440 --> 01:02:34,720
+literatură. Da, este probabil pilonul
+
+1226
+01:02:32,440 --> 01:02:36,799
+central al literaturii universale, nu
+
+1227
+01:02:34,720 --> 01:02:38,480
+contele de Monte Cristo, micul prinț al
+
+1228
+01:02:36,799 --> 01:02:41,920
+lui Santexuperii.
+
+1229
+01:02:38,480 --> 01:02:43,599
+Dar aia e o altă epocă, bă. Da, lumea
+
+1230
+01:02:41,920 --> 01:02:46,000
+aia s a sprijinit pe carte.
+
+1231
+01:02:43,599 --> 01:02:47,720
+Indiscutabil. Noi cu toții ne am tras
+
+1232
+01:02:46,000 --> 01:02:50,319
+seva de acolo, dar nu suntem atât de
+
+1233
+01:02:47,720 --> 01:02:52,920
+obtuzi ca voi. În momentul de față lumea
+
+1234
+01:02:50,319 --> 01:02:56,359
+aia nu mai contează. Noi venim dintr un
+
+1235
+01:02:52,920 --> 01:02:59,440
+secol, da, adică secolul X, care s a
+
+1236
+01:02:56,359 --> 01:03:02,279
+lovit ca de un zid de începuturile
+
+1237
+01:02:59,440 --> 01:03:04,480
+secolului și s a făcut praf și pulbere
+
+1238
+01:03:02,279 --> 01:03:06,760
+ca avionul ăla sudcoreean când a intrat
+
+1239
+01:03:04,480 --> 01:03:10,200
+într un zid pe pistă. N a mai rămas
+
+1240
+01:03:06,760 --> 01:03:12,720
+nimic din secolul XX și atenție, în 30
+
+1241
+01:03:10,200 --> 01:03:16,839
+de ani nu mai rămâne niciun om.
+
+1242
+01:03:12,720 --> 01:03:18,680
+Și atunci, secolul, secolul inculturii,
+
+1243
+01:03:16,839 --> 01:03:21,760
+secolul care a citit cea mai puțină
+
+1244
+01:03:18,680 --> 01:03:24,799
+carte din istoria umanității, ne va da
+
+1245
+01:03:21,760 --> 01:03:27,799
+cu tifla noi
+
+1246
+01:03:24,799 --> 01:03:30,240
+indebulonabilii din cimitire. Deci e
+
+1247
+01:03:27,799 --> 01:03:32,079
+simplu calculul, nu trebuie să fii
+
+1248
+01:03:30,240 --> 01:03:33,799
+savant ca să ți dai seama unde se va
+
+1249
+01:03:32,079 --> 01:03:37,319
+ajunge. Pe cine mai interesează
+
+1250
+01:03:33,799 --> 01:03:41,440
+porcăriile astea? O să ne citim noi Albă
+
+1251
+01:03:37,319 --> 01:03:43,960
+ca Zăpada și cartea junglei peste 50 de
+
+1252
+01:03:41,440 --> 01:03:46,200
+ani. Absolut deloc. Nimeni nu va mai fi
+
+1253
+01:03:43,960 --> 01:03:48,839
+interesat. Cum nici pe noi nu ne mai
+
+1254
+01:03:46,200 --> 01:03:52,960
+interesează foarte mult ce a scris
+
+1255
+01:03:48,839 --> 01:03:56,279
+Neacșu de la Câmpulung. Primul act
+
+1256
+01:03:52,960 --> 01:03:58,119
+Da. în limba română care s a păstrat cel
+
+1257
+01:03:56,279 --> 01:04:00,000
+puțin așa învățam noi la școală. Nu ne
+
+1258
+01:03:58,119 --> 01:04:02,160
+mai interesează astăzi Neacșul de la
+
+1259
+01:04:00,000 --> 01:04:03,839
+Câmpulung. Iertați mă. Nu ne mai
+
+1260
+01:04:02,160 --> 01:04:06,799
+interesează nici ce scria Dimitrie
+
+1261
+01:04:03,839 --> 01:04:10,319
+Cantemir, de exemplu. Interesează pe
+
+1262
+01:04:06,799 --> 01:04:12,720
+cineva ce scria Grigore Ureche. Bă, nu
+
+1263
+01:04:10,319 --> 01:04:14,680
+mai interesează pe nimeni. Da, deci
+
+1264
+01:04:12,720 --> 01:04:17,160
+exact așa va dispărea și această
+
+1265
+01:04:14,680 --> 01:04:19,240
+pseudoiteratură de acum. Păi, dar am
+
+1266
+01:04:17,160 --> 01:04:23,079
+povestit de atâtea ori care este poetul
+
+1267
+01:04:19,240 --> 01:04:25,279
+român preferat al celor care n au 30 de
+
+1268
+01:04:23,079 --> 01:04:27,440
+ani în secolul X, că nu pot să i enumer
+
+1269
+01:04:25,279 --> 01:04:29,200
+pe niciunul.
+
+1270
+01:04:27,440 --> 01:04:31,079
+O să vină ăștia peste câțiva ani să ne
+
+1271
+01:04:29,200 --> 01:04:33,760
+întrebe tinerii de astăzi: Bă, tată, bă,
+
+1272
+01:04:31,079 --> 01:04:36,279
+bunicule, dar nu avem niciun poet în
+
+1273
+01:04:33,760 --> 01:04:40,160
+secolul XX? România n a mai produs nicio
+
+1274
+01:04:36,279 --> 01:04:42,760
+poezie în secolul ăsta. Este vreun poet
+
+1275
+01:04:40,160 --> 01:04:46,160
+publicabil? Citim noi? Eu n am citit
+
+1276
+01:04:42,760 --> 01:04:49,400
+nimic. Niciun poet în secolul X. A citit
+
+1277
+01:04:46,160 --> 01:04:51,200
+cineva? A Unde se publică poezie în
+
+1278
+01:04:49,400 --> 01:04:52,960
+secolul X? Să spuneți apar, dar nu vă
+
+1279
+01:04:51,200 --> 01:04:54,799
+duceți dumneavoastră. Dar nu vorbesc de
+
+1280
+01:04:52,960 --> 01:04:56,960
+alea, maculatura aia. Aia o pot s o
+
+1281
+01:04:54,799 --> 01:04:58,839
+scriu eu în timp ce vorbesc. Scriu
+
+1282
+01:04:56,960 --> 01:05:01,200
+poeziile alea. Nici nu trebuie să mă
+
+1283
+01:04:58,839 --> 01:05:03,799
+opresc. Eu vreau să vă întreb dacă avem
+
+1284
+01:05:01,200 --> 01:05:05,920
+poezie care merită să fie citită. Nu să
+
+1285
+01:05:03,799 --> 01:05:08,720
+mi dați niște exemple că scriu unii pe
+
+1286
+01:05:05,920 --> 01:05:11,799
+la Iași. Da, îi știu pe ăia. Ăia sunt și
+
+1287
+01:05:08,720 --> 01:05:13,640
+eu, fac ca ei. Da, nu avem. Mă, despre
+
+1288
+01:05:11,799 --> 01:05:15,960
+asta e vorba. Ce literatură are în
+
+1289
+01:05:13,640 --> 01:05:18,520
+România în momentul de față? Maculatură.
+
+1290
+01:05:15,960 --> 01:05:21,720
+Bă, la ce mi folosește să citesc o
+
+1291
+01:05:18,520 --> 01:05:24,200
+tâmpenie din asta când pot să l iau pe
+
+1292
+01:05:21,720 --> 01:05:27,680
+Pierloti, de exemplu, să l recitesc? Mi
+
+1293
+01:05:24,200 --> 01:05:31,440
+a zis Ioana Cozma, citește pe Mopason de
+
+1294
+01:05:27,680 --> 01:05:33,440
+10 ori a citit Bami. S a dus să l caute
+
+1295
+01:05:31,440 --> 01:05:35,640
+și în cimitir pe Mopasan. Păi are
+
+1296
+01:05:33,440 --> 01:05:38,480
+dreptate aici. Mai bine citești, bă, pe
+
+1297
+01:05:35,640 --> 01:05:40,680
+Mopasan decât să citești un tâmpit care
+
+1298
+01:05:38,480 --> 01:05:43,559
+are niște orgolii. A făcut și el o
+
+1299
+01:05:40,680 --> 01:05:46,160
+filologie pe la Buhuș și ca să câștige
+
+1300
+01:05:43,559 --> 01:05:48,400
+ceva publică o carte, că știe că cartea
+
+1301
+01:05:46,160 --> 01:05:50,880
+dacă se vinde ea niște bani. Da, pentru
+
+1302
+01:05:48,400 --> 01:05:53,880
+ce să l citesc pe ăla? Are vreo
+
+1303
+01:05:50,880 --> 01:05:56,520
+relevanță? Învăți ceva din beletristica
+
+1304
+01:05:53,880 --> 01:05:59,799
+lui ăla? Păi, mai bine citesc Lejâni fi
+
+1305
+01:05:56,520 --> 01:06:01,799
+în flori de pr. A fost acuma un vorbeau
+
+1306
+01:05:59,799 --> 01:06:05,240
+astăzi la revista presei la Front un
+
+1307
+01:06:01,799 --> 01:06:09,200
+concurs literar în Franța și Marcel
+
+1308
+01:06:05,240 --> 01:06:12,720
+Prust a câștigat primele trei premii la
+
+1309
+01:06:09,200 --> 01:06:14,240
+concursul respectiv cu aceeași carte Lej
+
+1310
+01:06:12,720 --> 01:06:18,279
+Fiă.
+
+1311
+01:06:14,240 --> 01:06:21,359
+Da, una dintre primele cărți ale ă
+
+1312
+01:06:18,279 --> 01:06:24,000
+multitudinii sale de romane aproape
+
+1313
+01:06:21,359 --> 01:06:26,119
+identice. Da.
+
+1314
+01:06:24,000 --> 01:06:28,720
+din Pleiada aia apăruseră și la noi în
+
+1315
+01:06:26,119 --> 01:06:31,680
+colecția parcă tot Pleiad se numea și la
+
+1316
+01:06:28,720 --> 01:06:34,440
+noi, mai țin minte exact. Cele șapte
+
+1317
+01:06:31,680 --> 01:06:37,799
+romane ale lui Prus care erau în aceeași
+
+1318
+01:06:34,440 --> 01:06:40,760
+colecție lejâni fiur au impresia că era
+
+1319
+01:06:37,799 --> 01:06:43,160
+a doua. Primul era Swan în franceză du
+
+1320
+01:06:40,760 --> 01:06:45,839
+cé de Swan se aducea la noi Swan și a
+
+1321
+01:06:43,160 --> 01:06:50,039
+doua cred că era le jeun fi în fleur. Și
+
+1322
+01:06:45,839 --> 01:06:52,640
+motivația juriului a fost asta.
+
+1323
+01:06:50,039 --> 01:06:55,839
+Nimeni n a avut atâta pasiune în cuvânt
+
+1324
+01:06:52,640 --> 01:06:58,839
+ca Marcel Prust și toate trei locurile
+
+1325
+01:06:55,839 --> 01:07:01,880
+au fost ocupate de același volum. Lej,
+
+1326
+01:06:58,839 --> 01:07:05,279
+fi în flir. Asta vreau să spun. Cine,
+
+1327
+01:07:01,880 --> 01:07:07,359
+bă, dracu îți scrie astăzi așa ceva? Da,
+
+1328
+01:07:05,279 --> 01:07:09,760
+cine să compară cu veniți să mi spuneți
+
+1329
+01:07:07,359 --> 01:07:12,039
+că asta i literatură? E un căcat. Bă,
+
+1330
+01:07:09,760 --> 01:07:14,920
+dați i lui Prust, premiul Nobel pentru
+
+1331
+01:07:12,039 --> 01:07:18,039
+literatură, bă, fraierilor. Da, Prust
+
+1332
+01:07:14,920 --> 01:07:20,240
+care s a născut bolnav, ostmul ăla, a
+
+1333
+01:07:18,039 --> 01:07:22,079
+marcat literatura. Sigur, cu frazele lui
+
+1334
+01:07:20,240 --> 01:07:24,920
+kilometrice. Bă, dar e o plăcere să
+
+1335
+01:07:22,079 --> 01:07:26,400
+citești în original așa ceva. Să
+
+1336
+01:07:24,920 --> 01:07:28,440
+recitești frazele alea. Nu ți trebuie
+
+1337
+01:07:26,400 --> 01:07:30,760
+niciun pic de acțiune, doar să l
+
+1338
+01:07:28,440 --> 01:07:33,279
+recitești pe plus. Deci, toate cele trei
+
+1339
+01:07:30,760 --> 01:07:36,400
+locuri au fost ocupate de aceeași carte.
+
+1340
+01:07:33,279 --> 01:07:38,760
+Atenție în templul publicațiilor. Franța
+
+1341
+01:07:36,400 --> 01:07:41,920
+este țara care publică cea mai multă
+
+1342
+01:07:38,760 --> 01:07:44,799
+beletristică din lume și a câștigat
+
+1343
+01:07:41,920 --> 01:07:48,319
+Prust cu o carte care s a scris acum
+
+1344
+01:07:44,799 --> 01:07:50,960
+aproape 100 de ani. Senzațional. Bă, noi
+
+1345
+01:07:48,319 --> 01:07:52,520
+ne vorbiți de literatura lui Capra cu
+
+1346
+01:07:50,960 --> 01:07:55,119
+trei
+
+1347
+01:07:52,520 --> 01:07:56,839
+care i diferența între novelă și roman
+
+1348
+01:07:55,119 --> 01:07:58,680
+ne întreabă cineva. Dar aici dacă avem o
+
+1349
+01:07:56,839 --> 01:08:01,359
+doamnă, uite doamna Barton, dacă nu e
+
+1350
+01:07:58,680 --> 01:08:05,480
+ocupată cu domnul Dinescu, ar putea să
+
+1351
+01:08:01,359 --> 01:08:09,760
+răspundă dânsa. Marius Tucă. Da, acest
+
+1352
+01:08:05,480 --> 01:08:12,599
+labiș trist mai corect al poeziei. Da,
+
+1353
+01:08:09,760 --> 01:08:14,440
+da. Tucă avea talent, să știți. Am citit
+
+1354
+01:08:12,599 --> 01:08:17,319
+și eu poezie. Am citit poezie de
+
+1355
+01:08:14,440 --> 01:08:20,520
+oricine, bă. Eu am citit Marius Tucă din
+
+1356
+01:08:17,319 --> 01:08:23,799
+greu. Nu mi e rușine s o spun. Bune
+
+1357
+01:08:20,520 --> 01:08:27,120
+poezii avea Marius Tucă. Bune. Nu de
+
+1358
+01:08:23,799 --> 01:08:29,600
+clasă mondială, dar bune. Talentat.
+
+1359
+01:08:27,120 --> 01:08:32,600
+Din păcate pentru el
+
+1360
+01:08:29,600 --> 01:08:34,880
+la ce i a folosit talentul, că uite când
+
+1361
+01:08:32,600 --> 01:08:36,880
+a venit Gologanul,
+
+1362
+01:08:34,880 --> 01:08:39,719
+Voiculescu dacă mai intră încă vreo 10
+
+1363
+01:08:36,880 --> 01:08:42,600
+ani la pușcărie, corect, are șanse să
+
+1364
+01:08:39,719 --> 01:08:45,480
+devină el scriitorul secolului XX, dacă
+
+1365
+01:08:42,600 --> 01:08:47,719
+nu o să câștige meme
+
+1366
+01:08:45,480 --> 01:08:49,440
+meme sau copos.
+
+1367
+01:08:47,719 --> 01:08:51,560
+Albert Camiu a venit târziu în Franța
+
+1368
+01:08:49,440 --> 01:08:54,040
+din Algeria. Da, el s a născut în
+
+1369
+01:08:51,560 --> 01:08:55,600
+Algeria, doar că Algeria era franceză
+
+1370
+01:08:54,040 --> 01:08:58,600
+atunci.
+
+1371
+01:08:55,600 --> 01:09:01,359
+Sigur a și a petrecut copilăria acolo.
+
+1372
+01:08:58,600 --> 01:09:03,120
+Aia era o Algerie fabuloasă.
+
+1373
+01:09:01,359 --> 01:09:07,120
+Mi au povestit
+
+1374
+01:09:03,120 --> 01:09:09,040
+colegi care au avut de vârsta mea au
+
+1375
+01:09:07,120 --> 01:09:12,000
+avut părinți care au lucrat acolo și
+
+1376
+01:09:09,040 --> 01:09:14,960
+chiar unii dintre ei, de Răzvan Toma mi
+
+1377
+01:09:12,000 --> 01:09:17,560
+a fost coleg, am scris cartea aia cu el
+
+1378
+01:09:14,960 --> 01:09:20,239
+a petrecut câțiva ani din viață în
+
+1379
+01:09:17,560 --> 01:09:23,920
+Algeria în copilărie era o Algeria aia.
+
+1380
+01:09:20,239 --> 01:09:26,239
+Algeria franceză era colosală. Într
+
+1381
+01:09:23,920 --> 01:09:28,400
+adevăr, era superbă perioada aia. După
+
+1382
+01:09:26,239 --> 01:09:30,480
+ce Algeria a devenit independentă,
+
+1383
+01:09:28,400 --> 01:09:35,000
+sigur, lucrurile n au mai fost așa. În
+
+1384
+01:09:30,480 --> 01:09:37,560
+aia s a născut și Alber Camu.
+
+1385
+01:09:35,000 --> 01:09:39,319
+Minulescu a fost numărul unu. Ne spune
+
+1386
+01:09:37,560 --> 01:09:43,560
+am mai avea un Minulescu astăzi, știți
+
+1387
+01:09:39,319 --> 01:09:46,199
+unde am fi? Cred că noi am fi șefii NATO
+
+1388
+01:09:43,560 --> 01:09:48,239
+dacă am avea un Minulescu astăzi, dar nu
+
+1389
+01:09:46,199 --> 01:09:50,199
+mai avem. Ce? Nu veniți în vară la
+
+1390
+01:09:48,239 --> 01:09:51,839
+Jersey.
+
+1391
+01:09:50,199 --> 01:09:54,400
+Aici nici Georgescu nu dă de
+
+1392
+01:09:51,839 --> 01:09:57,560
+dumneavoastră. Nu știe unde e pe artă.
+
+1393
+01:09:54,400 --> 01:10:00,320
+Da, insulele anglonormande așa se
+
+1394
+01:09:57,560 --> 01:10:03,679
+numesc. Acolo e Jersey.
+
+1395
+01:10:00,320 --> 01:10:06,800
+Nu știu dacă am putea să venim. Vedem că
+
+1396
+01:10:03,679 --> 01:10:09,800
+reușim să încropim aici. Scriu repede ca
+
+1397
+01:10:06,800 --> 01:10:12,960
+să văd dacă mă țin de el. Consul Tucă
+
+1398
+01:10:09,800 --> 01:10:15,280
+sau Ilie Dobre. Amândoi luceferi într
+
+1399
+01:10:12,960 --> 01:10:17,239
+adevăr între luceferi.
+
+1400
+01:10:15,280 --> 01:10:20,199
+Recursul cum o fi pentru tristul de
+
+1401
+01:10:17,239 --> 01:10:22,920
+sarco la pușcărie Halloween ul ăsta?
+
+1402
+01:10:20,199 --> 01:10:25,000
+Carlita. Mai bine a venit ăla Gerald
+
+1403
+01:10:22,920 --> 01:10:27,679
+Darmană,
+
+1404
+01:10:25,000 --> 01:10:31,120
+mare ministru în Franța. A stârnit
+
+1405
+01:10:27,679 --> 01:10:34,520
+polemică. Ce vrea să spună? Dar mană e
+
+1406
+01:10:31,120 --> 01:10:38,239
+practic de câțiva ani buni principalul
+
+1407
+01:10:34,520 --> 01:10:41,679
+om politic al Franței după premier și
+
+1408
+01:10:38,239 --> 01:10:43,679
+prin vizita lui la pușcărie la Sarco n
+
+1409
+01:10:41,679 --> 01:10:46,520
+ar fi dat un semnal bun. Adică te duci
+
+1410
+01:10:43,679 --> 01:10:49,320
+să vizitezi, dai peste bot justiției
+
+1411
+01:10:46,520 --> 01:10:51,560
+ducându te să vizitezi un borfaș.
+
+1412
+01:10:49,320 --> 01:10:54,280
+Nu dădea bine. Adică e clar că mesajul
+
+1413
+01:10:51,560 --> 01:10:56,199
+lui era mă mă duc să l susțin pe Sarco,
+
+1414
+01:10:54,280 --> 01:10:58,440
+dar Maneam fiind om de dreapta ca și
+
+1415
+01:10:56,199 --> 01:11:01,159
+Sarco și imediat a sărit toată
+
+1416
+01:10:58,440 --> 01:11:04,239
+societatea asta aseptizată de astea
+
+1417
+01:11:01,159 --> 01:11:06,760
+totul se interpretează în ce notă vrei
+
+1418
+01:11:04,239 --> 01:11:09,760
+tu. Și imediat s a găsit ideea asta. Bă,
+
+1419
+01:11:06,760 --> 01:11:12,520
+deci dacă s a dus dit mai darmană acolo,
+
+1420
+01:11:09,760 --> 01:11:14,920
+înseamnă că ăștia nu dau doi bani pe
+
+1421
+01:11:12,520 --> 01:11:17,560
+justiție. Ia să vedem să i atacăm noi un
+
+1422
+01:11:14,920 --> 01:11:19,480
+pic pe ăștia cu Macron, că toți ăștia de
+
+1423
+01:11:17,560 --> 01:11:22,239
+dreapta. Vreia să vină stânga la putere,
+
+1424
+01:11:19,480 --> 01:11:24,120
+că doar stânga respectă.
+
+1425
+01:11:22,239 --> 01:11:28,880
+Stânga omora oameni și i băga la
+
+1426
+01:11:24,120 --> 01:11:31,239
+pușcărie când erau ei la putere.
+
+1427
+01:11:28,880 --> 01:11:32,840
+Cred că l a citit Cristoiu pe Rile. Nu
+
+1428
+01:11:31,239 --> 01:11:35,520
+știu ce și mai amintește din el, că
+
+1429
+01:11:32,840 --> 01:11:37,719
+astăzi dacă l mai citești o dată,
+
+1430
+01:11:35,520 --> 01:11:40,280
+citește cu vocea lui Călin Georgescu din
+
+1431
+01:11:37,719 --> 01:11:43,120
+Rilche. Asta i problema. L a citit. Cum
+
+1432
+01:11:40,280 --> 01:11:45,679
+să nu? Copilăria lui ce să facă
+
+1433
+01:11:43,120 --> 01:11:48,440
+Cristoiul? Dar uite, nici Cristoiul dacă
+
+1434
+01:11:45,679 --> 01:11:50,679
+s ar naște astăzi gadgeturile astea,
+
+1435
+01:11:48,440 --> 01:11:53,159
+bine, Cristoiul o să râdeți, chiar se
+
+1436
+01:11:50,679 --> 01:11:54,920
+pricepe la astea.
+
+1437
+01:11:53,159 --> 01:11:56,920
+Toată lumea ne spunea că el de fiecare
+
+1438
+01:11:54,920 --> 01:11:59,440
+dată când apărea o tabletă de asta nou,
+
+1439
+01:11:56,920 --> 01:12:02,000
+un soft nou, ceva, imediat era
+
+1440
+01:11:59,440 --> 01:12:03,520
+interesat. El a prins cumva din Nu este
+
+1441
+01:12:02,000 --> 01:12:06,480
+deloc
+
+1442
+01:12:03,520 --> 01:12:08,239
+incult tehnologic, cică.
+
+1443
+01:12:06,480 --> 01:12:10,760
+Dar dacă s ar fi născut astăzi, nu cred
+
+1444
+01:12:08,239 --> 01:12:13,520
+că ținea în mână nicio carte. Pur și
+
+1445
+01:12:10,760 --> 01:12:16,560
+simplu viața lui ar fi fost
+
+1446
+01:12:13,520 --> 01:12:18,480
+de hamster, de digitalizare. Stătea cu
+
+1447
+01:12:16,560 --> 01:12:20,360
+capul în tabletă de dimineața până
+
+1448
+01:12:18,480 --> 01:12:22,120
+seara. Nu cred că mai avea el timp de
+
+1449
+01:12:20,360 --> 01:12:25,000
+Rilke. Cine dracu îl mai citește pe
+
+1450
+01:12:22,120 --> 01:12:27,639
+Rilke asta? Dinescu. Dar bun. Eu nu mă
+
+1451
+01:12:25,000 --> 01:12:29,840
+refer la ăștia. Sigur, Dinescu n o să
+
+1452
+01:12:27,639 --> 01:12:33,679
+intre pe TikTok seara când se duce la el
+
+1453
+01:12:29,840 --> 01:12:38,120
+în Iatac. Da, citește pe Rilk. E, ok.
+
+1454
+01:12:33,679 --> 01:12:42,199
+sau pe Edgar Alen Pu. Dar asta pentru că
+
+1455
+01:12:38,120 --> 01:12:44,880
+rădăcinile lui la 1950
+
+1456
+01:12:42,199 --> 01:12:48,600
+erau din cu totul altă lume. Atât.
+
+1457
+01:12:44,880 --> 01:12:51,120
+Portocaliu. Aduceți un pic cu John Hing.
+
+1458
+01:12:48,600 --> 01:12:53,480
+Da, da. Involuntar acest portocaliu. Mi
+
+1459
+01:12:51,120 --> 01:12:56,000
+a ieșit. E adevărat dacă s a uitat și
+
+1460
+01:12:53,480 --> 01:12:57,719
+doamna Buzo un pic la emisiunile astea,
+
+1461
+01:12:56,000 --> 01:13:00,760
+cred că totuși ar avea cu totul și cu
+
+1462
+01:12:57,719 --> 01:13:02,480
+totul altă părere față nu față de noi.
+
+1463
+01:13:00,760 --> 01:13:04,360
+De aia știu că am vorbit cu dânsa de
+
+1464
+01:13:02,480 --> 01:13:07,120
+câteva ori și știu ce părere are, dar
+
+1465
+01:13:04,360 --> 01:13:10,320
+despre colegii ei
+
+1466
+01:13:07,120 --> 01:13:14,040
+uitându se la noi. Asta v aice voiam să
+
+1467
+01:13:10,320 --> 01:13:16,040
+bată. Adică imediat i ar vedea cum
+
+1468
+01:13:14,040 --> 01:13:18,400
+domnule consul merită sarco mai mulți
+
+1469
+01:13:16,040 --> 01:13:20,520
+ani de carceră decât Robinho. Da, dar
+
+1470
+01:13:18,400 --> 01:13:23,520
+știți că pe 10 noiembrie, apropo de
+
+1471
+01:13:20,520 --> 01:13:26,120
+Sarco, trebuie deja justiția franceză să
+
+1472
+01:13:23,520 --> 01:13:29,199
+se pronunțe prima dată
+
+1473
+01:13:26,120 --> 01:13:31,679
+dacă iese Sarco sau nu. Deja pe 10
+
+1474
+01:13:29,199 --> 01:13:33,600
+noiembrie, mâine e întâi.
+
+1475
+01:13:31,679 --> 01:13:36,600
+Emilia spune că te am oprit de câteva
+
+1476
+01:13:33,600 --> 01:13:36,600
+ori.
+
+1477
+01:13:37,840 --> 01:13:41,400
+Citiți ce au scris pentru Știan. E
+
+1478
+01:13:39,639 --> 01:13:43,040
+criminal.
+
+1479
+01:13:41,400 --> 01:13:45,800
+E criminal ce au scris pentru Tușcan.
+
+1480
+01:13:43,040 --> 01:13:48,159
+Trebuie să ne facem bocceluța, fraților,
+
+1481
+01:13:45,800 --> 01:13:51,400
+că probabil mai sunt emisiuni. Dumnezeu
+
+1482
+01:13:48,159 --> 01:13:53,800
+știe peste noapte ce se produce. Ne
+
+1483
+01:13:51,400 --> 01:13:55,679
+ducem să strângem și noi niște bomboane,
+
+1484
+01:13:53,800 --> 01:13:58,120
+că Ioana credea că o așteptăm cu
+
+1485
+01:13:55,679 --> 01:14:00,080
+bomboane. Doar că și eu m am așteptat să
+
+1486
+01:13:58,120 --> 01:14:02,480
+vină bomboanele.
+
+1487
+01:14:00,080 --> 01:14:05,040
+Nu mănâncă nimic, nici bomboane, nimic.
+
+1488
+01:14:02,480 --> 01:14:07,400
+N am primit o cu nimic. Practic, un
+
+1489
+01:14:05,040 --> 01:14:10,199
+pahar de apă, dacă maximum a putut să
+
+1490
+01:14:07,400 --> 01:14:12,800
+primească. Fraților,
+
+1491
+01:14:10,199 --> 01:14:15,320
+o să ne aștepte un noiembrie
+
+1492
+01:14:12,800 --> 01:14:16,920
+literar așa și poetic, ca de fiecare
+
+1493
+01:14:15,320 --> 01:14:18,840
+dată în noiembrie, cum ar fi spus
+
+1494
+01:14:16,920 --> 01:14:22,000
+Cabrel. S ar putea ca de data asta
+
+1495
+01:14:18,840 --> 01:14:25,880
+noiembrie să rămână. Ne revedem așadar
+
+1496
+01:14:22,000 --> 01:14:25,880
+săptămâna viitoare. เฮ
+
+1497
+01:14:31,736 --> 01:14:33,756
+[muzică]
+
+1498
+01:14:42,871 --> 01:14:44,891
+[muzică]
+
+1499
+01:14:54,661 --> 01:14:56,681
+>> [muzică]
+
