@@ -1,3 +1,7 @@
-# Core dependencies for Banciu transcript processing
-yt-dlp>=2023.12.30
-openai-whisper>=20231117
+# Runtime dependencies for the Banciu chatbot app
+anthropic>=0.25.0
+rank-bm25>=0.2.2
+streamlit>=1.35.0
+
+# Preprocessing dependencies are intentionally split out into
+# requirements-preprocess.txt so Streamlit/runtime installs stay lean.

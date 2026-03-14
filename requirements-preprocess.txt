@@ -1,0 +1,6 @@
+# Preprocessing-only dependencies.
+# Install these in addition to requirements.txt when fetching videos,
+# downloading subtitles, or falling back to Whisper transcription.
+yt-dlp>=2023.12.30
+openai-whisper>=20231117
+imageio-ffmpeg>=0.6.0

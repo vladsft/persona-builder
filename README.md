@@ -1,148 +1,147 @@
-# Radu Banciu Persona Builder
+# Persona Builder
 
-Build an AI persona based on Radu Banciu's YouTube shows using RAG (Retrieval-Augmented Generation).
+Private MVP for a Radu Banciu chatbot.
 
-## Overview
+The repo now has a conventional split:
 
-This project processes YouTube videos from Radu Banciu's show into cleaned, chunked transcripts ready for embedding and RAG pipelines.
+- `src/persona_builder/`: actual code
+- `data/`: inputs, corpus outputs, temp downloads, worldview artifact
+- `tests/`: unit tests
+- root: thin entrypoints and project config
 
-## Scripts
+The project status and immediate next steps live in [PROJECT_STATUS.md](/home/vladsft/persona-builder/PROJECT_STATUS.md).
 
-### 1. `fetch_banciu_videos.py`
+## Current Stage
 
-Searches YouTube for Radu Banciu videos by date and creates a CSV file with video metadata.
+You are past the prototype stage.
 
-**Usage:**
+What exists already:
 
-```bash
-# Use the predefined list of dates
-python fetch_banciu_videos.py --use-default-dates --output-file banciu_videos.csv
+- Streamlit chat app
+- BM25 retrieval over local transcript chunks
+- persona prompt grounded by a worldview document
+- transcript ingestion pipeline with cleanup and QA
 
-# Or specify custom dates
-python fetch_banciu_videos.py --dates "5 Decembrie" "27 Noiembrie" --output-file my_videos.csv --year 2024
-```
+What remains:
 
-**Predefined dates:**
-- 5 Decembrie, 27 Noiembrie, 25 Noiembrie, 17 Noiembrie, 11 Noiembrie
-- 3 Noiembrie, 31 Octombrie, 29 Octombrie, 22 Octombrie, 16 Octombrie
-- 14 Octombrie, 11 Octombrie, 9 Octombrie, 17 Septembrie
+- one episode from the current source list still needs audio transcription fallback
+- manual answer-quality QA should happen before adding embeddings
 
-The script searches for videos with titles matching:
-- "Prea Mult Banciu - \<date\> | \<title\>"
-- "PreaMultBanciu - \<date\> | \<title\>"
+## Repository Layout
 
-### 2. `process_banciu_transcripts.py`
-
-Processes videos from the CSV file into cleaned transcript chunks.
-
-**Usage:**
-
-```bash
-# Basic usage
-python process_banciu_transcripts.py \
-  --input-file banciu_videos.csv \
-  --output-dir output
-
-# Advanced options
-python process_banciu_transcripts.py \
-  --input-file banciu_videos.csv \
-  --output-dir output \
-  --temp-dir temp_downloads \
-  --max-videos 5 \
-  --whisper-model medium \
-  --target-word-count 1200 \
-  --overlap-words 100
-```
-
-**Options:**
-- `--input-file`: CSV file with video metadata (from fetch_banciu_videos.py)
-- `--output-dir`: Directory to save JSON files
-- `--temp-dir`: Temporary directory for downloads (default: temp)
-- `--max-videos`: Limit number of videos to process
-- `--use-youtube-subtitles`: Try YouTube subtitles first (default: True)
-- `--whisper-model`: Whisper model to use (tiny/base/small/medium/large, default: medium)
-- `--target-word-count`: Target words per chunk (default: 1200)
-- `--overlap-words`: Words to overlap between chunks (default: 100)
-
-## Installation
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-```
-
-**Note:** Whisper requires FFmpeg. Install it separately:
-- **macOS:** `brew install ffmpeg`
-- **Ubuntu/Debian:** `sudo apt update && sudo apt install ffmpeg`
-- **Windows:** Download from https://ffmpeg.org/download.html
-
-## Workflow
-
-### Step 1: Fetch video metadata
-
-```bash
-python fetch_banciu_videos.py --use-default-dates --output-file banciu_videos.csv
-```
-
-This creates `banciu_videos.csv` with columns: `url`, `title`, `date`
-
-### Step 2: Process videos into transcripts
-
-```bash
-python process_banciu_transcripts.py \
-  --input-file banciu_videos.csv \
-  --output-dir output
-```
-
-This creates JSON files in `output/` directory, one per video.
-
-### Output Format
-
-Each video produces a JSON file like `{video_id}.json`:
-
-```json
-{
-  "episode_id": "video_id",
-  "youtube_url": "https://youtube.com/watch?v=...",
-  "title": "Prea Mult Banciu - 5 Decembrie | Episode Title",
-  "date": "2024-12-05",
-  "raw_text_length": 45678,
-  "num_chunks": 8,
-  "chunks": [
-    {
-      "chunk_index": 0,
-      "text": "Full transcript chunk...",
-      "approx_word_count": 1180
-    }
-  ]
-}
-```
-
-## Project Structure
-
-```
+```text
 persona-builder/
-├── fetch_banciu_videos.py       # Step 1: Search YouTube and create CSV
-├── process_banciu_transcripts.py # Step 2: Process videos into chunks
-├── requirements.txt              # Python dependencies
-├── sample_videos.csv             # Example CSV format
-├── README.md                     # This file
-├── temp/                         # Temporary downloads (created by script)
-└── output/                       # Output JSON files (created by script)
+├── app.py
+├── fetch_banciu_videos.py
+├── process_banciu_transcripts.py
+├── extract_worldview.py
+├── src/persona_builder/
+├── data/
+│   ├── input/
+│   ├── output/
+│   ├── samples/
+│   ├── temp/
+│   └── worldview/
+├── tests/
+├── Makefile
+├── pyproject.toml
+└── PROJECT_STATUS.md
 ```
 
-## Notes
+## Recommended Setup
 
-- **Language:** All processing is configured for Romanian (subtitles and Whisper transcription)
-- **Subtitles vs Whisper:** The script tries YouTube subtitles first (faster), then Whisper (slower but works without subtitles)
-- **Whisper models:** `small` is fastest, `medium` balances speed/accuracy, `large` is most accurate but slowest
-- **Error handling:** If a video fails, the script logs the error and continues with the next one
-- **Temporary files:** Downloaded audio/subtitle files are kept in `temp_dir` for debugging
+Install runtime dependencies:
 
-## Next Steps
+```bash
+make install
+make editable
+```
 
-After generating the JSON chunks, you can:
-1. Create embeddings for each chunk using a model like `text-embedding-3-small`
-2. Store embeddings in a vector database (Pinecone, Weaviate, ChromaDB, etc.)
-3. Build a RAG pipeline to query Banciu's knowledge and speaking style
-4. Fine-tune an LLM on the transcripts for persona-specific responses
+Run tests:
+
+```bash
+make test
+```
+
+Launch the app:
+
+```bash
+make app
+```
+
+## Secrets
+
+Provide `ANTHROPIC_API_KEY` through environment variables or Streamlit secrets.
+
+Optional runtime knobs:
+
+- `MODEL`
+- `TOP_K`
+- `MAX_TOKENS`
+
+Example `.streamlit/secrets.toml`:
+
+```toml
+ANTHROPIC_API_KEY = "..."
+MODEL = "claude-haiku-4-5-20251001"
+TOP_K = 5
+MAX_TOKENS = 600
+```
+
+## Main Commands
+
+Fetch or refresh the source CSV:
+
+```bash
+python fetch_banciu_videos.py --use-default-dates
+```
+
+Process transcripts into the local corpus:
+
+```bash
+python process_banciu_transcripts.py
+```
+
+Run corpus QA:
+
+```bash
+python process_banciu_transcripts.py --qa-only
+```
+
+Regenerate worldview synthesis:
+
+```bash
+python extract_worldview.py
+```
+
+## Data Locations
+
+- source list: `data/input/banciu_videos.csv`
+- sample CSV: `data/samples/sample_videos.csv`
+- processed corpus: `data/output/*.json`
+- scratch downloads: `data/temp/`
+- worldview file: `data/worldview/banciu_worldview.md`
+
+## Preprocessing Dependencies
+
+Runtime dependencies stay in `requirements.txt`.
+
+Preprocessing-only dependencies are split into `requirements-preprocess.txt`:
+
+```bash
+make install-preprocess
+```
+
+That is only needed when fetching videos, downloading subtitles, or using Whisper fallback.
+
+## What To Do Next
+
+The short version:
+
+1. `make install`
+2. `make editable`
+3. `make test`
+4. `make qa`
+5. `make app`
+
+Then read [PROJECT_STATUS.md](/home/vladsft/persona-builder/PROJECT_STATUS.md) and decide whether to recover the one missing episode now or move to manual answer-quality QA first.
