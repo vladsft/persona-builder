@@ -7,13 +7,14 @@ import os
 import sys
 from pathlib import Path
 
-import anthropic
-
+from . import llm_client
 from .paths import DEFAULT_OUTPUT_DIR, DEFAULT_WORLDVIEW_PATH, ensure_repo_layout
 
-MODEL = "claude-sonnet-4-20250514"
-
-client = anthropic.Anthropic()
+DEFAULT_WORLDVIEW_MODELS = {
+    "anthropic": "claude-sonnet-4-20250514",
+    "openai": "gpt-4.1-mini",
+    "gemini": "gemini-2.5-pro",
+}
 
 PASS1_PROMPT = """\
 Ești un analist care studiază stilul și gândirea lui Radu Banciu, comentator TV român.
@@ -92,36 +93,45 @@ def pass1_summarize(episode: dict) -> str:
         full_text = full_text[:80000] + "\n\n[...truncat...]"
 
     print(f"  Pass 1: {episode['title'][:60]}... ({len(full_text)} chars)")
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=2000,
+    provider = llm_client.get_provider()
+    default_model = DEFAULT_WORLDVIEW_MODELS.get(provider, DEFAULT_WORLDVIEW_MODELS["anthropic"])
+    model = os.getenv("WORLDVIEW_MODEL", default_model)
+    text = llm_client.create(
+        model=model,
+        system="",
         messages=[
             {
                 "role": "user",
                 "content": f"{PASS1_PROMPT}\n\n---\n\nTITLU EPISOD: {episode['title']}\nDATA: {episode['date']}\n\nTRANSCRIPT:\n{full_text}",
             }
         ],
+        max_tokens=2000,
     )
-    return f"### {episode['title']} ({episode['date']})\n\n{response.content[0].text}"
+    return f"### {episode['title']} ({episode['date']})\n\n{text}"
 
 
 def pass2_synthesize(summaries: list[str]) -> str:
     combined = "\n\n---\n\n".join(summaries)
     prompt = PASS2_PROMPT.format(n_episodes=len(summaries), summaries=combined)
     print(f"\n  Pass 2: Synthesizing {len(summaries)} episode summaries...")
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=4096,
+    provider = llm_client.get_provider()
+    default_model = DEFAULT_WORLDVIEW_MODELS.get(provider, DEFAULT_WORLDVIEW_MODELS["anthropic"])
+    model = os.getenv("WORLDVIEW_MODEL", default_model)
+    return llm_client.create(
+        model=model,
+        system="",
         messages=[{"role": "user", "content": prompt}],
+        max_tokens=4096,
     )
-    return response.content[0].text
 
 
 def main() -> None:
     ensure_repo_layout()
 
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        print("Error: ANTHROPIC_API_KEY environment variable not set.")
+    try:
+        llm_client.get_api_key()
+    except RuntimeError as exc:
+        print(f"Error: {exc}")
         sys.exit(1)
 
     episodes = load_episodes()

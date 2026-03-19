@@ -112,7 +112,17 @@ def retrieve(
     return hits
 
 
-def format_context_block(hits: list[dict[str, Any]]) -> str:
+def _truncate_chunk(text: str, max_words: int = 400) -> str:
+    """Keep only the first *max_words* words of a chunk to save tokens."""
+    words = text.split()
+    if len(words) <= max_words:
+        return text
+    return " ".join(words[:max_words]) + " [...]"
+
+
+def format_context_block(
+    hits: list[dict[str, Any]], max_words_per_chunk: int = 400
+) -> str:
     """Render structured retrieval hits into a prompt-friendly context block."""
     blocks = []
     for hit in hits:
@@ -123,7 +133,7 @@ def format_context_block(hits: list[dict[str, Any]]) -> str:
                     f"DATA: {hit['date']}",
                     f"SURSA: {hit['youtube_url']}",
                     f"FRAGMENT #{hit['chunk_index']} (score {hit['score']:.2f}):",
-                    hit["text"],
+                    _truncate_chunk(hit["text"], max_words_per_chunk),
                 ]
             )
         )

@@ -38,6 +38,7 @@ ROMANIAN_MONTHS = {
 
 DEFAULT_DATES = [
     "5 Decembrie",
+    "19 Decembrie",
     "27 Noiembrie",
     "25 Noiembrie",
     "17 Noiembrie",
@@ -51,15 +52,17 @@ DEFAULT_DATES = [
     "11 Octombrie",
     "9 Octombrie",
     "17 Septembrie",
-    "31 ianuarie",
-    "27 ianuarie",
+    "31 Ianuarie",
+    "27 Ianuarie",
     "21 Ianuarie",
     "20 Ianuarie",
     "19 Ianuarie",
     "7 Ianuarie",
     "6 Ianuarie",
+    "5 Ianuarie",
     "9 Februarie",
     "12 Februarie",
+    "20 Februarie",
     "24 Februarie",
     "4 Martie",
     "5 Martie",
@@ -68,7 +71,7 @@ DEFAULT_DATES = [
 ]
 
 
-def parse_romanian_date(date_str: str, year: int = 2024) -> Optional[str]:
+def parse_romanian_date(date_str: str, year: int = 2025) -> Optional[str]:
     try:
         parts = date_str.strip().split()
         if len(parts) != 2:
@@ -120,7 +123,7 @@ def search_youtube_for_video(search_query: str, max_results: int = 5) -> List[Di
     return results
 
 
-def find_video_for_date(date_str: str, year: int = 2024) -> Optional[Dict[str, str]]:
+def find_video_for_date(date_str: str, year: int = 2025) -> Optional[Dict[str, str]]:
     logger.info(f"Searching for video: {date_str}")
     standard_date = parse_romanian_date(date_str, year)
     if not standard_date:
@@ -150,7 +153,7 @@ def find_video_for_date(date_str: str, year: int = 2024) -> Optional[Dict[str, s
     return None
 
 
-def fetch_videos_for_dates(dates: List[str], year: int = 2024) -> List[Dict[str, str]]:
+def fetch_videos_for_dates(dates: List[str], year: int = 2025) -> List[Dict[str, str]]:
     videos = []
     for date_str in dates:
         video = find_video_for_date(date_str, year)
@@ -180,7 +183,7 @@ def main() -> None:
         default=str(DEFAULT_VIDEO_LIST),
         help=f"Output CSV file path (default: {DEFAULT_VIDEO_LIST})",
     )
-    parser.add_argument("--year", type=int, default=2024, help="Year for the dates (default: 2024)")
+    parser.add_argument("--year", type=int, default=2025, help="Year for the dates (default: 2025)")
     parser.add_argument(
         "--dates",
         nargs="+",

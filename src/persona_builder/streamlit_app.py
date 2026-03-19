@@ -1,16 +1,21 @@
 import os
 from pathlib import Path
 
-import anthropic
 import streamlit as st
 
+from . import llm_client
 from .paths import DEFAULT_OUTPUT_DIR, REPO_ROOT
 from .persona_prompt import SYSTEM_PROMPT
 from .retrieval import build_bm25_index, format_context_block, load_corpus, retrieve
 
-DEFAULT_MODEL = "claude-haiku-4-5-20251001"
+DEFAULT_MODELS = {
+    "anthropic": "claude-haiku-4-5-20251001",
+    "openai": "gpt-4.1-mini",
+    "gemini": "gemini-2.5-flash",
+}
 DEFAULT_TOP_K = 5
 DEFAULT_MAX_TOKENS = 600
+MAX_VERBATIM_MESSAGES = 6  # 3 user+assistant exchanges kept verbatim
 DOTENV_PATH = REPO_ROOT / ".env"
 
 
@@ -47,9 +52,11 @@ def _get_int_setting(name: str, default: int) -> int:
 
 
 def get_runtime_config() -> dict[str, object]:
+    provider = (_get_secret_or_env("LLM_PROVIDER", "anthropic") or "anthropic").lower()
+    default_model = DEFAULT_MODELS.get(provider, DEFAULT_MODELS["anthropic"])
     return {
-        "anthropic_api_key": _get_secret_or_env("ANTHROPIC_API_KEY"),
-        "model": _get_secret_or_env("MODEL", DEFAULT_MODEL),
+        "provider": provider,
+        "model": _get_secret_or_env("MODEL", default_model),
         "top_k": _get_int_setting("TOP_K", DEFAULT_TOP_K),
         "max_tokens": _get_int_setting("MAX_TOKENS", DEFAULT_MAX_TOKENS),
         "output_dir": str(DEFAULT_OUTPUT_DIR),
@@ -60,8 +67,10 @@ def validate_startup(config: dict[str, object]) -> list[str]:
     errors = []
     output_dir = Path(str(config["output_dir"]))
 
-    if not config.get("anthropic_api_key"):
-        errors.append("Lipsește `ANTHROPIC_API_KEY` din Streamlit secrets sau variabilele de mediu.")
+    try:
+        llm_client.get_api_key(str(config["provider"]))
+    except RuntimeError as exc:
+        errors.append(str(exc))
 
     if not output_dir.exists():
         errors.append(f"Directorul de corpus nu există: `{output_dir}`.")
@@ -90,8 +99,58 @@ def build_augmented_user_message(user_input: str, hits: list[dict]) -> str:
     )
 
 
-def build_api_messages(history: list[dict], augmented_user_message: str) -> list[dict[str, str]]:
+def _summarize_exchange(user_msg: str, assistant_msg: str) -> str:
+    """Compress one user/assistant exchange into a compact line."""
+    user_words = user_msg.split()
+    user_short = " ".join(user_words[:30])
+    if len(user_words) > 30:
+        user_short += "…"
+    # First paragraph of assistant, capped
+    assistant_short = assistant_msg.split("\n")[0][:200]
+    return f"- Utilizator: {user_short}\n  Banciu: {assistant_short}"
+
+
+def _maybe_compress_history() -> None:
+    """Move oldest exchanges into a rolling summary when history grows too long."""
+    messages = st.session_state.messages
+    if len(messages) <= MAX_VERBATIM_MESSAGES:
+        return
+
+    if "conversation_summary" not in st.session_state:
+        st.session_state.conversation_summary = ""
+
+    while len(messages) > MAX_VERBATIM_MESSAGES:
+        if len(messages) < 2:
+            break
+        oldest = messages[0]
+        second = messages[1]
+        if oldest["role"] == "user" and second["role"] == "assistant":
+            summary_line = _summarize_exchange(oldest["content"], second["content"])
+            st.session_state.conversation_summary += summary_line + "\n"
+            messages.pop(0)
+            messages.pop(0)
+        else:
+            break
+
+
+def build_api_messages(
+    history: list[dict],
+    augmented_user_message: str,
+    conversation_summary: str = "",
+) -> list[dict[str, str]]:
     api_messages = []
+    if conversation_summary.strip():
+        api_messages.append({
+            "role": "user",
+            "content": (
+                "[CONTEXT DIN CONVERSAȚIA ANTERIOARĂ]\n"
+                + conversation_summary.strip()
+            ),
+        })
+        api_messages.append({
+            "role": "assistant",
+            "content": "Da, am în vedere ce am discutat.",
+        })
     for msg in history:
         if msg["role"] in {"user", "assistant"}:
             api_messages.append({"role": msg["role"], "content": msg["content"]})
@@ -159,23 +218,20 @@ def run() -> None:
 
         hits = retrieve(user_input, bm25, corpus, top_k=int(config["top_k"]))
         augmented_user_message = build_augmented_user_message(user_input, hits)
-        api_messages = build_api_messages(st.session_state.messages[:-1], augmented_user_message)
-
-        client = anthropic.Anthropic(api_key=str(config["anthropic_api_key"]))
+        summary = st.session_state.get("conversation_summary", "")
+        api_messages = build_api_messages(st.session_state.messages[:-1], augmented_user_message, summary)
 
         with st.chat_message("assistant"):
             response_text = ""
-            with st.spinner("Caut fragmente relevante și compun răspunsul..."):
-                with client.messages.stream(
-                    model=str(config["model"]),
-                    max_tokens=int(config["max_tokens"]),
-                    system=SYSTEM_PROMPT,
-                    messages=api_messages,
-                ) as stream:
-                    response_container = st.empty()
-                    for text in stream.text_stream:
-                        response_text += text
-                        response_container.write(response_text)
+            response_container = st.empty()
+            for text in llm_client.stream(
+                model=str(config["model"]),
+                system=SYSTEM_PROMPT,
+                messages=api_messages,
+                max_tokens=int(config["max_tokens"]),
+            ):
+                response_text += text
+                response_container.write(response_text)
 
             render_sources(hits)
 
@@ -186,3 +242,4 @@ def run() -> None:
                 "sources": hits,
             }
         )
+        _maybe_compress_history()

@@ -1,147 +1,103 @@
-# Persona Builder
+# Prea Mult Banciu
 
-Private MVP for a Radu Banciu chatbot.
+AI chatbot that responds in Radu Banciu's voice — built from his YouTube episode transcripts using RAG and a hand-crafted worldview document.
 
-The repo now has a conventional split:
+First deliverable of the **Persona Museum** vision (see [PROJECT_STATUS.md](PROJECT_STATUS.md) for roadmap).
 
-- `src/persona_builder/`: actual code
-- `data/`: inputs, corpus outputs, temp downloads, worldview artifact
-- `tests/`: unit tests
-- root: thin entrypoints and project config
+## How it works
 
-The project status and immediate next steps live in [PROJECT_STATUS.md](/home/vladsft/persona-builder/PROJECT_STATUS.md).
+1. **Corpus**: ~35 YouTube episodes → subtitle extraction → sentence-boundary chunking → JSON
+2. **Worldview**: A hand-written Romanian document capturing Banciu's beliefs, values, contradictions, and rhetorical patterns — injected into every system prompt
+3. **Retrieval**: BM25 lexical search over transcript chunks with Romanian-aware tokenization and episode diversification
+4. **Generation**: System prompt (persona + worldview + style rules) + retrieved chunks + user query → streamed LLM response
+5. **Optimization**: Anthropic prompt caching (system prompt at 10% cost after 1st message) + conversation history summarization (older turns compressed)
 
-## Current Stage
+## Quickstart
 
-You are past the prototype stage.
+```bash
+make install
+make editable
+make test
+make app
+```
 
-What exists already:
+## Environment
 
-- Streamlit chat app
-- BM25 retrieval over local transcript chunks
-- persona prompt grounded by a worldview document
-- transcript ingestion pipeline with cleanup and QA
+Provide API keys via `.env` or Streamlit secrets:
 
-What remains:
+```
+ANTHROPIC_API_KEY=...
+LLM_PROVIDER=anthropic    # or "openai" or "gemini"
+```
 
-- one episode from the current source list still needs audio transcription fallback
-- manual answer-quality QA should happen before adding embeddings
+Optional:
+```
+OPENAI_API_KEY=...
+GEMINI_API_KEY=...
+MODEL=claude-sonnet-4-6
+TOP_K=5
+MAX_TOKENS=600
+```
 
 ## Repository Layout
 
 ```text
 persona-builder/
-├── app.py
-├── fetch_banciu_videos.py
-├── process_banciu_transcripts.py
-├── extract_worldview.py
+├── app.py                           # Streamlit entrypoint
+├── fetch_banciu_videos.py           # YouTube video discovery CLI
+├── process_banciu_transcripts.py    # SRT → chunked JSON CLI
+├── extract_worldview.py             # Worldview extraction CLI
 ├── src/persona_builder/
+│   ├── llm_client.py                # Multi-provider LLM dispatch + prompt caching
+│   ├── streamlit_app.py             # Chat app with RAG + history summarization
+│   ├── persona_prompt.py            # System prompt with worldview injection
+│   ├── retrieval.py                 # BM25 index, retrieval, diversification
+│   ├── fetch_videos.py              # yt-dlp video/subtitle fetching
+│   ├── extract_worldview.py         # Two-pass worldview extraction
+│   └── paths.py                     # Shared path constants
 ├── data/
-│   ├── input/
-│   ├── output/
-│   ├── samples/
-│   ├── temp/
-│   └── worldview/
+│   ├── input/banciu_videos.csv      # Source video list
+│   ├── output/*.json                # Processed episode corpus
+│   ├── temp/                        # Subtitle/audio scratch files
+│   └── worldview/banciu_worldview.md
 ├── tests/
 ├── Makefile
-├── pyproject.toml
-└── PROJECT_STATUS.md
+├── requirements.txt                 # Runtime deps
+└── requirements-preprocess.txt      # Preprocessing deps
 ```
 
-## Recommended Setup
+## Pipeline Commands
 
-Install runtime dependencies:
-
-```bash
-make install
-make editable
-```
-
-Run tests:
-
-```bash
-make test
-```
-
-Launch the app:
-
-```bash
-make app
-```
-
-## Secrets
-
-Provide `ANTHROPIC_API_KEY` through environment variables or Streamlit secrets.
-
-Optional runtime knobs:
-
-- `MODEL`
-- `TOP_K`
-- `MAX_TOKENS`
-
-Example `.streamlit/secrets.toml`:
-
-```toml
-ANTHROPIC_API_KEY = "..."
-MODEL = "claude-haiku-4-5-20251001"
-TOP_K = 5
-MAX_TOKENS = 600
-```
-
-## Main Commands
-
-Fetch or refresh the source CSV:
-
+Fetch or refresh the source video list:
 ```bash
 python fetch_banciu_videos.py --use-default-dates
 ```
 
 Process transcripts into the local corpus:
-
 ```bash
 python process_banciu_transcripts.py
 ```
 
 Run corpus QA:
-
 ```bash
 python process_banciu_transcripts.py --qa-only
 ```
 
 Regenerate worldview synthesis:
-
 ```bash
 python extract_worldview.py
 ```
 
-## Data Locations
+## Multi-provider Support
 
-- source list: `data/input/banciu_videos.csv`
-- sample CSV: `data/samples/sample_videos.csv`
-- processed corpus: `data/output/*.json`
-- scratch downloads: `data/temp/`
-- worldview file: `data/worldview/banciu_worldview.md`
+The app supports Anthropic, OpenAI, and Gemini via a unified LLM abstraction. Set `LLM_PROVIDER` to switch. Each provider has sensible model defaults:
 
-## Preprocessing Dependencies
+| Provider | Default model |
+|----------|--------------|
+| anthropic | claude-haiku-4-5-20251001 |
+| openai | gpt-4.1-mini |
+| gemini | gemini-2.5-flash |
 
-Runtime dependencies stay in `requirements.txt`.
+## Project Status
 
-Preprocessing-only dependencies are split into `requirements-preprocess.txt`:
-
-```bash
-make install-preprocess
-```
-
-That is only needed when fetching videos, downloading subtitles, or using Whisper fallback.
-
-## What To Do Next
-
-The short version:
-
-1. `make install`
-2. `make editable`
-3. `make test`
-4. `make qa`
-5. `make app`
-
-Then read [PROJECT_STATUS.md](/home/vladsft/persona-builder/PROJECT_STATUS.md) and decide whether to recover the one missing episode now or move to manual answer-quality QA first.
+See [PROJECT_STATUS.md](PROJECT_STATUS.md) for current status, RAG improvement roadmap, and long-term Persona Museum vision.
