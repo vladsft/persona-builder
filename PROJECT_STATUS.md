@@ -1,6 +1,6 @@
 # Project Status
 
-Last updated: 2026-03-19
+Last updated: 2026-03-31
 
 ## Current Stage: Private MVP — ready for local QA, not yet deployed
 
@@ -90,6 +90,38 @@ MAX_TOKENS=600
 
 ---
 
+## Recent Changes (2026-03-31): Persona Quality & Voice Fidelity
+
+After QA testing the AI against real Banciu knowledge, identified and fixed several persona issues:
+
+### Prompt engineering fixes (persona_prompt.py)
+- **Style marker overuse**: "Păi" started every sentence, "Aia-i povestea" appeared constantly. Changed instructions from "adesea" (which LLMs read as "always") to explicit variation rules with "nu la fiecare replică" and "maximum una per replică".
+- **Monologue mode → dialogue mode**: Response structure section rewritten from TV-format ("3-5 paragrafe") to conversational ("adaptezi lungimea la situație", allow 2-3 sentence replies, allow turning questions back).
+- **Anti-fabrication guardrail**: New "SUBIECTE PE CARE NU LE CUNOȘTI" section. The AI was inventing elaborate opinions on topics Banciu never discussed (e.g., detailed Spanish language preferences). Now instructed to say "Nu e domeniul meu" or "Ce mă interesează pe mine?" rather than fabricate.
+
+### Worldview rewrite (banciu_worldview.md)
+- **Football section completely rewritten**: Was framed through meritocracy ("foamea, ambiția, seriozitatea"). Now captures Banciu's actual romantic view — talent over hard work, artistry over discipline, Maradona as archetype. Added specific Hagi opinion (severe, not diplomatic).
+- **New section: "Formarea prin lipsuri — imaginația ca valoare"**: Critical missing layer. Banciu grew up under communism with nothing, served in the Army in the '90s. His generation lived through imagination — imagining what's beyond borders. This explains his romanticism about the West, his contempt for comfortable mediocrity, his value of beauty/culture. Without this, the AI "gets the imitation right but misses the human part."
+- **Strengthened simulation limits**: Added explicit instruction that not every topic deserves an elaborate opinion.
+
+### Open design question: monologue vs dialogue
+Banciu is famous for monologues — that's his format. But in a chat interface, wall-of-text monologues feel heavy. Current prompt defaults to TV-monologue with allowance for shorter replies on trivial questions. Needs user testing on r/Romania: do fans want the monologue experience or a more conversational Banciu?
+
+### Anti-fabrication calibration (resolved)
+First version: too permissive (fabricated detailed Spanish language preferences). Second version: too restrictive (refused to opine on Bitcoin, dismissed topics as "nu e raionul meu"). Current version: extrapolate from worldview on any topic, but don't invent specific facts. Banciu has opinions about everything — he just doesn't have specialist knowledge.
+
+### Corpus expansion planned
+- 7 football episodes (including Maradona death episode as anchor)
+- 2 politics episodes
+- 1 travel episode
+
+### Still needed for persona quality
+- **Transcript QA**: Name errors in subtitles (e.g., "Ionita" instead of "Ioanitoaia"). Need a QA pass + corrections mechanism that survives reprocessing (skip-existing mode + corrections.json layer).
+- **More football episodes in corpus**: Maradona death episode particularly valuable for football philosophy.
+- **More critical Romanian football data**: AI too diplomatic about Hagi and Romanian national team.
+
+---
+
 ## Next Steps: RAG Improvements (prioritized)
 
 The current retrieval is functional but naive — BM25 lexical-only, large chunks, no quality gating. These improvements are ordered by impact on the Banciu use case.
@@ -138,9 +170,19 @@ The current retrieval is functional but naive — BM25 lexical-only, large chunk
 
 **Impact**: Each chunk goes from ~500 tokens (after truncation) to ~200 tokens. 5 compressed chunks ≈ 1,000 tokens vs. ~3,500 currently.
 
-### 6. Topic metadata enrichment (LOW priority, for V2)
+### 6. Topic-conditioned retrieval boost (MEDIUM priority, for V2)
 
-**Solution**: Pre-compute 2-3 topic tags, key entities, and emotional tone per chunk. Enables filtered retrieval ("give me chunks about football mentioning Steaua").
+**Problem**: Some episodes are canonical for specific topics (e.g., the Maradona death episode for football philosophy). But BM25/embeddings treat all chunks equally — a passing mention of football in a politics episode can outrank the definitive Maradona monologue if the lexical match is stronger.
+
+**Solution**: Pre-compute 2-3 topic tags per episode (football, politics, culture, journalism, Romania). At retrieval time, detect the query topic and apply a score boost (e.g., 1.3×) to chunks from episodes tagged with that topic. Mark certain episodes as "anchor" episodes for specific topics — these get a higher boost (e.g., 1.5×).
+
+**Impact**: Ensures the most relevant, high-signal episodes surface first for their core topics. Particularly valuable for football and other areas where Banciu has signature episodes that define his stance.
+
+**Cost**: One-time tagging (can be automated with a cheap LLM call per episode). Per-query: trivial score multiplication.
+
+### 7. Topic metadata enrichment (LOW priority, for V2)
+
+**Solution**: Pre-compute key entities and emotional tone per chunk. Enables filtered retrieval ("give me chunks about football mentioning Steaua").
 
 **Impact**: Most valuable for multi-turn conversations and for a future UI with topic browsing.
 

@@ -6,6 +6,5 @@ __pycache__/
 .env
 .streamlit/secrets.toml
 data/temp/
-data/output/
 data/input/banciu_videos.csv
 *.egg-info/

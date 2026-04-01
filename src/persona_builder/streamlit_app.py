@@ -1,4 +1,5 @@
 import os
+import time
 from pathlib import Path
 
 import streamlit as st
@@ -16,6 +17,8 @@ DEFAULT_MODELS = {
 DEFAULT_TOP_K = 5
 DEFAULT_MAX_TOKENS = 600
 MAX_VERBATIM_MESSAGES = 6  # 3 user+assistant exchanges kept verbatim
+RATE_LIMIT_MESSAGES = 8
+RATE_LIMIT_WINDOW = 5 * 60 * 60  # 5 hours in seconds
 DOTENV_PATH = REPO_ROOT / ".env"
 
 
@@ -158,8 +161,66 @@ def build_api_messages(
     return api_messages
 
 
-def render_sources(hits: list[dict]) -> None:
-    if not hits:
+# ---------------------------------------------------------------------------
+# Rate limiting
+# ---------------------------------------------------------------------------
+
+def _is_web_deployment() -> bool:
+    """True when running on Streamlit Cloud (rate limits + no sources)."""
+    return _get_secret_or_env("DEPLOYMENT", "local") == "web"
+
+
+def _init_rate_limit() -> None:
+    """Initialize rate-limit state if missing."""
+    if "rate_limit_start" not in st.session_state:
+        st.session_state.rate_limit_start = time.time()
+        st.session_state.rate_limit_count = 0
+
+
+def _check_rate_limit() -> bool:
+    """Return True if the user can send a message."""
+    if not _is_web_deployment():
+        return True
+    _init_rate_limit()
+    now = time.time()
+
+    # Reset window if expired
+    if now - st.session_state.rate_limit_start > RATE_LIMIT_WINDOW:
+        st.session_state.rate_limit_start = now
+        st.session_state.rate_limit_count = 0
+
+    return st.session_state.rate_limit_count < RATE_LIMIT_MESSAGES
+
+
+def _increment_rate_limit() -> None:
+    if not _is_web_deployment():
+        return
+    st.session_state.rate_limit_count = st.session_state.get("rate_limit_count", 0) + 1
+
+
+def _remaining_messages() -> int | None:
+    """Return remaining messages, or None if rate limiting is off."""
+    if not _is_web_deployment():
+        return None
+    _init_rate_limit()
+    return max(0, RATE_LIMIT_MESSAGES - st.session_state.rate_limit_count)
+
+
+def _reset_time_str() -> str:
+    """Human-readable time until the rate limit resets."""
+    _init_rate_limit()
+    elapsed = time.time() - st.session_state.rate_limit_start
+    remaining_seconds = max(0, RATE_LIMIT_WINDOW - elapsed)
+    hours = int(remaining_seconds // 3600)
+    minutes = int((remaining_seconds % 3600) // 60)
+    if hours > 0:
+        return f"{hours}h {minutes}min"
+    return f"{minutes}min"
+
+
+def _render_sources(hits: list[dict]) -> None:
+    """Show retrieval sources — only in local mode."""
+    if _is_web_deployment() or not hits:
         return
 
     with st.expander("Surse folosite", expanded=False):
@@ -173,6 +234,10 @@ def render_sources(hits: list[dict]) -> None:
             )
             st.write(excerpt)
 
+
+# ---------------------------------------------------------------------------
+# Main app
+# ---------------------------------------------------------------------------
 
 def run() -> None:
     _load_dotenv()
@@ -203,15 +268,26 @@ def run() -> None:
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
+    # Show remaining messages in sidebar (web only)
+    remaining = _remaining_messages()
+    if remaining is not None:
+        st.sidebar.markdown(f"**Mesaje rămase:** {remaining}/{RATE_LIMIT_MESSAGES}")
+        if remaining == 0:
+            st.sidebar.warning(f"Limită atinsă. Se resetează în {_reset_time_str()}.")
+
     for msg in st.session_state.messages:
         with st.chat_message(msg["role"]):
             st.write(msg["content"])
             if msg["role"] == "assistant":
-                render_sources(msg.get("sources", []))
+                _render_sources(msg.get("sources", []))
 
-    user_input = st.chat_input("Spune ceva...")
+    user_input = st.chat_input("Spune ceva...", disabled=remaining == 0 if remaining is not None else False)
 
     if user_input:
+        if not _check_rate_limit():
+            st.error(f"Ai atins limita de {RATE_LIMIT_MESSAGES} mesaje. Revino în {_reset_time_str()}.")
+            st.stop()
+
         st.session_state.messages.append({"role": "user", "content": user_input})
         with st.chat_message("user"):
             st.write(user_input)
@@ -233,7 +309,7 @@ def run() -> None:
                 response_text += text
                 response_container.write(response_text)
 
-            render_sources(hits)
+            _render_sources(hits)
 
         st.session_state.messages.append(
             {
@@ -242,4 +318,6 @@ def run() -> None:
                 "sources": hits,
             }
         )
+        _increment_rate_limit()
         _maybe_compress_history()
+        st.rerun()
