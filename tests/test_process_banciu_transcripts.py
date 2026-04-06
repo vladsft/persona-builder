@@ -1,6 +1,13 @@
 from pathlib import Path
 
-from persona_builder.process_transcripts import analyze_corpus, clean_transcript_text, parse_subtitles, split_into_chunks
+from persona_builder.process_transcripts import (
+    analyze_corpus,
+    apply_known_text_corrections,
+    build_episode_json,
+    clean_transcript_text,
+    parse_subtitles,
+    split_into_chunks,
+)
 
 
 def test_parse_subtitles_strips_intro_noise(tmp_path: Path) -> None:
@@ -88,3 +95,89 @@ def test_analyze_corpus_reports_noise_and_suspect_starts(tmp_path: Path) -> None
     assert report["noise_tokens"]["ah"] == 1
     assert report["noise_tokens"][">>"] == 1
     assert report["suspect_starts"]
+
+
+def test_apply_known_text_corrections_flattens_whitespace_and_restores_hyphens() -> None:
+    text = "Într adevăr,\nnu\ns a\nspus că n a fost bine și\nmi a zis\nuitați vă la asta, dacă n o vezi."
+
+    corrected = apply_known_text_corrections(text)
+
+    assert "\n" not in corrected
+    assert corrected == "Într-adevăr, nu s-a spus că n-a fost bine și mi-a zis uitați-vă la asta, dacă n-o vezi."
+
+
+def test_build_episode_json_applies_storage_corrections() -> None:
+    episode = build_episode_json(
+        {
+            "url": "https://www.youtube.com/watch?v=abc123",
+            "title": "Titlu",
+            "date": "2024-01-01",
+        },
+        cleaned_text="raw",
+        chunks=["Brigit Bardau\nn a venit", "Airpons One și\nabține te"],
+    )
+
+    assert episode["num_chunks"] == 2
+    assert episode["chunks"][0]["text"] == "Brigitte Bardot n-a venit"
+    assert episode["chunks"][1]["text"] == "Air Force One și abține-te"
+    assert episode["chunks"][1]["approx_word_count"] == 5
+
+
+def test_apply_known_text_corrections_fixes_approved_name_suspects() -> None:
+    text = (
+        "Cioabiastoloș era pe la Euronws. "
+        "Abib Bay juca cu Bornley, Leads, Bartm și Sanderland. "
+        "Andre Pier Jinc și Medi Benasia vorbesc despre Bayern Münch. "
+        "Cap Toownul, accontasem și bédition rămân suspecte. "
+        "Fluminenje trece de Alhilal și Paciuka. "
+        "Sirina Williams citește Julvern Vern la Princetown. "
+        "Pălmeirăș joacă cu Bot Fogul, iar Benfic îl are pe John Texter. "
+        "Paiet îl caută pe Flotov la Marsei. "
+        "Brandford merge la Captown și în Qataru. "
+        "Montpulieș, Guirie, Cufeit și Virț apar lângă Frpong, Hibier și Echit. "
+        "OM Lance, PSG cu Lance, victoria de la Lance și jucătorul al lui Lance nu-l ating pe Lance Armstrong."
+    )
+
+    corrected = apply_known_text_corrections(text)
+
+    assert "Csaba Asztalos" in corrected
+    assert "Euronews" in corrected
+    assert "Habib Beye" in corrected
+    assert "Burnley" in corrected
+    assert "Leeds" in corrected
+    assert "Bournemouth" in corrected
+    assert "Sunderland" in corrected
+    assert "André-Pierre Gignac" in corrected
+    assert "Medhi Benatia" in corrected
+    assert "Bayern München" in corrected
+    assert "Cape Townul" in corrected
+    assert "contractasem" in corrected
+    assert "prédictions" in corrected
+    assert "Fluminense" in corrected
+    assert "Al-Hilal" in corrected
+    assert "Pachuca" in corrected
+    assert "Serena Williams" in corrected
+    assert "Jules Verne" in corrected
+    assert "Princeton" in corrected
+    assert "Palmeiras" in corrected
+    assert "Botafogo" in corrected
+    assert "Benfica" in corrected
+    assert "John Textor" in corrected
+    assert "Payet" in corrected
+    assert "Thauvin" in corrected
+    assert "Marseille" in corrected
+    assert "Brentford" in corrected
+    assert "Cape Town" in corrected
+    assert "Qatarul" in corrected
+    assert "Montpellier" in corrected
+    assert "Gouiri" in corrected
+    assert "Kuweit" in corrected
+    assert "Wirtz" in corrected
+    assert "Frimpong" in corrected
+    assert "Højbjerg" in corrected
+    assert "Ekitike" in corrected
+    assert "OM Lens" in corrected
+    assert "PSG cu Lens" in corrected
+    assert "victoria de la Lens" in corrected
+    assert "al lui Lens" in corrected
+    assert "Lance Armstrong" in corrected

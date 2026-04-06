@@ -10,7 +10,7 @@ from .persona_prompt import SYSTEM_PROMPT
 from .retrieval import build_bm25_index, format_context_block, load_corpus, retrieve
 
 DEFAULT_MODELS = {
-    "anthropic": "claude-haiku-4-5-20251001",
+    "anthropic": "claude-sonnet-4-6",
     "openai": "gpt-4.1-mini",
     "gemini": "gemini-2.5-flash",
 }

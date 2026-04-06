@@ -37,11 +37,225 @@ MUSIC_MARKER_RE = re.compile(r"\[(?:music|muzic[ăa]|applause|laughter|r[âa]set
 LEADING_CUE_MARKER_RE = re.compile(r"^(?:>>\s*)+")
 HTML_TAG_RE = re.compile(r"<[^>]+>")
 WORD_RE = re.compile(r"\b[\wĂÂÎȘȚăâîșț'-]+\b", re.UNICODE)
+MULTISPACE_RE = re.compile(r"\s+")
 FILLER_ONLY_RE = re.compile(r"^(?:a+h+|ah+|h+|hm+|mmm+|mm+|uh+|oh+|eh+|ă+)\.?!?$", re.IGNORECASE)
 ROMANIAN_MARKERS = {
     "și", "sa", "să", "în", "la", "de", "că", "nu", "ce", "se", "este", "sunt",
     "un", "o", "pe", "cu", "pentru", "noi", "vă", "va", "dar", "din", "tot",
 }
+KNOWN_TEXT_REPLACEMENTS = {
+    "Sarcozi": "Sarkozy",
+    "TJV": "TGV",
+    "Cioabiastoloș": "Csaba Asztalos",
+    "aastoloș": "Asztalos",
+    "Euronws": "Euronews",
+    "euronws": "Euronews",
+    "neworcheză": "newyorkeză",
+    "Wimblandon": "Wimbledon",
+    "wimblandon": "Wimbledon",
+    "Wolfes": "Wolves",
+    "wolfes": "Wolves",
+    "Commonwalts": "Commonwealth",
+    "commonwalts": "Commonwealth",
+    "Airwayez": "Airways",
+    "airwayez": "Airways",
+    "FFeleaga": "Fefeleaga",
+    "ffeleaga": "Fefeleaga",
+    "aașteptat": "neașteptat",
+    "Adiamin": "Idi Amin",
+    "adiamin": "Idi Amin",
+    "Epstin": "Epstein",
+    "Ancațurcași": "Anca Țurcașiu",
+    "Rotion Cămătaru": "Rodion Cămătaru",
+    "Medi Benasia": "Medhi Benatia",
+    "Andre Pier Jinc": "André-Pierre Gignac",
+    "Abibe": "Habib Beye",
+    "Bimbe": "Habib Beye",
+    "Abib Bay": "Habib Beye",
+    "Tèqus": "Tchèques",
+    "Băuseia Dortm": "Borussia Dortmund",
+    "Hetfe": "Getafe",
+    "Hetafe": "Getafe",
+    "Het ETAFE": "Getafe",
+    "Bornley": "Burnley",
+    "Leads": "Leeds",
+    "Bartm": "Bournemouth",
+    "Sanderland": "Sunderland",
+    "Notingham": "Nottingham",
+    "Usmane Tempele": "Ousmane Dembélé",
+    "Cantic Tornaruma": "Gianluigi Donnarumma",
+    "Tonaruba": "Donnarumma",
+    "Bayern Münch": "Bayern München",
+    "Grombach": "Grønbæk",
+    "Con care": "Koné, care",
+    "Calimuo": "Kalimuendo",
+    "Asignion": "Assignon",
+    "Trufer": "Truffert",
+    "Sir Toue": "Désiré Doué",
+    "Cap Toownul": "Cape Townul",
+    "accontasem": "contractasem",
+    "Adisoare": "Adi Soare",
+    "adisoare": "Adi Soare",
+    "bédition": "prédictions",
+    "Fluminenje": "Fluminense",
+    "Alhilal": "Al-Hilal",
+    "Paciuka": "Pachuca",
+    "Getwick": "Gatwick",
+    "Princetown": "Princeton",
+    "Sirina Williams": "Serena Williams",
+    "Iisonul": "isonul",
+    "Julvern Vern": "Jules Verne",
+    "Julvernă": "Jules Verne",
+    "Julvern": "Jules Verne",
+    "Pavar": "Pavard",
+    "Malic fofana": "Malick Fofana",
+    "Tihad": "Etihad",
+    "Aatolah": "Ayatollah",
+    "aalahul": "ayatollahul",
+    "Epstina": "Epstein",
+    "Gărăbăc": "Qarabag",
+    "Sweden Town": "Swindon Town",
+    "tipepsti": "tip Epstein",
+    "Cean Ceanuici Donnarumma": "Gianluigi Donnarumma",
+    "Bootweiserul": "Budweiserul",
+    "Goodweiser": "Budweiser",
+    "Binoiule": "Bine, omule",
+    "Catarul": "Qatarul",
+    "Pălmeirăș": "Palmeiras",
+    "Palmeirăș": "Palmeiras",
+    "Palmeirș": "Palmeiras",
+    "Benfic": "Benfica",
+    "Texter": "Textor",
+    "Paiet": "Payet",
+    "Flotov": "Thauvin",
+    "Brandford": "Brentford",
+    "Qataru": "Qatarul",
+    "Dezerbii": "De Zerbi",
+    "Captown": "Cape Town",
+    "Montpulieș": "Montpellier",
+    "Guirie": "Gouiri",
+    "Cufeit": "Kuweit",
+    "Cufeită": "Kuweit City",
+    "Marsei": "Marseille",
+    "Bot Fogul": "Botafogo",
+    "bot fogu": "Botafogo",
+    "Virț": "Wirtz",
+    "Frpong": "Frimpong",
+    "Hibier": "Højbjerg",
+    "Hibierogbia": "Højbjerg, Kondogbia",
+    "Graven Bersobo": "Gravenberch, Szoboszlai",
+    "Echit": "Ekitike",
+    "la Lance": "la Lens",
+    "cu Lance": "cu Lens",
+    "OM Lance": "OM Lens",
+    "PSG cu Lance": "PSG cu Lens",
+    "Strasburg Lance": "Strasburg Lens",
+    "câștigând la Lance": "câștigând la Lens",
+    "de la Lance": "de la Lens",
+    "Lance umilită": "Lens umilită",
+    "Lance, n-are": "Lens, n-are",
+    "Lance n-are": "Lens n-are",
+    "Lance e locul": "Lens e locul",
+    "Lance e o": "Lens e o",
+    "Lance are": "Lens are",
+    "Lance cu Rans": "Lens cu Reims",
+    "al lui Lance": "al lui Lens",
+    "Giordan Bardela": "Jordan Bardella",
+    "Brigit Bardau": "Brigitte Bardot",
+    "Brigit Bardo": "Brigitte Bardot",
+    "Brijit": "Brigitte",
+    "brijit": "Brigitte",
+    "Leopen": "Le Pen",
+    "Lăpen": "Le Pen",
+    "de Zerbii": "De Zerbi",
+    "Lavră": "Le Havre",
+    "Liavră": "Le Havre",
+    "Leavră": "Le Havre",
+    "Novisad": "Novi Sad",
+    "Novisadă": "Novi Sad",
+    "Jospan": "Jospin",
+    "Ghansbur": "Gainsbourg",
+    "Ghansburg": "Gainsbourg",
+    "Gansburg": "Gainsbourg",
+    "Cron Montana": "Crans-Montana",
+    "Crom Montana": "Crans-Montana",
+    "Cabi Alonso": "Xabi Alonso",
+    "Westam": "West Ham",
+    "Westham": "West Ham",
+    "rusorainean": "ruso-ucrainean",
+    "rusoraineană": "ruso-ucraineană",
+    "Ursula Fonder Derlion": "Ursula von der Leyen",
+    "Ursula Fonder": "Ursula von der Leyen",
+    "LCBTQ": "LGBTQ",
+    "Catrin Donun": "Catherine Deneuve",
+    "Isabela Giani": "Isabelle Adjani",
+    "Hugo Cave": "Hugo Chavez",
+    "Airpons One": "Air Force One",
+    "Del Rodriguez": "Delcy Rodriguez",
+    "Mamadu": "Mamadou",
+    "media partul": "Mediapart",
+    "ezbolac": "Hezbollah",
+    "cerciliană": "churchilliană",
+    "Ajaxo": "Ajaccio",
+    "Mengladba": "Mönchengladbach",
+    "Mhengland": "Mönchengladbach",
+    "Real Iedo": "Real Oviedo",
+    "o Sasunia": "Osasuna",
+}
+SAFE_REGEX_REPLACEMENTS = [
+    (re.compile(r"\bn a\b", re.IGNORECASE), "n-a"),
+    (re.compile(r"\bn au\b", re.IGNORECASE), "n-au"),
+    (re.compile(r"\bn are\b", re.IGNORECASE), "n-are"),
+    (re.compile(r"\bn am\b", re.IGNORECASE), "n-am"),
+    (re.compile(r"\bn ai\b", re.IGNORECASE), "n-ai"),
+    (re.compile(r"\bn avem\b", re.IGNORECASE), "n-avem"),
+    (re.compile(r"\bn aveți\b", re.IGNORECASE), "n-aveți"),
+    (re.compile(r"\bs a\b", re.IGNORECASE), "s-a"),
+    (re.compile(r"\bs au\b", re.IGNORECASE), "s-au"),
+    (re.compile(r"\bs ar\b", re.IGNORECASE), "s-ar"),
+    (re.compile(r"\bmi a\b", re.IGNORECASE), "mi-a"),
+    (re.compile(r"\bmi am\b", re.IGNORECASE), "mi-am"),
+    (re.compile(r"\bți a\b", re.IGNORECASE), "ți-a"),
+    (re.compile(r"\bți am\b", re.IGNORECASE), "ți-am"),
+    (re.compile(r"\bți ai\b", re.IGNORECASE), "ți-ai"),
+    (re.compile(r"\bți au\b", re.IGNORECASE), "ți-au"),
+    (re.compile(r"\bți ar\b", re.IGNORECASE), "ți-ar"),
+    (re.compile(r"\bi a\b", re.IGNORECASE), "i-a"),
+    (re.compile(r"\bl a\b", re.IGNORECASE), "l-a"),
+    (re.compile(r"\bn o\b", re.IGNORECASE), "n-o"),
+    (re.compile(r"\bs o\b", re.IGNORECASE), "s-o"),
+    (re.compile(r"\bl o\b", re.IGNORECASE), "l-o"),
+    (re.compile(r"\bm a\b", re.IGNORECASE), "m-a"),
+    (re.compile(r"\bm am\b", re.IGNORECASE), "m-am"),
+    (re.compile(r"\bm ai\b", re.IGNORECASE), "m-ai"),
+    (re.compile(r"\bm au\b", re.IGNORECASE), "m-au"),
+    (re.compile(r"\bte ai\b", re.IGNORECASE), "te-ai"),
+    (re.compile(r"\bte au\b", re.IGNORECASE), "te-au"),
+    (re.compile(r"\bv a\b", re.IGNORECASE), "v-a"),
+    (re.compile(r"\bv am\b", re.IGNORECASE), "v-am"),
+    (re.compile(r"\bne a\b", re.IGNORECASE), "ne-a"),
+    (re.compile(r"\bne am\b", re.IGNORECASE), "ne-am"),
+    (re.compile(r"\ble a\b", re.IGNORECASE), "le-a"),
+    (re.compile(r"\ble am\b", re.IGNORECASE), "le-am"),
+    (re.compile(r"\bși a\b", re.IGNORECASE), "și-a"),
+    (re.compile(r"\bși au\b", re.IGNORECASE), "și-au"),
+    (re.compile(r"\bși ar\b", re.IGNORECASE), "și-ar"),
+    (re.compile(r"\bi au\b", re.IGNORECASE), "i-au"),
+    (re.compile(r"\bl au\b", re.IGNORECASE), "l-au"),
+    (re.compile(r"\bi am\b", re.IGNORECASE), "i-am"),
+    (re.compile(r"\bl am\b", re.IGNORECASE), "l-am"),
+    (re.compile(r"\bl ați\b", re.IGNORECASE), "l-ați"),
+    (re.compile(r"\bnu i\b", re.IGNORECASE), "nu-i"),
+    (re.compile(r"\bnu l\b", re.IGNORECASE), "nu-l"),
+    (re.compile(r"\bnu mi\b", re.IGNORECASE), "nu-mi"),
+    (re.compile(r"\bîntr un\b", re.IGNORECASE), "într-un"),
+    (re.compile(r"\bîntr adevăr\b", re.IGNORECASE), "într-adevăr"),
+    (re.compile(r"\bdintr un\b", re.IGNORECASE), "dintr-un"),
+    (re.compile(r"\bprintr un\b", re.IGNORECASE), "printr-un"),
+    (re.compile(r"\buitați vă\b", re.IGNORECASE), "uitați-vă"),
+    (re.compile(r"\bduceți vă\b", re.IGNORECASE), "duceți-vă"),
+    (re.compile(r"\babține te\b", re.IGNORECASE), "abține-te"),
+]
 
 
 def _strip_accents(text: str) -> str:
@@ -52,6 +266,27 @@ def _strip_accents(text: str) -> str:
 def _normalize_word(word: str) -> str:
     cleaned = _strip_accents(word.lower())
     return re.sub(r"[^\w]+", "", cleaned)
+
+
+def normalize_text_for_storage(text: str) -> str:
+    return MULTISPACE_RE.sub(" ", text).strip()
+
+
+def _match_case(replacement: str, source: str) -> str:
+    if source.isupper():
+        return replacement.upper()
+    if source and source[0].isupper():
+        return replacement[0].upper() + replacement[1:]
+    return replacement
+
+
+def apply_known_text_corrections(text: str) -> str:
+    text = normalize_text_for_storage(text)
+    for bad, good in KNOWN_TEXT_REPLACEMENTS.items():
+        text = re.sub(rf"(?<!\w){re.escape(bad)}(?!\w)", good, text, flags=re.IGNORECASE)
+    for pattern, replacement in SAFE_REGEX_REPLACEMENTS:
+        text = pattern.sub(lambda match: _match_case(replacement, match.group(0)), text)
+    return normalize_text_for_storage(text)
 
 
 def _looks_like_romanian_speech(text: str) -> bool:
@@ -295,7 +530,7 @@ def clean_transcript_text(raw_text: str) -> str:
     return text.strip()
 
 
-def split_into_chunks(clean_text: str, target_word_count: int = 1200, overlap_words: int = 100) -> List[str]:
+def split_into_chunks(clean_text: str, target_word_count: int = 600, overlap_words: int = 50) -> List[str]:
     sentence_pattern = r"(?<=[.!?])\s+"
     sentences = [sentence.strip() for sentence in re.split(sentence_pattern, clean_text) if sentence.strip()]
 
@@ -424,21 +659,25 @@ def build_episode_json(video_info: Dict[str, str], cleaned_text: str, chunks: Li
         slug = re.sub(r"[-\s]+", "-", slug)
         episode_id = slug
 
+    normalized_chunks = []
+    for idx, chunk_text in enumerate(chunks):
+        normalized_text = apply_known_text_corrections(chunk_text)
+        normalized_chunks.append(
+            {
+                "chunk_index": idx,
+                "text": normalized_text,
+                "approx_word_count": len(normalized_text.split()),
+            }
+        )
+
     return {
         "episode_id": episode_id,
         "youtube_url": video_info["url"],
         "title": video_info["title"],
         "date": video_info["date"],
         "raw_text_length": len(cleaned_text),
-        "num_chunks": len(chunks),
-        "chunks": [
-            {
-                "chunk_index": idx,
-                "text": chunk_text,
-                "approx_word_count": len(chunk_text.split()),
-            }
-            for idx, chunk_text in enumerate(chunks)
-        ],
+        "num_chunks": len(normalized_chunks),
+        "chunks": normalized_chunks,
     }
 
 
@@ -504,8 +743,8 @@ def main() -> None:
     parser.add_argument("--max-videos", type=int, help="Maximum number of videos to process")
     parser.add_argument("--use-youtube-subtitles", action="store_true", default=True, help="Try YouTube subtitles before Whisper (default: True)")
     parser.add_argument("--whisper-model", default="medium", choices=["tiny", "base", "small", "medium", "large"], help="Whisper model to use for transcription (default: medium)")
-    parser.add_argument("--target-word-count", type=int, default=1200, help="Target words per chunk (default: 1200)")
-    parser.add_argument("--overlap-words", type=int, default=100, help="Words to overlap between chunks (default: 100)")
+    parser.add_argument("--target-word-count", type=int, default=600, help="Target words per chunk (default: 600)")
+    parser.add_argument("--overlap-words", type=int, default=50, help="Words to overlap between chunks (default: 50)")
     parser.add_argument("--qa-only", action="store_true", help="Only run a QA report against output-dir and exit")
     args = parser.parse_args()
 
@@ -560,4 +799,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

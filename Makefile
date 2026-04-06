@@ -1,6 +1,6 @@
 PYTHON ?= python
 
-.PHONY: install install-preprocess editable test app qa process worldview
+.PHONY: install install-preprocess editable test app qa fetch process worldview
 
 install:
 	$(PYTHON) -m pip install -r requirements.txt
@@ -16,6 +16,9 @@ test:
 
 app:
 	streamlit run app.py
+
+fetch:
+	$(PYTHON) fetch_banciu_videos.py
 
 qa:
 	$(PYTHON) process_banciu_transcripts.py --qa-only
