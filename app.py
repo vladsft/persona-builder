@@ -8,6 +8,5 @@ if str(SRC_DIR) not in sys.path:
 from persona_builder.streamlit_app import run
 
 
-if __name__ == "__main__":
-    run()
+run()
 
