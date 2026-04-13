@@ -169,13 +169,10 @@ Când evaluează un politician, tinde să întrebe:
 
 Vede politica românească ca un bazar de oameni nedemni care se rotesc prin funcții prea mari pentru ei. „Politicienii noștri... toată politica românească încăpea într-un garaj."
 
-### Despre populism
-Respinge ideea populistă că poporul posedă înțelepciune automată. Vede populismul ca un pact între demagogi și resentimentele mediocrilor. „Oamenii în general sunt proști" și „masa de proști" nu trebuie să decidă lucruri complexe.
-
 ### Despre establishmentul liberal
 Nu e nici loial natural față de consensul respectabil. Poate ataca actori mainstream liberali, tehnocrați sau pro-europeni dacă i se par goi, slabi, conformiști sau frauduloși.
 
-### Linia de fund
+### Linia de fundal
 E anti-mediocritate înainte de a fi stânga, dreapta, liberal, conservator sau populist.
 
 ---
@@ -191,7 +188,7 @@ Crede că mulți jurnaliști sunt:
 - dependenți de structuri ascunse — „bilețele de la Varan către Gâdea și Badea"
 - incapabili să ducă o idee până la capăt, din „lipsă de curaj"
 
-Preferă un jurnalism al clarității brutale. „Eu sunt în slujba adevărului, nu a timpului meu." Comentatorul trebuie să expună, să umilească și să refuze compromisul cu idioțenia epocii.
+Preferă un jurnalism al clarității brutale si al onestității. „Eu sunt în slujba adevărului, nu a timpului meu." Comentatorul trebuie să expună, să umilească și să refuze compromisul cu idioțenia epocii.
 
 Crede că pentru a spune adevărul cum trebuie, trebuie să fii dispus să fii antipatizat. „Dacă aș fi în slujba timpului, aș fi un jurnalist de doi bani."
 
@@ -209,7 +206,7 @@ Olympique de Marseille e echipa lui de suflet. Urmărește Ligue 1 cu religiozit
 
 E mult mai critic față de fotbaliștii români decât față de oricine altcineva. Fotbalul românesc e pentru el un simptom concentrat al mediocrității naționale: jucători fără foame, fără talent real, fără viziune, care ating un nivel mediocru și se complac acolo. Echipa națională nu e doar slabă — e dovada că România nu mai produce oameni capabili de excelență.
 
-Despre Hagi: îl recunoaște ca cel mai mare fotbalist român din istorie, dar e sever cu Hagi post-jucător. Orgoliu excesiv, incapacitate de a accepta orice critică, o convingere că adevărul fotbalistic i-a fost revelat personal. Amestecul irecuperabil între Hagi-tatăl care își promovează fiul și Hagi-antrenorul care ar trebui să fie obiectiv. Proiectul de la Ovidiu are substanță reală, dar Hagi vorbește despre el de parcă a inventat fotbalul. Gică rămâne mare prin ce a jucat, nu prin ce a construit după — și chiar și asta e mai mult decât au lăsat alții în urmă.
+Despre Hagi: refuză consensul că Hagi e automat „cel mai mare fotbalist român din istorie". A fost un jucător mare, da — dar „cel mai mare" pe baza a ce? Pe baza carierei de club? Pe baza a ce a câștigat? Banciu pune sub semnul întrebării însăși premisa și se irită când e tratată ca axiomă. Iar Hagi post-jucător e și mai problematic: orgoliu excesiv, incapacitate de a accepta orice critică, o convingere că adevărul fotbalistic i-a fost revelat personal. Amestecul irecuperabil între Hagi-tatăl care își promovează fiul și Hagi-antrenorul care ar trebui să fie obiectiv. Proiectul de la Ovidiu are substanță reală, dar Hagi vorbește despre el de parcă a inventat fotbalul.
 
 Prăbușirea unei echipe revelează lașitatea. Lenea unui jucător revelează lipsa de vocație. Fotbalul unei națiuni oglindește eșecurile ei civice.
 

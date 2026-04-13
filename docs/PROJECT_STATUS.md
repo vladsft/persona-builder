@@ -1,29 +1,39 @@
 # Project Status
 
-Last updated: 2026-03-31
+Last updated: 2026-04-12
 
-## Current Stage: Private MVP — ready for local QA, not yet deployed
+## Current Stage: Launch-ready — preparing for r/Romania public demo (~1 week)
 
 What exists and works:
 
 - Streamlit chat app with streaming responses
-- BM25 retrieval over ~1200-word transcript chunks with Romanian-aware tokenization
+- BM25 retrieval over transcript chunks with Romanian-aware tokenization
 - Episode diversification in retrieval (max top_k/2 chunks per episode)
 - Worldview-grounded persona prompt — written in Romanian, culturally adapted (not translated)
-- Multi-provider LLM abstraction (Anthropic / OpenAI / Gemini) with per-provider model defaults
+- **Contrarian instinct** in system prompt — explicit instructions to resist consensus answers
+- Multi-provider LLM abstraction (Anthropic / OpenAI / Gemini / DeepSeek)
+- **A/B model testing**: random per-session assignment across 4 variants (Sonnet 4.6, Haiku 4.5, DeepSeek Chat, Gemini 2.5 Flash)
 - Transcript ingestion pipeline: yt-dlp subtitle download → SRT cleanup → sentence-boundary chunking → JSON
 - Corpus QA tooling (noise detection, suspect-start flagging)
-- Anthropic prompt caching (system prompt billed at 10% after first message in session)
-- Conversation history summarization (older exchanges compressed into a rolling summary to cap token growth)
-- Chunk truncation at injection time (1200 → 400 words max in prompt)
+- **Prompt caching**: Anthropic system prompt + conversation history prefix cached (10% cost after 1st message)
+- Conversation history summarization (older exchanges compressed into a rolling summary)
+- Chunk truncation at injection time (→ 400 words max in prompt)
+- **Rate limiting**: IP-based (3 sessions/IP/24h), global daily cap (300), 8-message per-session hard cap
+- **Kill switch**: `KILL_SWITCH=1` env var instantly disables the app
+- **Content filter**: regex-based, blocks explicit violence/doxxing, tolerant of strong opinions. Flagged outputs logged.
+- **Analytics**: per-session and per-message logging (model, topics, IP hash, fingerprint, drop-off point)
+- **Post-session poll**: Persona Museum validation ("Ai vrea sa vorbesti si cu alte personaje AI?")
+- **UI safety**: AI disclaimer banner, mobile-first CSS
+- **Load tested**: 50 concurrent sessions, 80ms avg retrieval, rate limiting verified correct
 
 ## Numbers
 
 - Source list: 37 videos in `data/input/banciu_videos.csv` (Jan 2025 → Mar 2026)
-- Processed corpus: 35 episodes in `data/output/` (~400+ chunks)
+- Processed corpus: 35 episodes in `data/output/` (~1050 chunks)
 - 1 episode fails: `-r3FcC9erqo` — no Romanian subtitles, needs ffmpeg for Whisper audio fallback
 - 1 episode has minor French intro noise: `4Q78wT5SU5A`
-- Tests: 6/6 passing
+- Tests: 3 retrieval tests passing
+- Load test: 50 concurrent sessions pass (80ms avg, 159ms P95 retrieval)
 
 ## Token Budget (per message, Anthropic)
 
@@ -46,9 +56,9 @@ persona-builder/
 ├── process_banciu_transcripts.py   # SRT → chunked JSON CLI
 ├── extract_worldview.py            # Two-pass worldview extraction CLI
 ├── src/persona_builder/
-│   ├── llm_client.py               # Multi-provider LLM dispatch + Anthropic prompt caching
-│   ├── streamlit_app.py            # Chat app with RAG + history summarization
-│   ├── persona_prompt.py           # System prompt template with worldview injection
+│   ├── llm_client.py               # Multi-provider LLM dispatch (Anthropic/OpenAI/Gemini/DeepSeek) + prompt caching
+│   ├── streamlit_app.py            # Chat app, A/B testing, rate limiting, analytics, content filter, poll
+│   ├── persona_prompt.py           # System prompt with worldview + contrarian instinct
 │   ├── retrieval.py                # BM25 index, retrieval, diversification, formatting
 │   ├── fetch_videos.py             # yt-dlp video/subtitle fetching
 │   ├── extract_worldview.py        # Worldview extraction logic
@@ -56,9 +66,12 @@ persona-builder/
 ├── data/
 │   ├── input/banciu_videos.csv     # Source video list (37 entries, verified dates)
 │   ├── output/*.json               # Processed episode corpus (35 episodes)
+│   ├── logs/                       # Analytics, A/B logs, poll results, flagged outputs (gitignored)
 │   ├── temp/                       # Downloaded subtitle/audio scratch files
 │   └── worldview/banciu_worldview.md  # Romanian worldview document
-├── tests/                          # Unit tests (6 passing)
+├── tests/
+│   ├── test_retrieval.py           # Retrieval unit tests
+│   └── load_test.py                # 50-session concurrent load test
 ├── Makefile
 ├── pyproject.toml
 ├── requirements.txt                # Runtime deps (anthropic, openai, google-genai, rank-bm25, streamlit)
@@ -76,21 +89,56 @@ make app
 
 ## Environment
 
-Provide API keys via `.env` or Streamlit secrets:
+Provide API keys via `.env` or Streamlit secrets. See `.env.example` for full reference.
 
+Required for A/B testing:
 ```
-ANTHROPIC_API_KEY=...
-OPENAI_API_KEY=...        # optional, for OpenAI provider
-GEMINI_API_KEY=...        # optional, for Gemini provider
-LLM_PROVIDER=anthropic    # or "openai" or "gemini"
-MODEL=claude-sonnet-4-6   # optional, auto-detected per provider
+ANTHROPIC_API_KEY=sk-ant-...
+OPENAI_API_KEY=sk-...          # Also needed for embeddings
+DEEPSEEK_API_KEY=sk-...
+GEMINI_API_KEY=...
+```
+
+Deployment controls (set on Streamlit Cloud):
+```
+DEPLOYMENT=web                 # Enables rate limiting + hides sources
+KILL_SWITCH=0                  # Set to "1" to instantly disable
+MAX_SESSIONS_PER_IP=3          # Per-IP 24h session limit
+DAILY_SESSION_CAP=300          # Global daily session cap
+```
+
+Optional:
+```
 TOP_K=5
 MAX_TOKENS=600
 ```
 
 ---
 
-## Recent Changes (2026-03-31): Persona Quality & Voice Fidelity
+## Recent Changes (2026-04-12): Launch Readiness
+
+Implemented all features needed for the r/Romania public demo:
+
+- **A/B model testing**: 4 variants (Sonnet 4.6, Haiku 4.5, DeepSeek Chat, Gemini 2.5 Flash), random per-session assignment, logged to `data/logs/ab_sessions.jsonl`
+- **Rate limiting**: IP-based (3/IP/24h), global daily cap (300), 8-message per-session. In-memory store via `st.cache_resource`, thread-safe.
+- **Kill switch**: `KILL_SWITCH=1` env var
+- **Contrarian instinct**: New system prompt section + worldview adjustments (Hagi de-canonized, Lucescu added)
+- **Analytics**: per-message logging with keyword topic tags (fotbal/politica/personal/altele), IP hash, fingerprint
+- **Post-session poll**: Persona Museum validation after 8th message
+- **Content filter**: regex-based, blocks violence/doxxing, tolerant of strong opinions. Flagged outputs logged.
+- **UI**: AI disclaimer banner, mobile-first CSS
+- **Prompt caching**: system prompt + conversation history prefix cached (Anthropic)
+- **DeepSeek provider**: added to llm_client via OpenAI-compatible API
+- **Load test**: 50 concurrent sessions, 80ms avg / 159ms P95 retrieval, rate limiting and logging verified correct
+
+### Manual steps remaining for launch
+- Set $100 spending caps on Anthropic, DeepSeek, and Google API dashboards
+- Add all 4 API keys + `DEPLOYMENT=web` to Streamlit Cloud secrets
+- Test the deployed app end-to-end with all 4 providers
+
+---
+
+## Previous Changes (2026-03-31): Persona Quality & Voice Fidelity
 
 After QA testing the AI against real Banciu knowledge, identified and fixed several persona issues:
 
@@ -192,8 +240,11 @@ The current retrieval is functional but naive — BM25 lexical-only, large chunk
 
 "Prea Mult Banciu" is the first deliverable of a broader **Persona Museum** — a platform for AI replicas of public figures built from their own public content.
 
-### Phase 1: Banciu PoC (current)
-- Ship to r/Romania as a free demo
+### Phase 1: Banciu PoC (current — launching)
+- Ship to r/Romania as a free demo (~1 week)
+- A/B testing 4 models to compare persona quality
+- Rate limiting + kill switch + content filter for safety
+- Analytics + post-session poll for Persona Museum validation
 - Validate that RAG + worldview + persona prompt can produce convincing voice replication
 - Test product-market fit: do people enjoy talking to it? Do they come back?
 - Gather feedback on voice fidelity, topic coverage, failure modes

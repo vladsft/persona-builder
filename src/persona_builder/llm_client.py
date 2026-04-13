@@ -1,11 +1,11 @@
 """
 Unified LLM client abstraction.
 
-Reads LLM_PROVIDER from env ("anthropic", "openai", or "gemini") and
-dispatches to the matching SDK.  Callers use only two functions:
+Dispatches to Anthropic, OpenAI, Gemini, or DeepSeek based on a *provider*
+parameter.  Callers use only two functions:
 
-    create(model, system, messages, max_tokens) -> str
-    stream(model, system, messages, max_tokens) -> Iterator[str]
+    create(model, system, messages, max_tokens, provider) -> str
+    stream(model, system, messages, max_tokens, provider) -> Iterator[str]
 """
 
 from __future__ import annotations
@@ -22,6 +22,7 @@ _PROVIDER_KEY_MAP = {
     "anthropic": "ANTHROPIC_API_KEY",
     "openai": "OPENAI_API_KEY",
     "gemini": "GEMINI_API_KEY",
+    "deepseek": "DEEPSEEK_API_KEY",
 }
 
 
@@ -53,9 +54,31 @@ def _make_cached_system(system: str) -> list[dict[str, Any]]:
     """Wrap the system prompt as a cacheable content block (Anthropic prompt caching).
 
     The cache has a 5-minute TTL that resets on each hit, so within a chat
-    session the ~4 200-token system prompt is billed at 10% after the first call.
+    session the ~5 500-token system prompt is billed at 10% after the first call.
     """
     return [{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}]
+
+
+def _add_history_cache_breakpoint(
+    messages: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Add a cache_control breakpoint on the last historical message.
+
+    Anthropic prompt caching is prefix-based: everything before the last
+    cache_control marker is served from cache on subsequent calls.  By
+    marking the penultimate message (= the last *historical* message before
+    the new user turn), we cache system prompt + full conversation history.
+    """
+    if len(messages) < 2:
+        return messages
+    result = [m.copy() for m in messages]
+    target = result[-2]
+    content = target["content"]
+    if isinstance(content, str):
+        target["content"] = [
+            {"type": "text", "text": content, "cache_control": {"type": "ephemeral"}}
+        ]
+    return result
 
 
 def _anthropic_create(
@@ -71,7 +94,7 @@ def _anthropic_create(
         model=model,
         max_tokens=max_tokens,
         system=_make_cached_system(system),
-        messages=messages,
+        messages=_add_history_cache_breakpoint(messages),
     )
     return response.content[0].text
 
@@ -89,25 +112,28 @@ def _anthropic_stream(
         model=model,
         max_tokens=max_tokens,
         system=_make_cached_system(system),
-        messages=messages,
+        messages=_add_history_cache_breakpoint(messages),
     ) as stream:
         yield from stream.text_stream
 
 
 # ---------------------------------------------------------------------------
-# OpenAI
+# OpenAI-compatible (shared by OpenAI and DeepSeek)
 # ---------------------------------------------------------------------------
 
 
-def _openai_create(
+def _openai_compat_create(
     model: str,
     system: str,
     messages: list[dict[str, str]],
     max_tokens: int,
+    *,
+    api_key: str,
+    base_url: str | None = None,
 ) -> str:
     from openai import OpenAI
 
-    client = OpenAI(api_key=get_api_key("openai"))
+    client = OpenAI(api_key=api_key, base_url=base_url)
     oai_messages: list[dict[str, str]] = [{"role": "system", "content": system}]
     oai_messages.extend(messages)
     response = client.chat.completions.create(
@@ -118,15 +144,18 @@ def _openai_create(
     return response.choices[0].message.content or ""
 
 
-def _openai_stream(
+def _openai_compat_stream(
     model: str,
     system: str,
     messages: list[dict[str, str]],
     max_tokens: int,
+    *,
+    api_key: str,
+    base_url: str | None = None,
 ) -> Iterator[str]:
     from openai import OpenAI
 
-    client = OpenAI(api_key=get_api_key("openai"))
+    client = OpenAI(api_key=api_key, base_url=base_url)
     oai_messages: list[dict[str, str]] = [{"role": "system", "content": system}]
     oai_messages.extend(messages)
     response = client.chat.completions.create(
@@ -139,6 +168,49 @@ def _openai_stream(
         delta = chunk.choices[0].delta.content if chunk.choices else None
         if delta:
             yield delta
+
+
+# --- OpenAI wrappers ---
+
+def _openai_create(
+    model: str, system: str, messages: list[dict[str, str]], max_tokens: int
+) -> str:
+    return _openai_compat_create(
+        model, system, messages, max_tokens, api_key=get_api_key("openai")
+    )
+
+
+def _openai_stream(
+    model: str, system: str, messages: list[dict[str, str]], max_tokens: int
+) -> Iterator[str]:
+    yield from _openai_compat_stream(
+        model, system, messages, max_tokens, api_key=get_api_key("openai")
+    )
+
+
+# --- DeepSeek wrappers ---
+
+_DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+
+
+def _deepseek_create(
+    model: str, system: str, messages: list[dict[str, str]], max_tokens: int
+) -> str:
+    return _openai_compat_create(
+        model, system, messages, max_tokens,
+        api_key=get_api_key("deepseek"),
+        base_url=_DEEPSEEK_BASE_URL,
+    )
+
+
+def _deepseek_stream(
+    model: str, system: str, messages: list[dict[str, str]], max_tokens: int
+) -> Iterator[str]:
+    yield from _openai_compat_stream(
+        model, system, messages, max_tokens,
+        api_key=get_api_key("deepseek"),
+        base_url=_DEEPSEEK_BASE_URL,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -210,12 +282,14 @@ _CREATE_DISPATCH = {
     "anthropic": _anthropic_create,
     "openai": _openai_create,
     "gemini": _gemini_create,
+    "deepseek": _deepseek_create,
 }
 
 _STREAM_DISPATCH = {
     "anthropic": _anthropic_stream,
     "openai": _openai_stream,
     "gemini": _gemini_stream,
+    "deepseek": _deepseek_stream,
 }
 
 
@@ -224,9 +298,10 @@ def create(
     system: str,
     messages: list[dict[str, str]],
     max_tokens: int,
+    provider: str | None = None,
 ) -> str:
     """Return a complete text response (non-streaming)."""
-    provider = get_provider()
+    provider = provider or get_provider()
     fn = _CREATE_DISPATCH.get(provider)
     if not fn:
         raise ValueError(f"Unknown LLM provider: {provider!r}")
@@ -238,9 +313,10 @@ def stream(
     system: str,
     messages: list[dict[str, str]],
     max_tokens: int,
+    provider: str | None = None,
 ) -> Iterator[str]:
     """Yield text chunks as they arrive (streaming)."""
-    provider = get_provider()
+    provider = provider or get_provider()
     fn = _STREAM_DISPATCH.get(provider)
     if not fn:
         raise ValueError(f"Unknown LLM provider: {provider!r}")

@@ -6,5 +6,6 @@ __pycache__/
 .env
 .streamlit/secrets.toml
 data/temp/
+data/logs/
 *.egg-info/
 TECH_DEBT.md
